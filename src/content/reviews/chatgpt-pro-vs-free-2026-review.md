@@ -4,7 +4,7 @@ date: 2026-05-17
 author: "AIPlaybook Editorial Team"
 category: "Productivity"
 tags: [chatgpt, openai, ai-assistant, review, productivity-tools, comparison]
-cover: /images/reviews/chatgpt/cover.svg
+cover: /images/reviews/chatgpt/cover.png
 meta_description: "We compare ChatGPT Free, Go ($10/mo), Plus ($20/mo), and Pro ($200/mo) in 2026 with real-world testing. Benchmark scores, feature breakdown, and honest buying advice."
 rating: 8.2
 dimensions:

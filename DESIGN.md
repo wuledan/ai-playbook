@@ -1405,3 +1405,67 @@ browser tool: screenshot → save to {tool}/pricing_01.webp
 ---
 
 *文档结束 | 生成日期: 2026-05-17 | 生成者: 产品专家 Agent*
+## 内容质量与选题方向（2026-05-17 调整）
+
+### 选题策略调整
+
+| 方向 | 说明 | 举例 |
+|------|------|------|
+| **细分领域工具** | 评测不太热门但很有用的小众 AI 工具 | AI 论文审稿、AI 语音克隆、AI 幻灯片设计、AI 会议记录、AI 代码审查 |
+| **深度场景体验** | 热门工具不做概要总结，要结合真实场景写深度体验 | "用 Claude Code 重构一个 5 万行项目" vs "Claude Code review 摘要" |
+| **对比评测** | 多工具组合场景下的横向对比 | "用哪套 AI 工具组合做 YouTube 频道最省时间" |
+
+### 深度体验要求（热门工具）
+
+热门工具必须包含以下场景体验，不能只是功能罗列：
+
+| 要素 | 要求 | 来源 |
+|------|------|------|
+| 真实测试场景 | 至少 2 个完整工作流 | 自己动手或复现博客教程 |
+| 数据对比 | 耗时、质量、成本量化 | 知乎/Reddit 真实用户报告 |
+| 竞品横评 | 同场景下多工具效果对比 | 官网/博客/用户评价 |
+
+### 素材来源（新增）
+
+```
+不限来源，但须注明：
+- 知乎 (zhihu.com) — 中文用户深度评测，质量高
+- 国外技术博客 (如 Simon Willison / Lilian Weng / Stratechery)
+- Reddit r/MachineLearning, r/Artificial
+- 工具官方 Blog / Changelog
+- Product Hunt 评论区
+```
+
+### 新增细分选题（20 篇）
+
+| # | 选题 | 类型 | 难度 |
+|---|------|------|------|
+| 1 | AI Research Assistant Showdown: Perplexity vs Elicit vs Scispace | 对比 | ★★ |
+| 2 | How I Use Claude Code to Refactor a 50K-Line Legacy Project | 深度体验 | ★★★★ |
+| 3 | Best AI Meeting Note-Takers Compared: Otter vs Fireflies vs Fathom | 对比 | ★★ |
+| 4 | AI Voice Cloning Tools Compared: ElevenLabs vs PlayHT vs Respeecher | 对比 | ★★★ |
+| 5 | Building a Faceless YouTube Channel with AI: Complete Workflow | 工作流 | ★★★ |
+| 6 | How to Use NotebookLM for Research: Beyond the Basics | 深度体验 | ★★ |
+| 7 | AI Presentation Makers Compared: Gamma vs Tome vs Beautiful.ai | 对比 | ★★ |
+| 8 | Best AI for Writing in 2026: A Real-World Test Across 10 Scenarios | 对比 | ★★★ |
+| 9 | How to Build a Custom GPT That Actually Works | 教程 | ★★★ |
+| 10 | AI Code Review Tools: Which One Catches the Most Bugs? | 对比 | ★★★ |
+| 11 | Local LLMs in 2026: Running Llama 4 on Consumer Hardware | 教程 | ★★★★ |
+| 12 | Best AI Transcription Tools for Podcasters | 对比 | ★★ |
+| 13 | How I Automated My Database Migrations with AI | 深度体验 | ★★★ |
+| 14 | AI for Product Managers: Tools That Actually Help | 场景评测 | ★★ |
+| 15 | Best AI Logo Generators: Looka vs LogoAI vs Canva | 对比 | ★ |
+| 16 | How to Make Professional Videos with AI in 2026 | 教程 | ★★ |
+| 17 | AI Writing Detectors Tested: Can They Actually Tell? | 对比 | ★★ |
+| 18 | Using AI to Learn a New Language: 2026 Edition | 深度体验 | ★★ |
+| 19 | Best AI for Data Analysis: ChatGPT vs Claude vs Gemini | 对比 | ★★★ |
+| 20 | Running AI Agents Autonomously: n8n vs LangChain vs CrewAI | 对比 | ★★★★ |
+
+### 写作质量要求
+
+| 维度 | 标准 |
+|------|------|
+| 字数 | 评测 2000-3500 字，教程 1500-2500 字 |
+| 深度 | 必须有实测数据、真实场景，不能只有摘要 |
+| 来源 | 引用知乎/Reddit/博客等来源，标注出处 |
+| 独特视角 | 中国出海视角（中国 AI 生态对比测评） |

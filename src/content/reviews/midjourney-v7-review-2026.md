@@ -4,7 +4,7 @@ date: 2026-05-17
 author: "AIPlaybook Editorial Team"
 category: "Design"
 tags: [midjourney, ai-image-generation, design-tools, review, creative-tools]
-cover: /images/reviews/midjourney/cover.svg
+cover: /images/reviews/midjourney/cover.png
 meta_description: "In-depth Midjourney v7 review with hands-on testing. We evaluate image quality, character consistency, pricing changes, and compare against DALL-E 4 and Stable Diffusion 4."
 rating: 8.5
 dimensions:

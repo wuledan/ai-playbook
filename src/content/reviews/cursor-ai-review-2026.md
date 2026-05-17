@@ -4,7 +4,7 @@ date: 2026-05-17
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: [cursor, ai-coding, ide, review, coding-tools, developer-tools]
-cover: /images/reviews/cursor/cover.svg
+cover: /images/reviews/cursor/cover.png
 meta_description: "Thorough Cursor AI review with hands-on testing. We evaluate Agent Mode, Tab Completion, Composer, multi-model support, and compare against Copilot and Claude Code."
 rating: 8.8
 dimensions:

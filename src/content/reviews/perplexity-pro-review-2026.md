@@ -4,7 +4,7 @@ date: 2026-05-17
 author: "AIPlaybook Editorial Team"
 category: "Research"
 tags: [perplexity, ai-search, research-tools, review, productivity]
-cover: /images/reviews/perplexity/cover.svg
+cover: /images/reviews/perplexity/cover.png
 meta_description: "Honest Perplexity Pro review with head-to-head testing against Google Search. Benchmark scores, Pro Search deep dive, and whether $20/mo is worth it for researchers."
 rating: 8.4
 dimensions:

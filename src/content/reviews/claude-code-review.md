@@ -4,7 +4,7 @@ date: 2026-05-17
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: [claude-code, ai-coding, anthropic, review, coding-tools]
-cover: /images/reviews/claude-code/cover.svg
+cover: /images/reviews/claude-code/cover.png
 meta_description: "In-depth Claude Code review with hands-on testing. We rate Claude Code across 5 dimensions, compare it to Cursor and Copilot, and tell you if it's worth the subscription."
 rating: 8.6
 dimensions:
