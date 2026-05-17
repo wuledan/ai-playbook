@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { getCategoryColor, getRatingColor, formatDate } from '../../../lib/utils';
+
+export async function getStaticPaths() {
+  const reviews = await getCollection('reviews');
+  const categories = [...new Set(reviews.map(r => r.data.category))];
+  return categories.map(cat => ({
+    params: { category: cat.toLowerCase().replace(/\s+/g, '-') },
+    props: { category: cat },
+  }));
+}
+
+const { category } = Astro.props;
+const reviews = await getCollection('reviews');
+const categoryReviews = reviews.filter(r => 
+  r.data.category.toLowerCase().replace(/\s+/g, '-') === Astro.params.category
+);
+---
+
+<BaseLayout title={`${category} AI Tool Reviews`} description={`In-depth reviews of ${category} AI tools.`}>
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-2">{category}</h1>
+    <p class="text-gray-500 mb-8">{categoryReviews.length} tools reviewed</p>
+
+    <div class="space-y-4">
+      {categoryReviews.map(review => (
+        <article class="bg-white rounded-xl border border-gray-200 p-5 hover:shadow-md transition-shadow">
+          <div class="flex items-start gap-4">
+            <span class={`inline-flex items-center justify-center w-12 h-12 rounded-lg text-white font-bold text-lg ${getRatingColor(review.data.rating)}`}>
+              {review.data.rating}
+            </span>
+            <div class="flex-1 min-w-0">
+              <a href={`/reviews/${review.id}`} class="font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+                {review.data.title}
+              </a>
+              <p class="text-sm text-gray-500 mt-1">{review.data.meta_description}</p>
+              <time class="text-xs text-gray-400 mt-1 block">{formatDate(review.data.date)}</time>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

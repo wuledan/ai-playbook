@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Categories — AI Playbook" description="Browse AI tool reviews by category.">
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-8 text-center">Categories</h1>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <a href="/reviews/category/coding" class="bg-white border border-gray-200 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
+        <span class="text-2xl mb-2 block">💻</span>
+        <span class="font-semibold text-gray-900">Coding</span>
+      </a>
+      <a href="/reviews/category/productivity" class="bg-white border border-gray-200 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
+        <span class="text-2xl mb-2 block">⚡</span>
+        <span class="font-semibold text-gray-900">Productivity</span>
+      </a>
+      <a href="/reviews/category/writing" class="bg-white border border-gray-200 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
+        <span class="text-2xl mb-2 block">✍️</span>
+        <span class="font-semibold text-gray-900">Writing</span>
+      </a>
+      <a href="/reviews/category/design" class="bg-white border border-gray-200 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
+        <span class="text-2xl mb-2 block">🎨</span>
+        <span class="font-semibold text-gray-900">Design</span>
+      </a>
+      <a href="/reviews/category/video-&-audio" class="bg-white border border-gray-200 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
+        <span class="text-2xl mb-2 block">🎬</span>
+        <span class="font-semibold text-gray-900">Video & Audio</span>
+      </a>
+      <a href="/reviews/category/marketing" class="bg-white border border-gray-200 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
+        <span class="text-2xl mb-2 block">📣</span>
+        <span class="font-semibold text-gray-900">Marketing</span>
+      </a>
+      <a href="/reviews/category/research" class="bg-white border border-gray-200 rounded-xl p-6 text-center hover:shadow-md transition-shadow">
+        <span class="text-2xl mb-2 block">🔬</span>
+        <span class="font-semibold text-gray-900">Research</span>
+      </a>
+    </div>
+  </section>
+</BaseLayout>
