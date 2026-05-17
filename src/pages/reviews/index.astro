@@ -28,7 +28,7 @@ const sortedReviews = reviews.sort((a, b) => b.data.date.getTime() - a.data.date
                 </span>
                 <time class="text-xs text-gray-400">{formatDate(review.data.date)}</time>
               </div>
-              <a href={`/reviews/${review.slug}`} class="font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+              <a href={`/reviews/${review.id}`} class="font-semibold text-gray-900 hover:text-blue-600 transition-colors">
                 {review.data.title}
               </a>
               <p class="text-sm text-gray-500 mt-1 line-clamp-2">{review.data.meta_description}</p>
