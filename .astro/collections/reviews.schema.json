@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "author": {
+      "default": "AIPlaybook Editorial Team",
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "tags": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cover": {
+      "default": "/images/placeholder-cover.svg",
+      "type": "string"
+    },
+    "meta_description": {
+      "default": "",
+      "type": "string"
+    },
+    "rating": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "dimensions": {
+      "type": "object",
+      "properties": {
+        "ease-of-use": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "features": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "value": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "performance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "ecosystem": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        }
+      },
+      "required": [
+        "ease-of-use",
+        "features",
+        "value",
+        "performance",
+        "ecosystem"
+      ]
+    },
+    "pros": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cons": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "best-for": {
+      "default": "",
+      "type": "string"
+    },
+    "price": {
+      "default": "",
+      "type": "string"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title",
+    "date",
+    "category",
+    "rating",
+    "dimensions"
+  ]
+}

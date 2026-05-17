@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { getCategoryColor, getRatingColor, formatDate } from '../../lib/utils';
+
+const reviews = await getCollection('reviews');
+const sortedReviews = reviews.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="All AI Tool Reviews" description="Complete list of in-depth AI tool reviews rated across 5 dimensions.">
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-2">All Reviews</h1>
+    <p class="text-gray-500 mb-8">{reviews.length} tools tested and rated</p>
+
+    <div class="space-y-4">
+      {sortedReviews.map(review => (
+        <article class="bg-white rounded-xl border border-gray-200 p-5 hover:shadow-md transition-shadow">
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0">
+              <span class={`inline-flex items-center justify-center w-12 h-12 rounded-lg text-white font-bold text-lg ${getRatingColor(review.data.rating)}`}>
+                {review.data.rating}
+              </span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class={`px-2 py-0.5 rounded text-xs font-medium ${getCategoryColor(review.data.category)}`}>
+                  {review.data.category}
+                </span>
+                <time class="text-xs text-gray-400">{formatDate(review.data.date)}</time>
+              </div>
+              <a href={`/reviews/${review.slug}`} class="font-semibold text-gray-900 hover:text-blue-600 transition-colors">
+                {review.data.title}
+              </a>
+              <p class="text-sm text-gray-500 mt-1 line-clamp-2">{review.data.meta_description}</p>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
