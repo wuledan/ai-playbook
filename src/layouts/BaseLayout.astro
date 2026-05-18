@@ -28,6 +28,23 @@ const absOgImage = ogImage
 const absArticleImage = Astro.props.articleImage
   ? (Astro.props.articleImage.startsWith('http') ? Astro.props.articleImage : siteUrl + Astro.props.articleImage)
   : undefined;
+
+// JSON-LD: WebSite schema (pre-rendered to avoid template parser ambiguity)
+const websiteSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'AI Playbook',
+  url: siteUrl,
+  description: 'In-depth AI tool reviews, hands-on tutorials, and practical workflows. We test, score, and compare so you can choose with confidence.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: siteUrl + '/reviews?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+});
 ---
 
 <!doctype html>
@@ -55,23 +72,7 @@ const absArticleImage = Astro.props.articleImage
     {absOgImage && <meta name="twitter:image" content={absOgImage} />}
 
     <!-- JSON-LD: WebSite Schema (site-wide) -->
-    <script type="application/ld+json">
-      {JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        name: 'AI Playbook',
-        url: siteUrl,
-        description: 'In-depth AI tool reviews, hands-on tutorials, and practical workflows. We test, score, and compare so you can choose with confidence.',
-        potentialAction: {
-          '@type': 'SearchAction',
-          target: {
-            '@type': 'EntryPoint',
-            urlTemplate: siteUrl + '/reviews?q={search_term_string}',
-          },
-          'query-input': 'required name=search_term_string',
-        },
-      })}
-    </script>
+    <script type="application/ld+json" set:html={websiteSchema} />
 
     {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
     {breadcrumb && <script type="application/ld+json" set:html={breadcrumb} />}
