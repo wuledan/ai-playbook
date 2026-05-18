@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { Analytics } from '@vercel/analytics/react';
 
 export interface Props {
   title: string;
@@ -66,5 +67,6 @@ const { title, description, ogImage } = Astro.props;
         </div>
       </div>
     </footer>
-  </body>
+  <Analytics />
+</body>
 </html>
