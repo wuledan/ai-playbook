@@ -6,8 +6,28 @@ export interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  jsonLd?: string;
+  isArticle?: boolean;
+  publishedDate?: string;
+  author?: string;
+  articleImage?: string;
+  breadcrumb?: string;
 }
-const { title, description, ogImage } = Astro.props;
+const {
+  title,
+  description,
+  ogImage,
+  jsonLd,
+  breadcrumb,
+} = Astro.props;
+
+const siteUrl = Astro.url.origin;
+const absOgImage = ogImage
+  ? (ogImage.startsWith('http') ? ogImage : siteUrl + ogImage)
+  : undefined;
+const absArticleImage = Astro.props.articleImage
+  ? (Astro.props.articleImage.startsWith('http') ? Astro.props.articleImage : siteUrl + Astro.props.articleImage)
+  : undefined;
 ---
 
 <!doctype html>
@@ -19,13 +39,42 @@ const { title, description, ogImage } = Astro.props;
     <meta name="description" content={description || 'In-depth AI tool reviews, tutorials, and workflows. Honest, practical, and data-driven.'} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="canonical" href={Astro.url.href} />
 
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description || 'In-depth AI tool reviews, tutorials, and workflows.'} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={Astro.props.isArticle ? 'article' : 'website'} />
     <meta property="og:url" content={Astro.url.href} />
-    {ogImage && <meta property="og:image" content={ogImage} />}
+    {absOgImage && <meta property="og:image" content={absOgImage} />}
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content={Astro.props.isArticle ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description || 'In-depth AI tool reviews, tutorials, and workflows.'} />
+    {absOgImage && <meta name="twitter:image" content={absOgImage} />}
+
+    <!-- JSON-LD: WebSite Schema (site-wide) -->
+    <script type="application/ld+json">
+      {JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'AI Playbook',
+        url: siteUrl,
+        description: 'In-depth AI tool reviews, hands-on tutorials, and practical workflows. We test, score, and compare so you can choose with confidence.',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: {
+            '@type': 'EntryPoint',
+            urlTemplate: siteUrl + '/reviews?q={search_term_string}',
+          },
+          'query-input': 'required name=search_term_string',
+        },
+      })}
+    </script>
+
+    {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
+    {breadcrumb && <script type="application/ld+json" set:html={breadcrumb} />}
 
     <!-- Inter Font -->
     <link rel="preconnect" href="https://rsms.me/" />

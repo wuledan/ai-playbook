@@ -19,9 +19,62 @@ const dims = data.dimensions;
 const pageTitle = data.title;
 const dimEntries = Object.entries(dims) as [string, number][];
 const avgRating = data.rating;
+
+const siteUrl = Astro.url.origin;
+const absCover = data.cover.startsWith('http') ? data.cover : siteUrl + data.cover;
+
+// JSON-LD: Article schema
+const articleSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: data.title,
+  description: data.meta_description,
+  image: absCover,
+  datePublished: data.date.toISOString(),
+  dateModified: data.date.toISOString(),
+  author: {
+    '@type': 'Person',
+    name: data.author || 'AIPlaybook Editorial Team',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'AI Playbook',
+    url: siteUrl,
+  },
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': Astro.url.href,
+  },
+  keywords: data.tags.join(', '),
+  aggregateRating: avgRating ? {
+    '@type': 'AggregateRating',
+    ratingValue: avgRating,
+    bestRating: 10,
+    worstRating: 0,
+    ratingCount: 1,
+  } : undefined,
+});
+
+// JSON-LD: BreadcrumbList
+const breadcrumbSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl + '/' },
+    { '@type': 'ListItem', position: 2, name: 'Reviews', item: siteUrl + '/reviews' },
+    { '@type': 'ListItem', position: 3, name: data.title, item: Astro.url.href },
+  ],
+});
 ---
 
-<BaseLayout title={pageTitle} description={data.meta_description} ogImage={data.cover}>
+<BaseLayout
+  title={pageTitle}
+  description={data.meta_description}
+  ogImage={data.cover}
+  isArticle={true}
+  jsonLd={articleSchema}
+  breadcrumb={breadcrumbSchema}
+>
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <header class="mb-8">
       <div class="flex items-center gap-2 mb-3">
