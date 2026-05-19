@@ -1,0 +1,139 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Search" description="Search AI Playbook reviews, tutorials, and comparisons." noindex>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl font-bold text-gray-900 mb-6">Search AI Playbook</h1>
+
+    <div class="mb-8">
+      <div class="relative">
+        <svg
+          class="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <circle cx="11" cy="11" r="8" stroke-width="2" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search reviews, tutorials, comparisons..."
+          class="w-full pl-12 pr-5 py-4 bg-white border border-gray-300 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-lg transition-shadow"
+          autofocus
+        />
+      </div>
+    </div>
+
+    <div id="search-results" class="space-y-4">
+      <p class="text-gray-400 text-center py-10">Type to search across all content...</p>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  interface SearchDoc {
+    id: string;
+    title: string;
+    description: string;
+    url: string;
+    type: string;
+    category: string;
+    tags: string;
+    date: string;
+  }
+
+  let searchDocs: SearchDoc[] = [];
+  let loaded = false;
+
+  async function ensureIndex() {
+    if (loaded) return;
+    try {
+      const resp = await fetch('/search-index.json');
+      searchDocs = await resp.json();
+      loaded = true;
+    } catch {
+      searchDocs = [];
+    }
+  }
+
+  function filterDocs(query: string): SearchDoc[] {
+    const q = query.toLowerCase();
+    return searchDocs
+      .filter(
+        (doc) =>
+          doc.title.toLowerCase().includes(q) ||
+          doc.description.toLowerCase().includes(q) ||
+          doc.category.toLowerCase().includes(q) ||
+          doc.tags.toLowerCase().includes(q)
+      )
+      .slice(0, 30);
+  }
+
+  function getTypeBadge(type: string): string {
+    switch (type) {
+      case 'review': return 'bg-blue-100 text-blue-800';
+      case 'tutorial': return 'bg-green-100 text-green-800';
+      case 'comparison': return 'bg-purple-100 text-purple-800';
+      default: return 'bg-gray-100 text-gray-800';
+    }
+  }
+
+  function renderResults(query: string) {
+    const results = document.getElementById('search-results');
+    if (!results) return;
+
+    if (!query) {
+      results.innerHTML =
+        '<p class="text-gray-400 text-center py-10">Type to search across all content...</p>';
+      return;
+    }
+
+    const matches = filterDocs(query);
+
+    if (matches.length === 0) {
+      results.innerHTML =
+        '<p class="text-gray-400 text-center py-10">No matching content found. Try a different search term.</p>';
+      return;
+    }
+
+    results.innerHTML = matches
+      .map(
+        (doc) => `
+          <a href="${doc.url}" class="block p-5 bg-white rounded-xl border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="px-2 py-0.5 rounded text-xs font-medium ${getTypeBadge(doc.type)}">
+                ${doc.type}
+              </span>
+              <span class="text-xs text-gray-400">${new Date(doc.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+            </div>
+            <h3 class="text-lg font-semibold text-gray-900 mb-1">${doc.title}</h3>
+            <p class="text-sm text-gray-500 line-clamp-2">${doc.description}</p>
+          </a>
+        `
+      )
+      .join('');
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    ensureIndex();
+
+    const input = document.getElementById('search-input') as HTMLInputElement | null;
+    if (!input) return;
+
+    let debounceTimer: ReturnType<typeof setTimeout>;
+
+    input.addEventListener('input', () => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        renderResults(input.value.trim());
+      }, 300);
+    });
+
+    // Retry index load after a short delay if it failed
+    setTimeout(ensureIndex, 2000);
+  });
+</script>
