@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg1)"/>
+  <text x="600" y="230" text-anchor="middle" font-family="system-ui, sans-serif" font-size="40" font-weight="bold" fill="white">Bolt.new vs Lovable vs v0</text>
+  <text x="600" y="310" text-anchor="middle" font-family="system-ui, sans-serif" font-size="36" fill="rgba(255,255,255,0.8)">Best AI App Builder 2026</text>
+  <text x="600" y="390" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" fill="rgba(255,255,255,0.6)">We tested 7 real projects on all 3 platforms</text>
+</svg>
