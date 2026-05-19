@@ -1,0 +1,78 @@
+---
+import { getCategoryColor, getRatingColor } from '../lib/utils';
+
+interface Props {
+  type: 'reviews' | 'tutorials' | 'comparisons';
+  item: any;
+}
+
+const { type, item } = Astro.props;
+const { title, category, date, cover, meta_description } = item.data;
+
+// Determine URL
+let url: string;
+if (type === 'reviews') url = `/reviews/${item.id}`;
+else if (type === 'tutorials') url = `/tutorials/${item.id}`;
+else url = `/comparisons/${item.id}`;
+
+const formattedDate = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+const catColorClass = getCategoryColor(category);
+// Extract a hex color from the tailwind class (e.g., "bg-blue-100 text-blue-800" → "#2563eb")
+const catColors: Record<string, string> = {
+  'bg-blue-100': '#2563eb',
+  'bg-green-100': '#16a34a',
+  'bg-purple-100': '#9333ea',
+  'bg-pink-100': '#db2777',
+  'bg-orange-100': '#ea580c',
+  'bg-yellow-100': '#ca8a04',
+  'bg-indigo-100': '#4f46e5',
+  'bg-gray-100': '#6b7280',
+};
+const catHex = catColors[catColorClass.split(' ')[0]] || '#2563eb';
+
+// Extra badge: rating for reviews, difficulty for tutorials
+const rating = item.data.rating;
+const difficulty = item.data.difficulty;
+---
+
+<div class="group rounded-xl transition-all duration-300 hover:shadow-lg hover:-translate-y-1 bg-white border border-gray-100" style={`border-left: 3px solid ${catHex};`}>
+  <a href={url} class="block p-4">
+    <!-- Cover Image -->
+    <div class="rounded-xl overflow-hidden mb-4 bg-gray-100">
+      <img
+        src={cover}
+        alt={title}
+        class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+        loading="lazy"
+      />
+    </div>
+
+    <!-- Meta Row -->
+    <div class="flex items-center gap-2 mb-2 flex-wrap">
+      <span class="text-xs font-medium px-2.5 py-0.5 rounded-full text-white" style={`background-color: ${catHex}`}>
+        {category}
+      </span>
+      {type === 'reviews' && rating != null && (
+        <span class={`ml-auto text-xs font-bold px-2 py-0.5 rounded text-white ${getRatingColor(rating)}`}>
+          {rating}/10
+        </span>
+      )}
+      {type === 'tutorials' && difficulty && (
+        <span class="text-xs font-medium px-2 py-0.5 rounded bg-gray-100 text-gray-600">{difficulty}</span>
+      )}
+      <span class="text-xs text-gray-400">
+        {type === 'reviews' ? 'Review' : type === 'tutorials' ? 'Tutorial' : 'Comparison'}
+      </span>
+      <span class="text-xs text-gray-400">·</span>
+      <time datetime={date.toISOString()} class="text-xs text-gray-400">{formattedDate}</time>
+    </div>
+
+    <!-- Title -->
+    <h3 class="text-lg font-semibold mb-1.5 leading-snug text-gray-900 transition-colors group-hover:text-blue-600">
+      {title}
+    </h3>
+
+    <!-- Description -->
+    <p class="text-sm leading-relaxed text-gray-500 line-clamp-2">{meta_description}</p>
+  </a>
+</div>

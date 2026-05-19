@@ -1,47 +1,69 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { getCategoryColor, getRatingColor } from '../lib/utils';
-import CategoryFilter from '../components/CategoryFilter';
+import ArticleCard from '../components/ArticleCard.astro';
+import CategorySidebar from '../components/CategorySidebar.astro';
+import { getCategoryColor } from '../lib/utils';
 
+// Fetch all content types
 const reviews = await getCollection('reviews');
-const sortedReviews = reviews
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+const tutorials = await getCollection('tutorials');
+const comparisons = await getCollection('comparisons');
 
-const categories = [...new Set(reviews.map(r => r.data.category))].sort();
+// Merge all content, tag with type, sort by date
+const allContent = [
+  ...reviews.map(r => ({ ...r, _type: 'reviews' as const })),
+  ...tutorials.map(t => ({ ...t, _type: 'tutorials' as const })),
+  ...comparisons.map(c => ({ ...c, _type: 'comparisons' as const })),
+].sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
-const reviewProps = sortedReviews.map(r => ({
-  id: r.id,
-  title: r.data.title,
-  category: r.data.category,
-  rating: r.data.rating,
-  meta_description: r.data.meta_description,
-  date: r.data.date,
-  slug: r.id,
-}));
+// Extract categories from reviews
+const categoryCountMap = new Map<string, number>();
+for (const r of reviews) {
+  const cat = r.data.category;
+  categoryCountMap.set(cat, (categoryCountMap.get(cat) || 0) + 1);
+}
+const categories = [...categoryCountMap.entries()]
+  .map(([name, count]) => ({
+    name,
+    slug: name.toLowerCase().replace(/\s+/g, '-'),
+    count,
+    colorClass: getCategoryColor(name),
+  }))
+  .sort((a, b) => b.count - a.count);
 
-const pageTitle = 'AI Playbook — Honest AI Tool Reviews & Tutorials';
+const totalContent = allContent.length;
 ---
 
 <BaseLayout
-  title={pageTitle}
+  title="AI Playbook — Honest AI Tool Reviews & Tutorials"
   description="In-depth AI tool reviews, hands-on tutorials, and practical workflows. We test, score, and compare so you can choose with confidence."
 >
-  <!-- Hero -->
-  <section class="bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 bg-gradient-to-br from-blue-600 to-indigo-700"></div>
+    <div class="absolute inset-0 -z-10" style="background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(59, 130, 246, 0.3), transparent);"></div>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
       <div class="max-w-3xl">
-        <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
-          Stop guessing. <span class="text-blue-200">Start knowing.</span>
+        <div class="inline-flex items-center gap-2 text-sm font-medium px-3 py-1 rounded-full mb-6 bg-blue-500/20 text-blue-100">
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 bg-blue-300"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-300"></span>
+          </span>
+          Honest Reviews · Practical Tutorials
+        </div>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-6 text-white">
+          Stop guessing.
+          <span class="text-blue-200"> Start knowing.</span>
         </h1>
-        <p class="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl">
+        <p class="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl leading-relaxed">
           In-depth AI tool reviews backed by real testing. We rate every tool across 5 dimensions — so you can pick the right one in minutes, not days.
         </p>
         <div class="flex flex-wrap gap-3">
-          <a href="/reviews" class="inline-flex items-center px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50 transition-colors">
-            Browse Reviews →
+          <a href="#articles" class="inline-flex items-center gap-2 text-sm font-semibold px-6 py-3 rounded-lg text-blue-700 bg-white hover:bg-blue-50 transition-colors">
+            Browse Reviews
           </a>
-          <a href="/tutorials" class="inline-flex items-center px-6 py-3 bg-blue-500/30 text-white font-semibold rounded-lg hover:bg-blue-500/40 transition-colors border border-blue-400/30">
+          <a href="/tutorials" class="inline-flex items-center gap-2 text-sm font-semibold px-6 py-3 rounded-lg text-white bg-blue-500/30 hover:bg-blue-500/40 transition-colors border border-blue-400/30">
             View Tutorials
           </a>
         </div>
@@ -49,16 +71,52 @@ const pageTitle = 'AI Playbook — Honest AI Tool Reviews & Tutorials';
     </div>
   </section>
 
-  <!-- Interactive Category + Reviews Section -->
-  <CategoryFilter
-    reviews={reviewProps}
-    categories={categories}
-    getCategoryColor={getCategoryColor}
-    getRatingColor={getRatingColor}
-    client:load
-  />
+  <!-- Mobile Category Tabs -->
+  <div class="lg:hidden border-b border-gray-200 bg-white">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex gap-2 py-3 overflow-x-auto scrollbar-hide">
+        <a href="#articles" class="shrink-0 text-sm font-medium px-4 py-1.5 rounded-full bg-blue-600 text-white whitespace-nowrap">
+          All
+        </a>
+        {categories.map((cat) => (
+          <a href={`/categories#${cat.slug}`} class="shrink-0 text-sm font-medium px-4 py-1.5 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 whitespace-nowrap">
+            {cat.name}
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
 
-  <!-- CTA -->
+  <!-- Main Content: Sidebar + Article Grid -->
+  <section id="articles" class="bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div class="flex flex-col lg:flex-row gap-8">
+        <CategorySidebar categories={categories} />
+
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center justify-between mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-900">Latest</h2>
+            <span class="text-sm text-gray-500">{totalContent} articles</span>
+          </div>
+
+          {allContent.length > 0 ? (
+            <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+              {allContent.map((item) => (
+                <ArticleCard type={item._type} item={item} />
+              ))}
+            </div>
+          ) : (
+            <div class="text-center py-20 text-gray-400">
+              <p class="text-lg mb-2">No articles yet.</p>
+              <p class="text-sm">Check back soon for AI tool reviews and tutorials.</p>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom CTA -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 mb-8">
     <div class="bg-gray-900 rounded-2xl p-8 md:p-12 text-center text-white">
       <h2 class="text-2xl md:text-3xl font-bold mb-4">Find the right AI tool for your workflow</h2>
@@ -71,3 +129,13 @@ const pageTitle = 'AI Playbook — Honest AI Tool Reviews & Tutorials';
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+</style>

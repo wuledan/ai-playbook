@@ -1,0 +1,45 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-white border-t border-gray-200 mt-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Brand -->
+      <div>
+        <div class="flex items-center gap-2 text-xl font-bold text-gray-900 mb-3">
+          <span class="text-blue-600">AI</span>Playbook
+        </div>
+        <p class="text-sm text-gray-500 leading-relaxed">
+          In-depth AI tool reviews, hands-on tutorials, and practical workflows. We test, score, and compare so you can choose with confidence.
+        </p>
+      </div>
+
+      <!-- Content -->
+      <div>
+        <h4 class="font-semibold text-gray-900 mb-3">Content</h4>
+        <div class="flex flex-col gap-2">
+          <a href="/reviews" class="text-sm text-gray-500 hover:text-gray-700 transition-colors">Reviews</a>
+          <a href="/tutorials" class="text-sm text-gray-500 hover:text-gray-700 transition-colors">Tutorials</a>
+          <a href="/comparisons" class="text-sm text-gray-500 hover:text-gray-700 transition-colors">Comparisons</a>
+          <a href="/categories" class="text-sm text-gray-500 hover:text-gray-700 transition-colors">Categories</a>
+        </div>
+      </div>
+
+      <!-- Links -->
+      <div>
+        <h4 class="font-semibold text-gray-900 mb-3">Links</h4>
+        <div class="flex flex-col gap-2">
+          <a href="/about" class="text-sm text-gray-500 hover:text-gray-700 transition-colors">About Us</a>
+          <a href="/search" class="text-sm text-gray-500 hover:text-gray-700 transition-colors">Search</a>
+          <a href="/rss.xml" class="text-sm text-gray-500 hover:text-gray-700 transition-colors">RSS Feed</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 border-t border-gray-100">
+      <p class="text-sm text-gray-400">&copy; {year} AI Playbook. All rights reserved.</p>
+      <p class="text-xs text-gray-400">Honest AI tool reviews. No sponsored content.</p>
+    </div>
+  </div>
+</footer>
