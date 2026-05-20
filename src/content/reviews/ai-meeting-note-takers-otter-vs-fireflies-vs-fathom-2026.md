@@ -7,8 +7,22 @@ tags: ["meeting-notes", "otter", "fireflies", "fathom", "granola", "productivity
 cover: "/images/reviews/ai-meeting-note-takers-otter-vs-fireflies-vs-fathom-2026/cover.svg"
 meta_description: "AI meeting note-takers save hours every week. We tested Otter, Fireflies, Fathom, and Granola across transcription accuracy, action item extraction, and integration depth."
 rating: 8.1
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # AI Meeting Note Takers 2026: Otter vs Fireflies vs Fathom vs Granola
 
 AI meeting note-takers save hours every week. We tested Otter, Fireflies, Fathom, and Granola across transcription accuracy, action item extraction, and integration depth.

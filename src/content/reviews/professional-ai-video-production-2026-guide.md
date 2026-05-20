@@ -7,8 +7,22 @@ tags: ["ai-video", "runway", "sora", "production", "guide", "2026", "video"]
 cover: "/images/reviews/professional-ai-video-production-2026-guide/cover.svg"
 meta_description: "AI video tools have matured dramatically. We tested Runway Gen-4, OpenAI Sora, and Pika 2 across cinematic quality, prompt control, and editing workflow."
 rating: 8.0
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # Professional AI Video Production 2026: Complete Guide
 
 AI video tools have matured dramatically. We tested Runway Gen-4, OpenAI Sora, and Pika 2 across cinematic quality, prompt control, and editing workflow.

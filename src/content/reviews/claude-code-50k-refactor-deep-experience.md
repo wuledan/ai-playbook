@@ -7,8 +7,22 @@ tags: ["claude-code", "refactor", "large-codebase", "ai-agent", "programming", "
 cover: "/images/reviews/claude-code-50k-refactor-deep-experience/cover.svg"
 meta_description: "We let Claude Code loose on a 50,000-line codebase. Here's exactly what happened during the refactor — the wins, the struggles, and the lessons learned."
 rating: 8.8
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # Claude Code 50K Refactor: Real-World Deep Experience
 
 We let Claude Code loose on a 50,000-line codebase. Here's exactly what happened during the refactor — the wins, the struggles, and the lessons learned.

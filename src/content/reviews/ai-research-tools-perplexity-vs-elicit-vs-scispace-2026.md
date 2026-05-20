@@ -7,8 +7,22 @@ tags: ["ai-research", "perplexity", "elicit", "scispace", "comparison", "academi
 cover: "/images/reviews/ai-research-tools-perplexity-vs-elicit-vs-scispace-2026/cover.svg"
 meta_description: "Academic research is being transformed by AI. We tested Perplexity Pro, Elicit, and Scispace across literature review, citation accuracy, and paper analysis."
 rating: 8.2
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # AI Research Tools Showdown 2026: Perplexity vs Elicit vs Scispace
 
 Academic research is being transformed by AI. We tested Perplexity Pro, Elicit, and Scispace across literature review, citation accuracy, and paper analysis.

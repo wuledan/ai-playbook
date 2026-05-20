@@ -7,8 +7,22 @@ tags: ["code-review", "coderabbit", "copilot", "codeguru", "ai-coding", "compari
 cover: "/images/reviews/ai-code-review-tools-coderabbit-vs-copilot-2026/cover.svg"
 meta_description: "AI code review is transforming development workflows. We tested CodeRabbit, GitHub Copilot Code Review, and AWS CodeGuru across bug detection, false positives, and integration ease."
 rating: 8.3
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # AI Code Review Tools Compared 2026: CodeRabbit vs Copilot vs CodeGuru
 
 AI code review is transforming development workflows. We tested CodeRabbit, GitHub Copilot Code Review, and AWS CodeGuru across bug detection, false positives, and integration ease.

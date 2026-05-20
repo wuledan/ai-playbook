@@ -7,8 +7,22 @@ tags: ["youtube", "ai-workflow", "faceless", "automation", "video", "guide", "20
 cover: "/images/reviews/faceless-youtube-ai-workflow-guide-2026/cover.svg"
 meta_description: "Build a faceless YouTube channel using AI from script to video. We cover ElevenLabs for voice, Runway for video, and ChatGPT for scripting."
 rating: 7.8
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # Faceless YouTube Channel AI Workflow 2026: Complete Automation Guide
 
 Build a faceless YouTube channel using AI from script to video. We cover ElevenLabs for voice, Runway for video, and ChatGPT for scripting.

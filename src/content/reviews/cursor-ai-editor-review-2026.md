@@ -7,8 +7,22 @@ tags: ["cursor", "ai-editor", "coding", "programming", "ide", "2026", "review"]
 cover: "/images/reviews/cursor-ai-editor-review-2026/cover.svg"
 meta_description: "Cursor has become the most popular AI-first code editor. We tested its Tab completion, inline editing, agent mode, and integration with multiple AI models."
 rating: 8.6
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # Cursor AI Editor Review 2026: The Best AI Code Editor?
 
 Cursor has become the most popular AI-first code editor. We tested its Tab completion, inline editing, agent mode, and integration with multiple AI models.

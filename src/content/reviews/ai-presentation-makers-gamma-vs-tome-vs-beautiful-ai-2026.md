@@ -7,8 +7,22 @@ tags: ["ai-presentation", "gamma", "tome", "beautiful-ai", "design", "productivi
 cover: "/images/reviews/ai-presentation-makers-gamma-vs-tome-vs-beautiful-ai-2026/cover.svg"
 meta_description: "AI presentation tools promise to create beautiful decks from a single prompt. We tested Gamma, Tome, and Beautiful AI across design quality and customization."
 rating: 7.9
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # AI Presentation Makers 2026: Gamma vs Tome vs Beautiful AI
 
 AI presentation tools promise to create beautiful decks from a single prompt. We tested Gamma, Tome, and Beautiful AI across design quality and customization.

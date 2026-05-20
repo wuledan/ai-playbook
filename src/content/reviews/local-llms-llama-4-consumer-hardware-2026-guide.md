@@ -7,8 +7,22 @@ tags: ["local-llm", "llama-4", "ollama", "consumer-hardware", "machine-learning"
 cover: "/images/reviews/local-llms-llama-4-consumer-hardware-2026-guide/cover.svg"
 meta_description: "Local LLMs are more accessible than ever. We tested Llama 4, Mistral, and Phi-4 on consumer hardware including M4 Macs, RTX 4090, and even laptops."
 rating: 8.1
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # Running Local LLMs on Consumer Hardware 2026: Llama 4 Guide
 
 Local LLMs are more accessible than ever. We tested Llama 4, Mistral, and Phi-4 on consumer hardware including M4 Macs, RTX 4090, and even laptops.

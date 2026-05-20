@@ -7,8 +7,22 @@ tags: ["ai-writing", "chatgpt", "claude", "copy-ai", "jasper", "writing", "compa
 cover: "/images/reviews/best-ai-writing-tools-2026-10-scenarios-test/cover.svg"
 meta_description: "We tested 6 AI writing tools across 10 real scenarios — blog posts, emails, ad copy, technical documentation, creative writing, and more."
 rating: 8.4
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # Best AI Writing Tools 2026: Real-World Test Across 10 Scenarios
 
 We tested 6 AI writing tools across 10 real scenarios — blog posts, emails, ad copy, technical documentation, creative writing, and more.

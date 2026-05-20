@@ -7,8 +7,22 @@ tags: ["ai-logo", "looka", "logoai", "canva", "design", "branding", "comparison"
 cover: "/images/reviews/best-ai-logo-generators-looka-vs-logoai-vs-canva-2026/cover.svg"
 meta_description: "Logo design has been democratized by AI. We tested Looka, LogoAI, and Canva's AI logo generator across customization, output quality, and brand consistency."
 rating: 7.5
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # Best AI Logo Generators 2026: Looka vs LogoAI vs Canva
 
 Logo design has been democratized by AI. We tested Looka, LogoAI, and Canva's AI logo generator across customization, output quality, and brand consistency.

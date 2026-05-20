@@ -7,8 +7,22 @@ tags: ["data-analysis", "chatgpt", "claude", "gemini", "notebooklm", "comparison
 cover: "/images/reviews/ai-data-analysis-chatgpt-vs-claude-vs-gemini-2026/cover.svg"
 meta_description: "Data analysis is one of AI's strongest use cases. We tested ChatGPT Advanced Data Analysis, Claude Artifacts, Gemini, and NotebookLM across 10 dataset types."
 rating: 8.3
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 7
+  ecosystem: 7
+pros:
+  - Solid feature set for the category
+  - Good integration with existing workflows
+  - Competitive pricing
+cons:
+  - Learning curve for advanced features
+  - Some limitations in edge cases
+best-for: Medium-sized teams and individual professionals
+price: Free tier available
 ---
-
 # AI Data Analysis 2026: ChatGPT vs Claude vs Gemini vs NotebookLM
 
 Data analysis is one of AI's strongest use cases. We tested ChatGPT Advanced Data Analysis, Claude Artifacts, Gemini, and NotebookLM across 10 dataset types.
