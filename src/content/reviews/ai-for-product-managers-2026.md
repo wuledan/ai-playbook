@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Productivity"
 tags: [product-management, ai-for-pm, chatgpt, claude, cursor, productboard, review]
-cover: /images/reviews/ai-for-pm/cover.svg
+cover: "/images/reviews/ai-for-pm/cover.png"
 meta_description: "Product managers face unique challenges: stakeholder alignment, roadmap prioritization, user research synthesis, sprint planning. We tested 8 AI tools across the PM workflow to find what actually saves time."
 rating: 8.0
 dimensions:

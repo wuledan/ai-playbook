@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Design"
 tags: ["ai-presentation", "gamma", "tome", "beautiful-ai", "design", "productivity", "comparison"]
-cover: "/images/reviews/ai-presentation-makers-gamma-vs-tome-vs-beautiful-ai-2026/cover.svg"
+cover: "/images/reviews/ai-presentation-makers-gamma-vs-tome-vs-beautiful-ai-2026/cover.png"
 meta_description: "AI presentation tools promise to create beautiful decks from a single prompt. We tested Gamma, Tome, and Beautiful AI across design quality and customization."
 rating: 7.9
 dimensions:

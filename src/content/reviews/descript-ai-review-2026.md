@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 category: "Creative"
 tags: [descript, ai-video, ai-audio, video-editing, podcasting, screen-recording, review]
-cover: /images/reviews/descript-ai/cover.svg
+cover: "/images/reviews/descript-ai/cover.png"
 meta_description: "Comprehensive Descript AI review 2026: we tested text-based editing, AI voice cloning, screen recording, and the new Flash Cut feature. Is it the Swiss Army knife of content creation?"
 rating: 8.9
 dimensions:

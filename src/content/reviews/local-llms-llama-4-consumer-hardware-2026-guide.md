@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: ["local-llm", "llama-4", "ollama", "consumer-hardware", "machine-learning", "guide", "2026"]
-cover: "/images/reviews/local-llms-llama-4-consumer-hardware-2026-guide/cover.svg"
+cover: "/images/reviews/local-llms-llama-4-consumer-hardware-2026-guide/cover.png"
 meta_description: "Local LLMs are more accessible than ever. We tested Llama 4, Mistral, and Phi-4 on consumer hardware including M4 Macs, RTX 4090, and even laptops."
 rating: 8.1
 dimensions:

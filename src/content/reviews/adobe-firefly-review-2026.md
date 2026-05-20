@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Image"
 tags: ["adobe", "firefly", "ai-image", "design", "generation", "review"]
-cover: "/images/reviews/adobe-firefly-review-2026/cover.svg"
+cover: "/images/reviews/adobe-firefly-review-2026/cover.jpg"
 meta_description: "Comprehensive review of Adobe Firefly Review 2026: Best AI Image Generator?. We tested features, performance, pricing, and real-world usability."
 rating: 8.4
 dimensions:

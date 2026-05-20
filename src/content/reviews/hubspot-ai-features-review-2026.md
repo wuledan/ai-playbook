@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Marketing"
 tags: ["hubspot", "crm", "marketing-automation", "ai", "review"]
-cover: "/images/reviews/hubspot-ai-features-review-2026/cover.svg"
+cover: "/images/reviews/hubspot-ai-features-review-2026/cover.jpg"
 meta_description: "Comprehensive review of HubSpot AI Features 2026: Complete Review. We tested features, performance, pricing, and real-world usability."
 rating: 8.3
 dimensions:

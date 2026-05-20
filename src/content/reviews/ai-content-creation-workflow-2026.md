@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Writing"
 tags: [ai-content, content-creation, workflow, chatgpt, claude, midjourney, elevenlabs, guide]
-cover: /images/reviews/ai-content-creation/cover.svg
+cover: "/images/reviews/ai-content-creation/cover.png"
 meta_description: "A complete AI content creation workflow from research to publishing. Covers 6 AI tools across writing, image generation, voiceover, and video — with exact prompts and production timing."
 rating: 8.7
 dimensions:

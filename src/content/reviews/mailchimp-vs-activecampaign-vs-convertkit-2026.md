@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Marketing"
 tags: ["email-marketing", "mailchimp", "activecampaign", "convertkit", "comparison"]
-cover: "/images/reviews/mailchimp-vs-activecampaign-vs-convertkit-2026/cover.svg"
+cover: "/images/reviews/mailchimp-vs-activecampaign-vs-convertkit-2026/cover.png"
 meta_description: "Comprehensive review of Mailchimp vs ActiveCampaign vs ConvertKit 2026. We tested features, performance, pricing, and real-world usability."
 rating: 8.0
 dimensions:

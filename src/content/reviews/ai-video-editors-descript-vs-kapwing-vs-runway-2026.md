@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Video"
 tags: [ai-video-editors, descript, kapwing, runway, video-editing, ai-tools, comparison]
-cover: "/images/reviews/ai-video-editors-descript-vs-kapwing-vs-runway-2026/cover.svg"
+cover: "/images/reviews/ai-video-editors-descript-vs-kapwing-vs-runway-2026/cover.png"
 meta_description: "Detailed 2026 comparison of AI video editors Descript, Kapwing, and Runway. We test text-based editing, AI effects, and generative video capabilities across real projects."
 rating: 8.2
 dimensions:

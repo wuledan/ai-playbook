@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 category: "Creative"
 tags: [suno, ai-music, ai-generation, creative-tools, music, review, audio]
-cover: /images/reviews/suno-ai-v5/cover.svg
+cover: "/images/reviews/suno-ai-v5/cover.png"
 meta_description: "Hands-on Suno AI v5 review: we tested 50+ generations across genres. How good is the audio quality? Can it replace real musicians? Full comparison with Udio."
 rating: 8.2
 dimensions:

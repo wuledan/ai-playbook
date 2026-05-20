@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Data Analysis"
 tags: ["finance", "data-analysis", "ai", "spreadsheets", "review"]
-cover: "/images/reviews/ai-financial-analysis-tools-2026/cover.svg"
+cover: "/images/reviews/ai-financial-analysis-tools-2026/cover.jpg"
 meta_description: "Comprehensive review of AI for Financial Analysis 2026: Tools and Workflows. We tested features, performance, pricing, and real-world usability."
 rating: 7.9
 dimensions:

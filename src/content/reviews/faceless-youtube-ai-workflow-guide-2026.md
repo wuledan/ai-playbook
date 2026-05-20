@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Video"
 tags: ["youtube", "ai-workflow", "faceless", "automation", "video", "guide", "2026"]
-cover: "/images/reviews/faceless-youtube-ai-workflow-guide-2026/cover.svg"
+cover: "/images/reviews/faceless-youtube-ai-workflow-guide-2026/cover.png"
 meta_description: "Build a faceless YouTube channel using AI from script to video. We cover ElevenLabs for voice, Runway for video, and ChatGPT for scripting."
 rating: 7.8
 dimensions:

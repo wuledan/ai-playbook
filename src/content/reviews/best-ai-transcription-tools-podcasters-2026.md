@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Audio"
 tags: ["transcription", "podcast", "otter", "descript", "rev", "ai-audio", "comparison"]
-cover: "/images/reviews/best-ai-transcription-tools-podcasters-2026/cover.svg"
+cover: "/images/reviews/best-ai-transcription-tools-podcasters-2026/cover.jpg"
 meta_description: "Podcasters need accurate, fast transcription. We tested Otter AI, Descript, and Rev AI across accuracy, speaker diarization, and export options."
 rating: 8.0
 dimensions:

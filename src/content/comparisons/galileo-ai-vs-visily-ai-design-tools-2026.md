@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 tools: [galileo-ai, visily, figma-ai]
 tags: [galileo-ai, visily, figma-ai, ai-design, design-to-code, ui-ux, product-design, comparison]
-cover: /images/comparisons/ai-design-tools/cover.svg
+cover: "/images/comparisons/ai-design-tools/cover.png"
 meta_description: "We tested Galileo AI, Visily, and Figma AI on 8 real design projects. Galileo wins on AI-native code quality, Visily on ease of use, Figma AI on ecosystem."
 ---
 

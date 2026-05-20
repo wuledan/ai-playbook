@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: ["claude-code", "refactor", "large-codebase", "ai-agent", "programming", "experience"]
-cover: "/images/reviews/claude-code-50k-refactor-deep-experience/cover.svg"
+cover: "/images/reviews/claude-code-50k-refactor-deep-experience/cover.png"
 meta_description: "We let Claude Code loose on a 50,000-line codebase. Here's exactly what happened during the refactor — the wins, the struggles, and the lessons learned."
 rating: 8.8
 dimensions:

@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Research"
 tags: [perplexity, elicit, scispace, notebooklm, research, comparison, ai-search]
-cover: /images/reviews/ai-research/cover.svg
+cover: "/images/reviews/ai-research/cover.png"
 meta_description: "AI research assistants promise to accelerate literature review, data synthesis, and citation management. We tested Perplexity Pro, Elicit, Scispace, and Google NotebookLM across real research workflows."
 rating: 8.6
 dimensions:

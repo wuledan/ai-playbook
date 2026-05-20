@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Tutorials"
 tags: [notebooklm, google, research, tutorial, ai-notes, audio-overview]
-cover: /images/tutorials/notebooklm/cover.svg
+cover: "/images/tutorials/notebooklm/cover.png"
 meta_description: "NotebookLM is Google's most innovative research tool. This guide covers advanced techniques: multi-source synthesis, audio overview generation, custom notebooks for systematic literature review."
 rating: 8.8
 dimensions:

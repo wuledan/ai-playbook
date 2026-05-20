@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Writing"
 tags: ["ai-writing", "chatgpt", "claude", "copy-ai", "jasper", "writing", "comparison"]
-cover: "/images/reviews/best-ai-writing-tools-2026-10-scenarios-test/cover.svg"
+cover: "/images/reviews/best-ai-writing-tools-2026-10-scenarios-test/cover.png"
 meta_description: "We tested 6 AI writing tools across 10 real scenarios — blog posts, emails, ad copy, technical documentation, creative writing, and more."
 rating: 8.4
 dimensions:

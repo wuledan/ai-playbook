@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Video"
 tags: ["ai-video", "runway", "sora", "production", "guide", "2026", "video"]
-cover: "/images/reviews/professional-ai-video-production-2026-guide/cover.svg"
+cover: "/images/reviews/professional-ai-video-production-2026-guide/cover.png"
 meta_description: "AI video tools have matured dramatically. We tested Runway Gen-4, OpenAI Sora, and Pika 2 across cinematic quality, prompt control, and editing workflow."
 rating: 8.0
 dimensions:

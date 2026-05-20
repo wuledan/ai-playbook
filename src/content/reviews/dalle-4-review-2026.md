@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Image"
 tags: ["dalle", "openai", "ai-image", "generation", "review"]
-cover: "/images/reviews/dalle-4-review-2026/cover.svg"
+cover: "/images/reviews/dalle-4-review-2026/cover.png"
 meta_description: "Comprehensive review of DALL-E 4 Review 2026: OpenAI's Latest Image Generator. We tested features, performance, pricing, and real-world usability."
 rating: 8.7
 dimensions:

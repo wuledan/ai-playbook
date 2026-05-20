@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: [bolt-new, tutorial, full-stack, web-development, ai-app-builder, no-code, beginners]
-cover: /images/tutorials/bolt-new-tutorial/cover.svg
+cover: "/images/tutorials/bolt-new-tutorial/cover.png"
 difficulty: beginner
 meta_description: "Learn to build a full-stack web application from scratch using Bolt.new — no coding experience required. We'll build a task management app with database, auth, and deployment in 30 minutes."
 ---

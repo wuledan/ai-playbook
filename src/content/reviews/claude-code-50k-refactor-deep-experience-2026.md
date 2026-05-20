@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: [claude-code, refactoring, legacy-code, ai-coding, deep-experience, case-study]
-cover: /images/reviews/claude-code-refactor/cover.svg
+cover: "/images/reviews/claude-code-refactor/cover.png"
 meta_description: "A 50,000-line legacy Node.js codebase needed refactoring. We used Claude Code to analyze, plan, and execute the rewrite. Here's what worked, what didn't, and the exact prompts that saved us 40 hours."
 rating: 8.8
 dimensions:

@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Image"
 tags: ["stable-diffusion", "ai-image", "open-source", "generation", "review"]
-cover: "/images/reviews/stable-diffusion-4-review-2026/cover.svg"
+cover: "/images/reviews/stable-diffusion-4-review-2026/cover.png"
 meta_description: "Comprehensive review of Stable Diffusion 4 Review 2026: Open-Source AI Image Gen. We tested features, performance, pricing, and real-world usability."
 rating: 8.2
 dimensions:

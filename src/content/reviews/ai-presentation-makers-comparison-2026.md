@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Productivity"
 tags: [gamma, tome, beautiful-ai, canva-ai, presentation, ai-design, comparison]
-cover: /images/reviews/ai-presentation/cover.svg
+cover: "/images/reviews/ai-presentation/cover.png"
 meta_description: "AI presentation makers promise to design your slides in seconds. We tested Gamma, Tome, Beautiful.ai, and Canva AI Magic Studio across 5 metrics to find which actually delivers."
 rating: 8.0
 dimensions:

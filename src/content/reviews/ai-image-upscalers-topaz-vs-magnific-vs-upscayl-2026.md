@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Image"
 tags: [image-upscaling, topaz, magnific-ai, upscayl, photo-enhancement, ai-tools, comparison]
-cover: "/images/reviews/ai-image-upscalers-topaz-vs-magnific-vs-upscayl-2026/cover.svg"
+cover: "/images/reviews/ai-image-upscalers-topaz-vs-magnific-vs-upscayl-2026/cover.jpg"
 meta_description: "Comprehensive comparison of Topaz Gigapixel, Magnific AI, and Upscayl for AI image upscaling in 2026. We test resolution boost, detail preservation, and face recovery."
 rating: 8.1
 dimensions:

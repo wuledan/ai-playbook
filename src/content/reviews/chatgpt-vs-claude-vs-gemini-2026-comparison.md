@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Writing"
 tags: ["chatgpt", "claude", "gemini", "comparison", "ai-assistant", "2026", "llm"]
-cover: "/images/reviews/chatgpt-vs-claude-vs-gemini-2026-comparison/cover.svg"
+cover: "/images/reviews/chatgpt-vs-claude-vs-gemini-2026-comparison/cover.png"
 meta_description: "The three major AI assistants go head-to-head in 2026. We tested ChatGPT, Claude, and Gemini across 20 real-world scenarios including writing, coding, analysis, and creativity."
 rating: 8.5
 dimensions:

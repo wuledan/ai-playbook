@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 category: "Design"
 tags: [leonardo-ai, ai-image, generative-ai, design-tools, game-art, creative]
-cover: /images/reviews/leonardo-ai/cover.svg
+cover: "/images/reviews/leonardo-ai/cover.png"
 meta_description: "Hands-on Leonardo AI review: we tested its Phoenix model, real-time canvas, 3D texture generation, and game asset pipeline. Is it the best Midjourney alternative?"
 rating: 8.7
 dimensions:

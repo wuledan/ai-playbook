@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Research"
 tags: ["ai-research", "perplexity", "elicit", "scispace", "comparison", "academic", "2026"]
-cover: "/images/reviews/ai-research-tools-perplexity-vs-elicit-vs-scispace-2026/cover.svg"
+cover: "/images/reviews/ai-research-tools-perplexity-vs-elicit-vs-scispace-2026/cover.png"
 meta_description: "Academic research is being transformed by AI. We tested Perplexity Pro, Elicit, and Scispace across literature review, citation accuracy, and paper analysis."
 rating: 8.2
 dimensions:

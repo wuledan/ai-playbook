@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Design"
 tags: ["ai-logo", "looka", "logoai", "canva", "design", "branding", "comparison"]
-cover: "/images/reviews/best-ai-logo-generators-looka-vs-logoai-vs-canva-2026/cover.svg"
+cover: "/images/reviews/best-ai-logo-generators-looka-vs-logoai-vs-canva-2026/cover.png"
 meta_description: "Logo design has been democratized by AI. We tested Looka, LogoAI, and Canva's AI logo generator across customization, output quality, and brand consistency."
 rating: 7.5
 dimensions:

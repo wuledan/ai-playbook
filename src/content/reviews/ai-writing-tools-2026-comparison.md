@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Writing"
 tags: [ai-writing, chatgpt, claude, jasper, copy-ai, any-word, comparison]
-cover: /images/reviews/ai-writing/cover.svg
+cover: "/images/reviews/ai-writing/cover.png"
 meta_description: "We tested 6 AI writing tools — ChatGPT, Claude, Jasper, Copy.ai, Anyword, and Sudowrite — across 10 real-world writing scenarios. Here's which one won each category."
 rating: 8.5
 dimensions:

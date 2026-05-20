@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: [ai-code-review, github-copilot, coderabbit, codeguru, sonarqube, comparison]
-cover: /images/reviews/ai-code-review/cover.svg
+cover: "/images/reviews/ai-code-review/cover.png"
 meta_description: "We tested GitHub Copilot Code Review, CodeRabbit, AWS CodeGuru, Cursor, and SonarQube AI on 6 bug types. CodeRabbit caught 85% of bugs — but here's when you should pick each tool."
 rating: 8.7
 dimensions:

@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Video & Audio"
 tags: [elevenlabs, playht, respeecher, ai-voice, voice-cloning, comparison, audio]
-cover: /images/reviews/ai-voice-cloning/cover.svg
+cover: "/images/reviews/ai-voice-cloning/cover.jpg"
 meta_description: "AI voice cloning has gone mainstream. We tested ElevenLabs, PlayHT, and Respeecher across voice quality, cloning accuracy, latency, and pricing to find the best for each use case."
 rating: 8.3
 dimensions:

@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 tools: [bolt.new, lovable, v0]
 tags: [bolt-new, lovable, v0, ai-app-builder, no-code, web-development, comparison, full-stack]
-cover: /images/comparisons/ai-app-builders/cover.svg
+cover: "/images/comparisons/ai-app-builders/cover.png"
 meta_description: "We tested Bolt.new, Lovable, and v0 on 7 real app projects. Bolts builds full-stack, Lovable excels at UX/frontend, v0 is fastest for components — here's when to use each."
 ---
 

@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: ["code-review", "coderabbit", "copilot", "codeguru", "ai-coding", "comparison", "2026"]
-cover: "/images/reviews/ai-code-review-tools-coderabbit-vs-copilot-2026/cover.svg"
+cover: "/images/reviews/ai-code-review-tools-coderabbit-vs-copilot-2026/cover.png"
 meta_description: "AI code review is transforming development workflows. We tested CodeRabbit, GitHub Copilot Code Review, and AWS CodeGuru across bug detection, false positives, and integration ease."
 rating: 8.3
 dimensions:

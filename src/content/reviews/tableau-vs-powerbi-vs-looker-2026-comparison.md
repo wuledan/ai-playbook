@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Data Analysis"
 tags: ["tableau", "power-bi", "looker", "business-intelligence", "comparison"]
-cover: "/images/reviews/tableau-vs-powerbi-vs-looker-2026-comparison/cover.svg"
+cover: "/images/reviews/tableau-vs-powerbi-vs-looker-2026-comparison/cover.png"
 meta_description: "Comprehensive review of Tableau vs Power BI vs Looker 2026: Best BI Tool. We tested features, performance, pricing, and real-world usability."
 rating: 8.6
 dimensions:

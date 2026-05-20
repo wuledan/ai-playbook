@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Tutorials"
 tags: ["tutorial", "langgraph", "ai-agents", "python", "guide"]
-cover: "/images/reviews/building-ai-agents-langgraph-tutorial-2026/cover.svg"
+cover: "/images/reviews/building-ai-agents-langgraph-tutorial-2026/cover.png"
 meta_description: "Comprehensive review of Building AI Agents with LangGraph 2026 Tutorial. We tested features, performance, pricing, and real-world usability."
 rating: 8.5
 dimensions:

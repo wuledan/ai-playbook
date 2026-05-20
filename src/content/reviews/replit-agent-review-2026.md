@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: [replit, replit-agent, ai-coding, app-builder, full-stack, review, no-code, ide]
-cover: /images/reviews/replit-agent/cover.svg
+cover: "/images/reviews/replit-agent/cover.png"
 meta_description: "Hands-on Replit Agent review 2026: we tested its prompt-to-app pipeline, Ghostwriter AI coding, and cloud IDE. Can it really build full-stack apps from a single prompt?"
 rating: 8.3
 dimensions:

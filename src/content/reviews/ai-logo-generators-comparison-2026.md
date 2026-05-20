@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Design"
 tags: [looka, logoai, canva-ai, hatchful, logo-generator, ai-design, comparison]
-cover: /images/reviews/ai-logo-generators/cover.svg
+cover: "/images/reviews/ai-logo-generators/cover.png"
 meta_description: "AI logo generators promise professional logos in minutes. We tested Looka, LogoAI, Canva AI, and Hatchful by Shopify across output quality, customization, file formats, and pricing."
 rating: 7.5
 dimensions:

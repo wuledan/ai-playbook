@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Data Analysis"
 tags: ["julius-ai", "data-analysis", "chatgpt", "data-science", "review"]
-cover: "/images/reviews/julius-ai-review-2026/cover.svg"
+cover: "/images/reviews/julius-ai-review-2026/cover.png"
 meta_description: "Comprehensive review of Julius AI Review 2026: AI Data Analyst. We tested features, performance, pricing, and real-world usability."
 rating: 8.1
 dimensions:

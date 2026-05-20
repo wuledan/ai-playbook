@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "SEO"
 tags: ["wordpress", "seo", "rankmath", "yoast", "seopress", "comparison"]
-cover: "/images/reviews/rankmath-vs-yoast-vs-seopress-wordpress-seo-2026/cover.svg"
+cover: "/images/reviews/rankmath-vs-yoast-vs-seopress-wordpress-seo-2026/cover.jpg"
 meta_description: "Comprehensive review of RankMath vs Yoast vs SEOPress 2026: Best WordPress SEO. We tested features, performance, pricing, and real-world usability."
 rating: 8.5
 dimensions:

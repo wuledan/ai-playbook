@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: [n8n, langchain, crewai, ai-agents, automation, autonomous-agents, workflow, comparison]
-cover: /images/reviews/ai-agents/cover.svg
+cover: "/images/reviews/ai-agents/cover.png"
 meta_description: "Autonomous AI agents are the next frontier. We tested n8n (visual), LangChain (framework), and CrewAI (multi-agent) across ease of use, flexibility, reliability, and real-world deployment ability."
 rating: 7.8
 dimensions:

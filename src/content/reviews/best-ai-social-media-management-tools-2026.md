@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Marketing"
 tags: ["social-media", "ai", "marketing", "scheduling", "review"]
-cover: "/images/reviews/best-ai-social-media-management-tools-2026/cover.svg"
+cover: "/images/reviews/best-ai-social-media-management-tools-2026/cover.png"
 meta_description: "Comprehensive review of Best AI Social Media Management Tools 2026. We tested features, performance, pricing, and real-world usability."
 rating: 7.8
 dimensions:

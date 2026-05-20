@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Research"
 tags: ["data-analysis", "chatgpt", "claude", "gemini", "notebooklm", "comparison", "2026"]
-cover: "/images/reviews/ai-data-analysis-chatgpt-vs-claude-vs-gemini-2026/cover.svg"
+cover: "/images/reviews/ai-data-analysis-chatgpt-vs-claude-vs-gemini-2026/cover.png"
 meta_description: "Data analysis is one of AI's strongest use cases. We tested ChatGPT Advanced Data Analysis, Claude Artifacts, Gemini, and NotebookLM across 10 dataset types."
 rating: 8.3
 dimensions:

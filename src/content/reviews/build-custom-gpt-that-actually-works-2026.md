@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Writing"
 tags: ["gpt", "custom-gpt", "chatgpt", "openai", "guide", "2026", "tutorial"]
-cover: "/images/reviews/build-custom-gpt-that-actually-works-2026/cover.svg"
+cover: "/images/reviews/build-custom-gpt-that-actually-works-2026/cover.png"
 meta_description: "Custom GPTs promised to democratize AI, but most fail. We interviewed 20 successful builders and tested 50 GPTs to distill what actually works."
 rating: 7.7
 dimensions:

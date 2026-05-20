@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Productivity"
 tags: ["product-management", "ai-tools", "productivity", "pm", "workflow", "guide", "2026"]
-cover: "/images/reviews/ai-tools-for-product-managers-2026/cover.svg"
+cover: "/images/reviews/ai-tools-for-product-managers-2026/cover.png"
 meta_description: "Product managers are using AI more than any other role. We curated the essential AI tools for PMs covering research, documentation, roadmapping, and user testing."
 rating: 8.0
 dimensions:

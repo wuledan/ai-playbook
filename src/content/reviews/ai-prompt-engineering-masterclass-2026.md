@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Tutorials"
 tags: ["tutorial", "prompt-engineering", "chatgpt", "claude", "guide"]
-cover: "/images/reviews/ai-prompt-engineering-masterclass-2026/cover.svg"
+cover: "/images/reviews/ai-prompt-engineering-masterclass-2026/cover.png"
 meta_description: "Comprehensive review of AI Prompt Engineering Masterclass 2026. We tested features, performance, pricing, and real-world usability."
 rating: 8.8
 dimensions:

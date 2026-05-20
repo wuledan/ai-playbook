@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Tutorials"
 tags: ["tutorial", "fine-tuning", "llm", "gpu", "machine-learning"]
-cover: "/images/reviews/fine-tune-llms-consumer-gpus-tutorial-2026/cover.svg"
+cover: "/images/reviews/fine-tune-llms-consumer-gpus-tutorial-2026/cover.png"
 meta_description: "Comprehensive review of How to Fine-Tune LLMs on Consumer GPUs 2026. We tested features, performance, pricing, and real-world usability."
 rating: 8.3
 dimensions:

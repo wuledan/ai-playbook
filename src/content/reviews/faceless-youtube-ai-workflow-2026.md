@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Video & Audio"
 tags: [youtube, faceless-channel, ai-video, invideo, heygen, elevenlabs, descript, workflow]
-cover: /images/reviews/faceless-youtube-ai/cover.svg
+cover: "/images/reviews/faceless-youtube-ai/cover.png"
 meta_description: "You don't need to show your face to build a YouTube audience. This complete workflow shows how to script, narrate, animate, and publish faceless videos using AI tools — with exact prompts and production pipeline."
 rating: 8.3
 dimensions:

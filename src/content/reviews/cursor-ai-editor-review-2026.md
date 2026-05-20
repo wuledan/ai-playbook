@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: ["cursor", "ai-editor", "coding", "programming", "ide", "2026", "review"]
-cover: "/images/reviews/cursor-ai-editor-review-2026/cover.svg"
+cover: "/images/reviews/cursor-ai-editor-review-2026/cover.png"
 meta_description: "Cursor has become the most popular AI-first code editor. We tested its Tab completion, inline editing, agent mode, and integration with multiple AI models."
 rating: 8.6
 dimensions:

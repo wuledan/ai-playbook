@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Design"
 tags: ["midjourney", "ai-image", "design", "art", "generation", "2026", "review"]
-cover: "/images/reviews/midjourney-review-2026/cover.svg"
+cover: "/images/reviews/midjourney-review-2026/cover.png"
 meta_description: "Midjourney continues to set the standard for AI image generation. We tested v7 against DALL-E 4, Stable Diffusion 4, and Firefly across photorealism, prompt adherence, and style variety."
 rating: 8.9
 dimensions:

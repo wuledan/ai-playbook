@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Tutorials"
 tags: [chatgpt, custom-gpt, openai, gpt-builder, tutorial, ai-assistant, how-to]
-cover: /images/tutorials/build-custom-gpt/cover.svg
+cover: "/images/tutorials/build-custom-gpt/cover.png"
 meta_description: "Most Custom GPTs are useless. Here's the framework OpenAI won't tell you: how to design, instruct, and test Custom GPTs that deliver real value — with templates you can adapt in 10 minutes."
 rating: 8.5
 dimensions:

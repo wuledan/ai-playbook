@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: ["claude", "claude-code", "coding", "ai-agent", "programming", "2026", "review"]
-cover: "/images/reviews/claude-code-review-2026/cover.svg"
+cover: "/images/reviews/claude-code-review-2026/cover.png"
 meta_description: "Claude Code is Anthropic's dedicated coding agent. We tested its ability to refactor large codebases, write tests, debug issues, and integrate with CI/CD pipelines."
 rating: 8.7
 dimensions:

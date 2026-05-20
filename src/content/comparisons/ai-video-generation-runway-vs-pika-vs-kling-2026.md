@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 tools: [runway, pika, kling]
 tags: [runway, pika, kling, ai-video, ai-generation, comparison, creative-tools, video-production]
-cover: /images/comparisons/ai-video-generation/cover.svg
+cover: "/images/comparisons/ai-video-generation/cover.png"
 meta_description: "We pitted Runway Gen-4, Pika 2.0, and Kling 2.0 against each other on 10 real video generation tasks. Runway wins on quality, Pika on ease, Kling on value."
 ---
 

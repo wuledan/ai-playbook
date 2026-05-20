@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "SEO"
 tags: ["seo", "keyword-research", "ai", "content-strategy", "review"]
-cover: "/images/reviews/ai-keyword-research-tools-2026-comparison/cover.svg"
+cover: "/images/reviews/ai-keyword-research-tools-2026-comparison/cover.jpg"
 meta_description: "Comprehensive review of AI Keyword Research Tools 2026: Top Picks Compared. We tested features, performance, pricing, and real-world usability."
 rating: 8.0
 dimensions:

@@ -4,7 +4,7 @@ date: 2026-05-20 00:00:00
 author: "AIPlaybook Editorial Team"
 category: "Tutorials"
 tags: ["tutorial", "rag", "llm", "machine-learning", "guide"]
-cover: "/images/reviews/build-rag-pipeline-llms-tutorial-2026/cover.svg"
+cover: "/images/reviews/build-rag-pipeline-llms-tutorial-2026/cover.png"
 meta_description: "Comprehensive review of How to Build a RAG Pipeline with LLMs 2026. We tested features, performance, pricing, and real-world usability."
 rating: 8.0
 dimensions:

@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Productivity"
 tags: [otter, fireflies, fathom, granola, meeting-notes, transcription, comparison]
-cover: /images/reviews/ai-meeting-notes/cover.svg
+cover: "/images/reviews/ai-meeting-notes/cover.png"
 meta_description: "AI meeting note-takers promise to save hours of manual notes. We tested Otter, Fireflies, Fathom, and Granola across accuracy, integration depth, and AI summarization quality."
 rating: 8.2
 dimensions:

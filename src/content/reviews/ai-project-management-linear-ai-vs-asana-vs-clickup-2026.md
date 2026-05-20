@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Productivity"
 tags: [project-management, linear-ai, asana-intelligence, clickup-ai, ai-tools, productivity, comparison]
-cover: "/images/reviews/ai-project-management-linear-ai-vs-asana-vs-clickup-2026/cover.svg"
+cover: "/images/reviews/ai-project-management-linear-ai-vs-asana-vs-clickup-2026/cover.jpg"
 meta_description: "We compare Linear AI, Asana Intelligence, and ClickUp AI for AI-powered project management in 2026. Features tested include AI task creation, sprint planning, and workflow automation."
 rating: 7.9
 dimensions:

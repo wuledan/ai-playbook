@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: [windsurf, codeium, ai-coding, ide, review, coding-tools, developer-tools, cascade]
-cover: /images/reviews/windsurf-ai/cover.svg
+cover: "/images/reviews/windsurf-ai/cover.png"
 meta_description: "In-depth Windsurf AI (Codeium) review with hands-on testing. We evaluate Cascade, Tab, Devin integration, and compare against Cursor, Copilot, and Claude Code."
 rating: 8.5
 dimensions:

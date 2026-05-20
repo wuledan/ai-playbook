@@ -4,7 +4,7 @@ date: 2026-05-20
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: ["database", "migration", "automation", "ai-coding", "devops", "guide", "2026"]
-cover: "/images/reviews/ai-automated-database-migrations-workflow-2026/cover.svg"
+cover: "/images/reviews/ai-automated-database-migrations-workflow-2026/cover.png"
 meta_description: "AI is transforming database migrations. We tested tools that can analyze schemas, generate migration scripts, and validate data integrity automatically."
 rating: 7.6
 dimensions:

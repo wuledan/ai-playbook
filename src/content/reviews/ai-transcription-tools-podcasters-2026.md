@@ -4,7 +4,7 @@ date: 2026-05-18
 author: "AIPlaybook Editorial Team"
 category: "Video & Audio"
 tags: [otter, fireflies, fathom, descript, transcription, podcasting, comparison]
-cover: /images/reviews/ai-transcription/cover.svg
+cover: "/images/reviews/ai-transcription/cover.jpg"
 meta_description: "Podcasters need accurate, fast transcription with speaker diarization and show notes. We tested Otter, Fireflies, Fathom, and Descript to find the best AI transcription tool for content creators."
 rating: 8.4
 dimensions:

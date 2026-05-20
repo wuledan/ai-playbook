@@ -4,7 +4,7 @@ date: 2026-05-19
 author: "AIPlaybook Editorial Team"
 category: "Coding"
 tags: [gemini-code-assist, google, ai-coding, cloud, developer-tools, review, jetbrains, vs-code]
-cover: /images/reviews/gemini-code-assist/cover.svg
+cover: "/images/reviews/gemini-code-assist/cover.png"
 meta_description: "Hands-on Google Gemini Code Assist review: we tested its Gemini 2.5-powered code generation, Cloud integration, PR reviews, and compared it against Copilot, Cursor, and Claude Code."
 rating: 8.0
 dimensions:
