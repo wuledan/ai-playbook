@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDate } from '../../lib/utils';
+
+export async function getStaticPaths() {
+  const tutorials = await getCollection('tutorials');
+  return tutorials.map(t => ({
+    params: { slug: t.id },
+    props: { tutorial: t },
+  }));
+}
+
+const { tutorial } = Astro.props;
+const { data, rendered } = tutorial;
+const htmlContent = rendered?.html || '';
+const siteUrl = Astro.url.origin;
+const absCover = data.cover.startsWith('http') ? data.cover : siteUrl + data.cover;
+---
+
+<BaseLayout
+  title={data.title}
+  description={data.meta_description || `${data.title} — step-by-step tutorial`}
+  isArticle={true}
+  publishedDate={data.date.toISOString()}
+  articleImage={absCover}
+>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <a href="/tutorials" class="text-blue-600 text-sm">← Back to Tutorials</a>
+    <div class="mt-4 flex items-center gap-2 text-sm text-gray-500">
+      <span class="px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">{data.category}</span>
+      <span class="px-2 py-0.5 rounded text-xs bg-gray-100 text-gray-600">{data.difficulty}</span>
+      <time datetime={data.date.toISOString()}>{formatDate(data.date)}</time>
+    </div>
+    <h1 class="text-3xl font-bold mt-4 mb-6">{data.title}</h1>
+    {data.cover && !data.cover.includes('placeholder') && (
+      <img src={data.cover} alt={data.title} class="w-full rounded-xl mb-8" />
+    )}
+    <div class="prose max-w-none" set:html={htmlContent} />
+  </article>
+</BaseLayout>

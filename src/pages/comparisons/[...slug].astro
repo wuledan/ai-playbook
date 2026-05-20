@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { formatDate } from '../../lib/utils';
+
+export async function getStaticPaths() {
+  const comparisons = await getCollection('comparisons');
+  return comparisons.map(c => ({
+    params: { slug: c.id },
+    props: { comparison: c },
+  }));
+}
+
+const { comparison } = Astro.props;
+const { data, rendered } = comparison;
+const htmlContent = rendered?.html || '';
+const siteUrl = Astro.url.origin;
+const absCover = data.cover.startsWith('http') ? data.cover : siteUrl + data.cover;
+---
+
+<BaseLayout
+  title={data.title}
+  description={data.meta_description || `${data.title} — head-to-head comparison`}
+  isArticle={true}
+  publishedDate={data.date.toISOString()}
+  articleImage={absCover}
+>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <a href="/comparisons" class="text-blue-600 text-sm">← Back to Comparisons</a>
+    <div class="mt-4 flex items-center gap-2 text-sm text-gray-500">
+      <span class="text-xs font-medium">Comparison</span>
+      <time datetime={data.date.toISOString()}>{formatDate(data.date)}</time>
+    </div>
+    <h1 class="text-3xl font-bold mt-4 mb-6">{data.title}</h1>
+    {data.cover && !data.cover.includes('placeholder') && (
+      <img src={data.cover} alt={data.title} class="w-full rounded-xl mb-8" />
+    )}
+    <div class="prose max-w-none" set:html={htmlContent} />
+  </article>
+</BaseLayout>

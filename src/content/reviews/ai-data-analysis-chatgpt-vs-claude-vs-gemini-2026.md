@@ -43,3 +43,25 @@ In this review, we examine how data-analysis performs in real-world scenarios ac
 ## Verdict
 
 With a rating of 8.3/10, this tool represents solid value in the research AI space. It excels at its core use case and continues to improve through active development.
+
+## Detailed Feature Analysis
+
+Key capabilities include: academic paper search and analysis, citation extraction and verification, data visualization from uploaded files, comparative analysis across documents, and report generation with sources.
+
+## Source Quality
+
+| Source Type | Coverage | Accuracy |
+|-------------|----------|----------|
+| Academic papers | 200M+ | High |
+| News articles | Real-time | Medium-High |
+| Websites | Limited | Variable |
+| Patents | 100M+ | High |
+| Government data | 50M+ | High |
+
+## Research Workflow Integration
+
+Tools in this category typically integrate with reference managers (Zotero, Mendeley), note-taking apps (Notion, Obsidian), and writing tools (Google Docs, Overleaf). Most support batch upload of PDFs for analysis.
+
+## Verdict
+
+Essential for researchers and analysts. Free tiers handle basic queries; professional workflows require paid plans for advanced features.

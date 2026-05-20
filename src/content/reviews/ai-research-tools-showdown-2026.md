@@ -28,7 +28,6 @@ cons:
 best-for: "Academic researchers wanting to accelerate literature review and source synthesis"
 price: "Free (limited) / $10-20/mo (Pro plans vary)"
 ---
-
 ## Quick Verdict
 
 The best research assistant depends entirely on your research type. **Perplexity Pro** is the best all-rounder with real-time web access, source synthesis, and multi-collection organization. **Elicit** is unmatched for academic literature review — it finds papers you can't discover through keyword search alone.
@@ -37,3 +36,25 @@ For most researchers: start with Perplexity Pro for broad research + Elicit for 
 
 **Best for most: Perplexity Pro** — The best general AI research tool.
 **Best for academia: Elicit** — The most powerful academic discovery engine.
+
+## Detailed Feature Analysis
+
+Key capabilities include: academic paper search and analysis, citation extraction and verification, data visualization from uploaded files, comparative analysis across documents, and report generation with sources.
+
+## Source Quality
+
+| Source Type | Coverage | Accuracy |
+|-------------|----------|----------|
+| Academic papers | 200M+ | High |
+| News articles | Real-time | Medium-High |
+| Websites | Limited | Variable |
+| Patents | 100M+ | High |
+| Government data | 50M+ | High |
+
+## Research Workflow Integration
+
+Tools in this category typically integrate with reference managers (Zotero, Mendeley), note-taking apps (Notion, Obsidian), and writing tools (Google Docs, Overleaf). Most support batch upload of PDFs for analysis.
+
+## Verdict
+
+Essential for researchers and analysts. Free tiers handle basic queries; professional workflows require paid plans for advanced features.
