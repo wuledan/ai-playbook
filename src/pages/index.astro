@@ -10,11 +10,15 @@ const reviews = await getCollection('reviews');
 const tutorials = await getCollection('tutorials');
 const comparisons = await getCollection('comparisons');
 
+// Fetch workflows
+const workflows = await getCollection('workflows');
+
 // Merge all content, tag with type, sort by date
 const allContent = [
   ...reviews.map(r => ({ ...r, _type: 'reviews' as const })),
   ...tutorials.map(t => ({ ...t, _type: 'tutorials' as const })),
   ...comparisons.map(c => ({ ...c, _type: 'comparisons' as const })),
+  ...workflows.map(w => ({ ...w, _type: 'workflows' as const })),
 ].sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
 // Extract categories from reviews

@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import ArticleCard from '../components/ArticleCard.astro';
+
+const workflows = await getCollection('workflows');
+const sorted = workflows.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout title="Workflows — AI Playbook" description="End-to-end AI-powered workflow guides for content, marketing, and business automation.">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-2">Workflows</h1>
+    <p class="text-gray-500 mb-8">Complete end-to-end workflow guides powered by AI.</p>
+    {sorted.length > 0 ? (
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {sorted.map(w => <ArticleCard type="workflows" item={w} />)}
+      </div>
+    ) : (
+      <p class="text-gray-400">Coming soon — content team is working on it.</p>
+    )}
+  </section>
+</BaseLayout>

@@ -2,7 +2,7 @@
 import { getCategoryColor, getRatingColor } from '../lib/utils';
 
 interface Props {
-  type: 'reviews' | 'tutorials' | 'comparisons';
+  type: 'reviews' | 'tutorials' | 'comparisons' | 'workflows';
   item: any;
 }
 
@@ -13,6 +13,7 @@ const { title, category, date, cover, meta_description } = item.data;
 let url: string;
 if (type === 'reviews') url = `/reviews/${item.id}`;
 else if (type === 'tutorials') url = `/tutorials/${item.id}`;
+else if (type === 'workflows') url = `/workflows/${item.id}`;
 else url = `/comparisons/${item.id}`;
 
 const formattedDate = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
