@@ -1,16 +1,30 @@
 ---
 title: "Midjourney V7 Review 2026 — Can It Top DALL-E 4 and Stable Diffusion 4?"
 date: 2026-05-22
-category: "reviews"
-tags: ["Midjourney", "AI Art", "DALL-E", "Stable Diffusion", "Review", "Image Generation"]
-summary: "Midjourney V7 introduces real-time generation, 4K output, and advanced style control. We tested it against DALL-E 4 and Stable Diffusion 4 across 15 categories to crown the best AI image generator of 2026."
-image: "/images/midjourney-v7-review.jpg"
-quality:
-  tier: "gold"
-  word_count: 1300
-  has_real_images: false
-  has_user_reviews: true
-readTime: "7 min read"
+author: "AIPlaybook Editorial Team"
+category: "Image"
+tags: ["Midjourney", "AI Art", "DALL-E", "Stable Diffusion", "image generation", "review"]
+cover: "/images/reviews/midjourney-v7-review/cover.jpg"
+meta_description: "Comprehensive review of Midjourney V7 — real-time generation, 4K output, and advanced style control. Tested against DALL-E 4 and Stable Diffusion 4."
+rating: 9.0
+dimensions:
+  ease-of-use: 8
+  features: 10
+  value: 6
+  performance: 9
+  ecosystem: 8
+pros:
+  - "Unmatched artistic quality and aesthetics"
+  - "Real-time generation revolutionizes iteration"
+  - "Style Reference V2 for consistent branding"
+  - "Native 4K output suitable for print"
+cons:
+  - "Most expensive option"
+  - "Poor at text/typography"
+  - "Requires Discord or web app"
+  - "Prompt-following less precise than DALL-E 4"
+best-for: "Artists, designers, and creatives seeking best-in-class AI image generation"
+price: "Basic ¥279/mo ($39) / Standard ¥499/mo ($69) / Pro ¥999/mo ($139)"
 ---
 
 # Midjourney V7 Review 2026 — Can It Top DALL-E 4 and Stable Diffusion 4?

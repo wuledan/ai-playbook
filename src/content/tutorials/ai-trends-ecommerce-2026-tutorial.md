@@ -1,16 +1,12 @@
 ---
 title: "3 AI Trends Reshaping E-Commerce in 2026 — From Personalization to Automation"
 date: 2026-05-22
-category: "tutorials"
-tags: ["E-Commerce", "AI", "Trends", "Personalization", "Automation", "Tutorial"]
-summary: "Three AI trends that are transforming e-commerce in 2026: hyper-personalization, AI agents for customer service, and automated product photography."
-image: "/images/ai-trends-ecommerce-2026.jpg"
-quality:
-  tier: "silver"
-  word_count: 1400
-  has_real_images: false
-  has_user_reviews: true
-readTime: "7 min read"
+author: "AIPlaybook Editorial Team"
+category: "Tutorials"
+tags: ["E-Commerce", "AI", "trends", "personalization", "automation", "tutorial"]
+cover: "/images/tutorials/ai-trends-ecommerce/cover.jpg"
+meta_description: "Three AI trends transforming e-commerce in 2026: hyper-personalization with AI agents, automated customer service, and AI product photography."
+difficulty: intermediate
 ---
 
 # 3 AI Trends Reshaping E-Commerce in 2026

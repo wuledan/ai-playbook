@@ -1,16 +1,23 @@
 ---
 title: "Windsurf vs Cursor IDE 2026 — The Definitive AI IDE Comparison"
 date: 2026-05-22
-category: "comparisons"
-tags: ["Windsurf", "Cursor", "IDE", "AI", "Comparison", "Codeium"]
-summary: "Windsurf and Cursor are the two leading AI-native IDEs in 2026. We tested both across 15 criteria to help you choose the right one for your workflow."
-image: "/images/cursor-vs-windsurf-2026.jpg"
-quality:
-  tier: "gold"
-  word_count: 1500
-  has_real_images: false
-  has_user_reviews: true
-readTime: "8 min read"
+author: "AIPlaybook Editorial Team"
+category: "Comparisons"
+tags: ["Windsurf", "Cursor", "IDE", "AI", "comparison"]
+cover: "/images/comparisons/cursor-vs-windsurf/cover.jpg"
+meta_description: "Head-to-head comparison of Windsurf AI IDE and Cursor IDE in 2026. We test code generation, multi-file editing, pricing, and more across 15 criteria."
+rating: 8.7
+dimensions:
+  ease-of-use: 9
+  features: 9
+  value: 8
+  performance: 9
+  ecosystem: 8
+pros:
+  - "Both support Claude Sonnet 4 and GPT-5 as base models"
+  - "Windsurf is faster with better multi-file editing"
+  - "Cursor has the most polished AI IDE experience"
+  - "Both are VSCode-compatible with full extension support"
 ---
 
 # Windsurf vs Cursor IDE 2026 — The Definitive AI IDE Comparison

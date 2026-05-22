@@ -1,16 +1,30 @@
 ---
 title: "Claude Codex CLI Review 2026 — Terminal-Based AI Coding Agent"
 date: 2026-05-22
-category: "reviews"
-tags: ["Claude", "Codex", "Anthropic", "CLI", "AI", "Review"]
-summary: "Anthropic's Claude Codex CLI brings AI coding to your terminal. We tested it across 20 real-world tasks to compare with Cursor, Windsurf, and GitHub Copilot."
-image: "/images/claude-codex-cli-review.jpg"
-quality:
-  tier: "silver"
-  word_count: 1100
-  has_real_images: false
-  has_user_reviews: true
-readTime: "6 min read"
+author: "AIPlaybook Editorial Team"
+category: "Development"
+tags: ["Claude", "Codex", "Anthropic", "CLI", "AI", "coding", "review"]
+cover: "/images/reviews/claude-codex-cli-review/cover.jpg"
+meta_description: "Comprehensive review of Claude Codex CLI — Anthropic's terminal-native AI coding agent. We tested features, pricing, performance, and real-world usability."
+rating: 8.5
+dimensions:
+  ease-of-use: 8
+  features: 9
+  value: 7
+  performance: 8
+  ecosystem: 7
+pros:
+  - "Terminal-native — works with any editor, integrates with Neovim/Vim workflows"
+  - "Surgical file editing with diff preview"
+  - "Multi-file coordination for complex features"
+  - "Git-aware operations with auto-commit"
+cons:
+  - "Pay-per-use model can get expensive"
+  - "No visual context (can't see browser/UI)"
+  - "Limited plugin ecosystem"
+  - "Steep initial setup for non-terminal users"
+best-for: "Terminal-centric developers and Vim/Neovim users"
+price: "Free tier (5 queries/day) / Pro ¥379/mo ($53)"
 ---
 
 # Claude Codex CLI Review 2026 — Terminal-Based AI Coding Agent

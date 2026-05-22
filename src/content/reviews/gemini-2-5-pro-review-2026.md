@@ -1,16 +1,30 @@
 ---
 title: "Gemini 2.5 Pro Review 2026 — Reasoning, Coding, Multimodal Deep Dive"
 date: 2026-05-22
-category: "reviews"
-tags: ["Gemini", "Google", "AI", "Review", "LLM"]
-summary: "Google's Gemini 2.5 Pro brings 1M context, native code execution, and advanced reasoning. We tested it across 10 benchmarks and real-world coding tasks to see if it rivals Claude Sonnet 4 and GPT-5."
-image: "/images/gemini-2-5-pro-review.jpg"
-quality:
-  tier: "silver"
-  word_count: 1200
-  has_real_images: false
-  has_user_reviews: true
-readTime: "7 min read"
+author: "AIPlaybook Editorial Team"
+category: "LLM"
+tags: ["Gemini", "Google", "AI", "LLM", "review"]
+cover: "/images/reviews/gemini-2-5-pro-review/cover.jpg"
+meta_description: "Deep dive review of Google's Gemini 2.5 Pro — 1M context window, native code execution, and multimodal capabilities. Tested across 10 benchmarks."
+rating: 9.0
+dimensions:
+  ease-of-use: 8
+  features: 10
+  value: 7
+  performance: 9
+  ecosystem: 8
+pros:
+  - "1M token context window — industry-leading"
+  - "Native code execution for verification"
+  - "Best multimodal input (video + audio + images)"
+  - "Google ecosystem integration (Workspace, Drive)"
+cons:
+  - "Premium pricing — highest in category"
+  - "Slower than Claude Sonnet 4 for standard tasks"
+  - "Vendor lock-in with Google"
+  - "API rate limits on Advanced plan"
+best-for: "Developers and researchers needing long-context analysis"
+price: "Gemini Advanced ¥379/mo ($53) / API $2.50/1M input"
 ---
 
 # Gemini 2.5 Pro Review 2026 — Reasoning, Coding, Multimodal Deep Dive
