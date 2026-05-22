@@ -1,144 +1,183 @@
 ---
-title: "AI Content Repurposing Workflow: Turn One Long-Form Piece Into 20+ Assets"
-date: 2026-05-19
+title: "AI Content Repurposing Workflow 2026 — Turn One Article Into 20+ Assets"
+date: 2026-05-22
 author: "AIPlaybook Editorial Team"
 category: "Tutorials"
-tags: [ai-content, content-marketing, repurposing, social-media, workflow, tutorial]
-cover: /images/tutorials/ai-content-repurposing/cover.png
+tags: [content-repurposing, ai-workflow, marketing, tutorial, automation]
+cover: /images/tutorials/ai-content-repurposing/cover.jpg
+meta_description: "Build an AI-powered content repurposing workflow that transforms a single long-form article into social posts, email newsletters, video scripts, infographics, and more."
 difficulty: intermediate
-meta_description: "Learn how to use AI tools to transform a single long-form article, video, or podcast into 20+ social media posts, emails, and short-form content assets."
 ---
+# AI Content Repurposing Workflow 2026 — Turn One Article Into 20+ Assets
 
-## Why Content Repurposing Matters
+## Overview
 
-Creating fresh content daily is exhausting. Smart creators work once and repurpose 10x. With AI, the repurposing process that used to take 2-3 hours now takes 20-30 minutes.
+Content repurposing is the most efficient way to maximize ROI from every piece of content you create. This AI-powered workflow takes one 2,000+ word article and generates 20+ derivative assets in under 30 minutes.
 
-This workflow turns one piece of long-form content into a complete content ecosystem.
+**What you'll build:**
+1. A master article → 5 social media variants per platform
+2. Email newsletter adaptation
+3. Short-form video script (TikTok/Reels/Shorts)
+4. Podcast summary and talking points
+5. LinkedIn carousel outline
+6. Infographic text outline
+7. SEO meta data (title, description, schema)
 
-## The Core Strategy: One → Many
-
-Start with one "hero" piece of content — a 2000+ word article, a 30-minute podcast, or a 15-minute video. Then use AI to extract and reformat every valuable insight into multiple formats.
-
-## Step 1: Create Your Hero Content
-
-Your hero content is the source material. Options:
-
-- **Written:** Blog post, newsletter, whitepaper
-- **Audio:** Podcast episode, recorded talk
-- **Video:** YouTube video, webinar, presentation
-- **Hybrid:** Record a video or podcast, then transcribe it
-
-**Best practice:** Structure your hero content with clear sections, numbered points, and quotable lines. This makes AI extraction much more effective.
-
-## Step 2: Transcribe & Extract Insights
-
-If your hero is audio/video, transcribe it first.
-
-**Tools:**
-- Otter.ai or Fireflies for automatic transcription
-- Whisper for higher accuracy (run locally or via API)
-
-**AI extraction prompt:**
-```
-From this transcript/article, extract:
-1. 5-7 key insights (1-2 sentences each)
-2. 10+ quotable lines (under 280 characters)
-3. 3 controversial or surprising statements
-4. 5 actionable tips readers can implement immediately
-5. 3 statistics or data points
-```
-
-## Step 3: Generate Multi-Format Outputs
-
-Use ChatGPT or Claude to transform the extracted content.
-
-### Social Media Posts (5-10)
+## The Workflow
 
 ```
-From the key insights extracted above, create:
-- 3 Twitter/X threads (5-7 tweets each, with hooks)
-- 5 LinkedIn posts (100-200 words, professional tone)
-- 3 Instagram captions (30-50 words, casual tone)
-- 2 TikTok video scripts (30-60 seconds)
+Master Article
+    ↓
+[AI Analysis: Extract key points, quotes, data, angles]
+    ↓
+    ├──→ Twitter/X Thread (5-10 tweets)
+    ├──→ LinkedIn Post (professional variant)
+    ├──→ LinkedIn Carousel (5-7 slides)
+    ├──→ Newsletter Adaptation (email format)
+    ├──→ Short Video Script (60s TikTok/Reel)
+    ├──→ Podcast Summary (3-5 min talking points)
+    ├──→ Infographic Outline (visual data points)
+    ├──→ Reddit/Quora Answers (topic-specific)
+    └──→ SEO Meta (title, description, FAQ schema)
 ```
 
-### Email Newsletter
+## Step 1: Article Analysis
 
-```
-Rewrite the main article as an email newsletter:
-- Subject line (5 options with different angles)
-- Preheader text (under 100 characters)
-- Email body (3-4 paragraphs, scannable)
-- P.S. with 3 related resources
-```
+```python
+# analyze_article.py
+base_prompt = """
+Analyze this article and extract:
+1. Core thesis (one sentence)
+2. 3-5 key arguments with supporting data
+3. Notable quotes or statistics
+4. Target audience segments
+5. Emotional hooks (surprise, controversy, inspiration)
+6. Visual/stat that could become an infographic
 
-### Short Video Scripts
-
-```
-Turn each key insight into a short-form video script:
-- {insight 1}: 30-second script with hook, body, CTA
-- {insight 2}: 30-second script with hook, body, CTA
-Format: Hook (first 3 seconds), Main Point (15 seconds), Example (10 seconds), CTA (5 seconds)
+Article: {article_text}
+"""
 ```
 
-## Step 4: Design Visual Assets with AI
+## Step 2: Platform-Specific Adaptations
 
-Use AI image generation for accompanying visuals.
+### Twitter/X Thread
+Best for: Breaking down complex topics into digestible takes.
+Structure: Hook tweet → 5-8 explanation tweets → CTA tweet.
+Optimal length: 200-280 characters per tweet.
 
-**Workflow with Canva AI or Adobe Firefly:**
-1. Generate a hero image for the main post
-2. Create quote cards for each quotable line
-3. Generate a series infographic
-4. Create thumbnails for short videos
+**Example output from a 2,000-word article:**
+> 1/7 Most people think AI will replace jobs. But here's what the data actually says...
+> 2/7 In 2026, companies using AI agents saw 34% higher productivity...
+> 7/7 Want the full analysis? Link in bio →
 
-**Prompt pattern:**
+### LinkedIn Post
+Best for: Professional audiences, B2B positioning.
+Structure: Personal story hook → Industry insight → Data point → Call to action.
+Optimal length: 1,200-1,800 characters.
+
+**Template:**
 ```
-Create a professional social media graphic with the quote: [quote]
-Style: Minimalist, dark background, white text, accent color [brand color]
-```
+I spent last week analyzing [topic]. Here's what surprised me most:
 
-## Step 5: Schedule & Distribute
+[Key insight with data point]
 
-Use Buffer or Hootsuite to schedule across platforms.
+The research is clear: [Main takeaway]
 
-**Distribution calendar (from one hero piece):**
+But most people overlook one thing: [Counter-intuitive point]
 
-| Day | Platform | Content Type |
-|-----|----------|-------------|
-| Day 0 | Blog/Newsletter | Hero article |
-| Day 1 | Twitter/X | Thread (7 tweets) |
-| Day 2 | LinkedIn | Long-form post |
-| Day 3 | Instagram | Quote card |
-| Day 4 | TikTok/Reels | 30-sec insight video |
-| Day 5 | Newsletter | Follow-up email |
-| Day 6 | Twitter/X | Single quote tweet |
-| Day 7 | LinkedIn | Carousel post |
-
-## Tools Required
-
-| Tool | Purpose | Cost |
-|------|---------|------|
-| ChatGPT or Claude | Content transformation | $20/mo |
-| Otter.ai / Fireflies | Transcription | Free-$20/mo |
-| Canva AI | Visual assets | Free-$13/mo |
-| Buffer / Hootsuite | Scheduling | Free-$99/mo |
-| **Total investment** | | **$30-150/mo** |
-
-## Measuring Repurposing ROI
-
-Track these metrics to validate the workflow:
-
-- **Content output:** 1 hero piece → 20+ assets (20x multiplier)
-- **Time spent:** 30 min per repurposing cycle (vs 3-4 hours manually)
-- **Reach multiplier:** Each repurposed piece reaches a different audience
-- **Engagement rate:** Different formats engage different segments
-
-## The Final Workflow
-
-```
-Record/Create (60 min) → Transcribe (auto) → Extract insights (5 min) 
-→ Generate outputs (15 min) → Design visuals (10 min) 
-→ Schedule (5 min) = ~90 min total for 20+ assets
+What's your experience with this? Drop a comment below 👇
 ```
 
-Start with one hero piece this week and follow this workflow. You'll never worry about "content creation" again — you'll only worry about creating good hero content.
+### Short Video Script (60 seconds)
+Best for: TikTok, Instagram Reels, YouTube Shorts.
+Structure: Hook (0-3s) → Problem (3-15s) → Solution (15-45s) → CTA (45-60s).
+
+**Template:**
+```
+HOOK (0-3s):
+"Here's something most people get wrong about [topic]..."
+
+PROBLEM (3-15s):
+"I used to think [common misconception]. But after looking at the data..."
+
+SOLUTION (15-45s):
+"Here's what actually works: [3 quick tips]"
+
+CTA (45-60s):
+"Follow for more [topic] insights. Link in bio for the full guide."
+```
+
+## Platform Comparison Table
+
+| Platform | Best Format | Best Length | Frequency | Post Type |
+|----------|-------------|-------------|-----------|-----------|
+| Twitter/X | Thread | 5-10 tweets | 1x/day | Thread |
+| LinkedIn | Article/Post | 1,200-1,800 chars | 3-5x/week | Long post |
+| Instagram | Carousel | 5-7 slides | 1x/day | Carousel |
+| TikTok/Reels | Video | 30-60s | 1x/day | Short video |
+| YouTube | Video | 8-15 min | 1-2x/week | Long video |
+| Newsletter | Email | 1,000-1,500 words | 1-2x/week | Email |
+
+## Tool Stack
+
+| Tool | Purpose | Price | Alternative |
+|------|---------|-------|-------------|
+| **Claude/GPT-5** | Content generation/rewriting | ¥369/mo ($51) | Gemini 2.5 Pro |
+| **Canva AI** | Visual asset generation | ¥199/mo ($28) | Adobe Firefly |
+| **Descript** | Video/audio editing | ¥199/mo ($28) | CapCut |
+| **Buffer/Hootsuite** | Social scheduling | ¥99/mo ($14) | Later |
+| **ConvertKit** | Email newsletter | Free (up to 1k subs) | Mailchimp |
+
+## Complete Prompt Library
+
+### Twitter Thread Generator
+```
+Create a Twitter thread from this article.
+Hook: provocative 280-char opener
+Thread body: 5-8 tweets with data points
+CTA: final tweet with engagement prompt
+Include relevant emojis and hashtags.
+```
+
+### LinkedIn Carousel Prompt
+```
+Convert this article into a 7-slide LinkedIn carousel:
+Slide 1: Title + Hook (attention grabber)
+Slide 2: The Problem (what most people get wrong)
+Slide 3: The Data (key statistics that surprise)
+Slide 4: The Framework (step-by-step or 3 pillars)
+Slide 5: The Implementation (how to apply it)
+Slide 6: Common Mistakes (what to avoid)
+Slide 7: Summary + CTA
+Each slide: 80 max characters for headline, 200 for body.
+```
+
+### Newsletter Adaptation Prompt
+```
+Rewrite this article as an email newsletter:
+1. Subject line (catchy, 50 chars max)
+2. Preheader (150 chars)
+3. Opening: personal anecdote or question
+4. Body: 3 key sections with bullet points
+5. P.S. with content upgrade/lead magnet
+6. Minimal formatting — scannable paragraphs
+Tone: conversational, personal, direct
+```
+
+## FAQ
+
+**Q: How long does this workflow take?**
+A: With the prompts above: 10 minutes to analyze + 15 minutes for AI generation + 5 minutes for human review = 30 minutes total.
+
+**Q: Do I need to edit the AI output?**
+A: Yes. AI-generated social content needs human editing for voice, accuracy, and brand alignment. Allocate 5-10 minutes per asset.
+
+**Q: Which platform gives the best ROI?**
+A: For B2B: LinkedIn (highest engagement per post). For B2C: TikTok/Reels (highest reach). For SEO: Newsletter (most direct traffic).
+
+**Q: Can this be fully automated?**
+A: Yes, using n8n or Make.com. Trigger: new article published → AI analysis → generate assets → schedule in Buffer. Human review step recommended before posting.
+
+## Conclusion
+
+This AI-powered repurposing workflow transforms a single 2,000-word article into 20+ platform-optimized assets in 30 minutes. The key is starting with a strong source article and using AI for adaptation, not creation. Always add your unique perspective and voice — AI handles the formatting and structure; you provide the expertise.
