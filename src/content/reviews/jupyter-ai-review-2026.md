@@ -14,17 +14,27 @@ dimensions:
   performance: 7.5
   ecosystem: 8.5
 pros:
-  "完全开源免费，无需任何订阅费用，支持接入自己的LLM API Key"
-  "支持多种AI模型：OpenAI、Anthropic、Gemini、GitHub Copilot、本地模型（通过Ollama/vLLM）"
-  "聊天界面 + Magic命令双入口，适配不同使用习惯"
-  "AI Persona功能支持角色定制，可将AI设为Python/Data Science/Julia等专项助手"
+  - >-
+    完全开源免费，无需任何订阅费用，支持接入自己的LLM API Key
+  - >-
+    支持多种AI模型: OpenAI、Anthropic、Gemini、GitHub Copilot、本地模型（通过Ollama/vLLM）
+  - >-
+    聊天界面 + Magic命令双入口，适配不同使用习惯
+  - >-
+    AI Persona功能支持角色定制，可将AI设为Python/Data Science/Julia等专项助手
 cons:
-  "安装配置对新手不够友好：需要Python环境、API Key配置、Docker可选"
-  "AI回答速度取决于模型延迟和本地网络，使用免费模型时响应较慢"
-  "GitHub Copilot集成需要单独的Copilot订阅（$10/月）"
-  "聊天文件和Notebook分开管理，工作流不够统一"
-best-for: "使用JupyterLab进行数据科学和编程工作的开发者、研究人员和教育工作者"
-price: "免费开源（需自备LLM API Key，如OpenAI $0.15/M输入Token等）"
+  - >-
+    安装配置对新手不够友好: 需要Python环境、API Key配置、Docker可选
+  - >-
+    AI回答速度取决于模型延迟和本地网络，使用免费模型时响应较慢
+  - >-
+    GitHub Copilot集成需要单独的Copilot订阅（$10/月）
+  - >-
+    聊天文件和Notebook分开管理，工作流不够统一
+best-for: >-
+  使用JupyterLab进行数据科学和编程工作的开发者、研究人员和教育工作者
+price: >-
+  免费开源（需自备LLM API Key，如OpenAI $0.15/M输入Token等）
 ---
 
 ## Quick Verdict
