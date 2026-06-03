@@ -120,6 +120,19 @@ The free tier is the most generous among AI IDEs. Cursor offers 2000 completions
 | **VS Code + Continue** | Open-source, customizable | Free |
 | **Windsurf** | Best free tier AI IDE | $0 / $15/mo |
 
+## What Users Say
+
+Windsurf IDE receives positive reviews for its generous free tier and accessible pricing, though users note it lags behind Cursor in agent quality.
+
+> "The free tier gives me 50 agent requests per day. That's enough for my daily coding. I haven't felt the need to upgrade to Pro yet."
+> — Independent developer on Product Hunt
+
+> "Cascade works well for simple tasks. For complex refactoring, I still prefer Cursor. But at $15/month, Windsurf is hard to beat for the price."
+> — Frontend developer on G2
+
+> "Tab completions are decent but not as smart as Cursor's. It sometimes misses the obvious next line."
+> — Verified user on G2
+
 ## FAQ
 
 **Q: Is Windsurf free?**

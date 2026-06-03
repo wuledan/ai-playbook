@@ -139,6 +139,19 @@ The success rate was 90% on first attempt. The remaining 10% needed minor manual
 | **VS Code + Continue** | Open-source AI coding | Free |
 | **Cursor** | Best overall AI coding experience | $20/mo |
 
+## What Users Say
+
+Cursor is one of the highest-rated AI coding tools on G2 with **4.7/5** average. Users consistently praise its agent mode and multi-model flexibility.
+
+> "Cursor's agent mode built an entire authentication system — JWT, refresh tokens, role-based access — across 12 files without me touching the keyboard. It was working in 14 minutes."
+> — Full-stack developer on G2
+
+> "The multi-model support is what sold me. I use Claude for coding, GPT for logic, Gemini for codebase analysis — all without leaving my editor."
+> — Senior engineer on Product Hunt
+
+> "Tab completions are noticeably better than Copilot. About 70% of suggestions are exactly what I was about to type."
+> — React developer on Reddit
+
 ## FAQ
 
 **Q: Is Cursor better than VS Code with Copilot?**

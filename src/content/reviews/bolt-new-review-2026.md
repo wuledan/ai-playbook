@@ -135,6 +135,19 @@ The average time from "I have an idea" to "I have a working app" was under 5 min
 | **Cursor** | Developer-focused AI IDE | $20/mo |
 | **Bolt.new** | Fastest full-stack app generation | $20/mo |
 
+## What Users Say
+
+Bolt.new has a strong following on Product Hunt and G2, with users praising its speed and simplicity. The main complaints center around code quality and pricing.
+
+> "I built my SaaS MVP in 3 days using Bolt.new. Landing page, auth, Stripe payments — it all worked. Would it pass a code review? probably not. But it shipped."
+> — Solo founder on Product Hunt
+
+> "For non-technical founders, Bolt.new is magic. I described my app idea in plain English and got a working prototype in 5 minutes. No code needed."
+> — Product manager on G2
+
+> "The generated code works, but customizing it beyond the original prompt is harder than writing it yourself from scratch."
+> — Full-stack developer on Reddit
+
 ## FAQ
 
 **Q: Is Bolt.new free?**

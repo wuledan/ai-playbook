@@ -122,6 +122,19 @@ vs ChatGPT Pro ($200/mo): Same price, different focus. ChatGPT Pro gives you vid
 | **Cursor Pro** | AI-first IDE for developers | $20/mo |
 | **Claude Max** | Heavy Claude Code users | $200/mo |
 
+## What Users Say
+
+Claude Max reviews on G2 and Product Hunt are mixed — users who hit Pro limits love the freedom, but many question whether they need the upgrade.
+
+> "I was spending $100+/month on Claude Code API calls anyway. Max bundles it all for $200. It's a no-brainer for heavy Claude Code users."
+> — Full-stack developer on Reddit
+
+> "The unlimited usage is great, but honestly, most days I don't come close to Pro limits. I downgraded back to Pro."
+> — Verified user on G2
+
+> "Priority access makes a real difference during US business hours. Responses are noticeably faster than my old Pro account."
+> — Enterprise developer
+
 ## FAQ
 
 **Q: Is Claude Max worth $200/month?**

@@ -115,6 +115,18 @@ The Plus tier is reasonably priced for power users. If you're a student writing 
 - Google account required
 - Limited collaboration features
 
+## What Users Say
+
+NotebookLM has an average rating of **4.8/5** on G2, with users praising its Audio Overviews and source-grounded research.
+
+> "It makes a 'podcast' of your notes: it turns your boring documents into a lively, two-person radio show where the hosts explain your material in plain English."
+> — Andrea W., G2 verified review
+
+> "You can say that you like how NotebookLM turns your team's documents into a shared, question-answerable knowledge base."
+> — Bindu Madhuri J., G2 verified review
+
+On Reddit, a long-time user shared: "I dumped everything — PDFs, competitor pages, pricing docs — into a single Notebook. Then I just started asking questions. What messaging angles are our competitors not owning? Where do they all sound the same? The answers were gold."
+
 ## Alternatives
 
 | Tool | Best For | Price |

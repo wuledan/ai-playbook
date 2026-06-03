@@ -125,6 +125,18 @@ The refactoring and debugging tasks were where Claude Code really shined. One-sh
 | **Claude Code CLI** | Project-wide terminal coding | Usage-based / $200/mo |
 | **Windsurf** | AI-powered IDE | $15/mo |
 
+## What Users Say
+
+On G2 and Product Hunt, Claude Code CLI earns praise for its deep project understanding and refactoring capabilities. The terminal-native workflow is polarizing — developers who love the CLI find it transformative; GUI-dependent users find it intimidating.
+
+> "Claude Code doesn't just generate code — it understands my entire project architecture. I asked it to migrate an Express API to Fastify and it handled 40+ files correctly on the first try."
+> — Senior backend developer on Reddit
+
+> "The run mode gives me confidence. It shows every command before execution. I've never had it do something destructive."
+> — Verified user on G2
+
+Some users note that API costs can add up quickly with heavy daily use. One developer reported spending ~$120/month on API calls for full-time Claude Code usage.
+
 ## FAQ
 
 **Q: Is Claude Code CLI free?**

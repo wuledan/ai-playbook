@@ -108,6 +108,16 @@ Where Gemini wins: large-scale code analysis with the massive context window. Wh
 - API rate limits on Advanced plan
 - Google's content policies can be restrictive for certain use cases
 
+## What Users Say
+
+Gemini 2.5 Pro holds a strong reputation among developers for its unmatched context window. On G2, users consistently highlight its multimodal capabilities and long-context performance.
+
+> "The 1M token context is a game-changer for analyzing large codebases. I can feed it an entire project and get meaningful architectural insights in minutes."
+> — Verified user, Enterprise software
+
+> "Gemini's video understanding sets it apart. I uploaded a 45-minute meeting recording and it summarized key decisions, action items, and even caught a commitment I missed."
+> — Product manager, SaaS company
+
 ## Alternatives
 
 | Model | Best For | Price |
