@@ -85,6 +85,12 @@ Gemini 2.5 Pro's 2M token context window is the largest among proprietary models
 | **Enterprise Deployment** | Gemini 2.5 Pro / GPT-5 | Google Cloud & Azure integration |
 | **Research & Literature Review** | Claude 4 | Best long-context retrieval accuracy |
 
+### Safety & Alignment
+
+Safety approaches differ significantly between the three models. Claude 4 Opus employs the most conservative safety system, with detailed refusal messages explaining why certain requests cannot be fulfilled and providing alternative approaches. GPT-5 uses a more permissive approach, allowing a wider range of requests but with less transparency about decision boundaries. Gemini 2.5 Pro strikes a middle ground with tiered safety filters that vary by use case — education gets more relaxed filters while sensitive domains remain restricted.
+
+For enterprise deployments requiring strict content moderation and compliance alignment, Claude 4 is the safest choice. For creative or general-purpose use where safety constraints shouldn't interfere with productivity, GPT-5's more permissive approach is preferable.
+
 ## Summary Assessment
 
 | Dimension | Winner |
