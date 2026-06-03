@@ -3,7 +3,7 @@ title: "Best AI E-Commerce & Product Discovery Tools in 2026: Shopify Magic vs S
 date: 2026-06-03
 author: "AIPlaybook Editorial Team"
 category: "Business"
-tags: [ecommerce, shopify, product-discovery, ai-retail, 2026, review]
+tags: [ecommerce, shopify, product-discovery, ai-retail, "2026", review]
 cover: "/images/reviews/ai-ecommerce-product-discovery-2026/cover.png"
 meta_description: "Testing 4 leading AI e-commerce tools — Shopify Magic, Syte, Vue.ai, and Coveo — for product discovery, personalization, and conversion optimization in 2026."
 rating: 7.9

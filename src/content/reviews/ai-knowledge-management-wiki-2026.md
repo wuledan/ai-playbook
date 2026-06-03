@@ -3,7 +3,7 @@ title: "Best AI Knowledge Management & Wiki Tools in 2026: Guru vs GitBook AI vs
 date: 2026-06-03
 author: "AIPlaybook Editorial Team"
 category: "Productivity"
-tags: [knowledge-management, wiki, guru, gitbook, slab, confluence, internal-tools, 2026, review]
+tags: [knowledge-management, wiki, guru, gitbook, slab, confluence, internal-tools, "2026", review]
 cover: "/images/reviews/ai-knowledge-management-wiki-2026/cover.png"
 meta_description: "Deep-dive comparison of AI-powered knowledge management platforms — Guru, GitBook AI, Slab, and Confluence AI — for internal wikis, documentation, and knowledge bases."
 rating: 8.0

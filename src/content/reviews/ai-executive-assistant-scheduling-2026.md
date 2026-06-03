@@ -3,7 +3,7 @@ title: "Best AI Executive Assistant & Scheduling Agents in 2026: Clara Labs vs x
 date: 2026-06-03
 author: "AIPlaybook Editorial Team"
 category: "Productivity"
-tags: [ai-assistant, scheduling, clara, xai, lex, motion, productivity, 2026, review]
+tags: [ai-assistant, scheduling, clara, xai, lex, motion, productivity, "2026", review]
 cover: "/images/reviews/ai-executive-assistant-scheduling-2026/cover.png"
 meta_description: "Hands-on comparison of AI executive assistants for scheduling, email management, and task automation — Clara Labs, x.ai, Lex, and Motion."
 rating: 7.8

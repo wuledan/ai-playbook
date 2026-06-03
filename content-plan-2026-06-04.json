@@ -1,0 +1,65 @@
+{
+  "date": "2026-06-04",
+  "target": 40,
+  "batches": [
+    {
+      "type": "reviews",
+      "articles": [
+        "notebooklm-review-2026",
+        "gemini-2-5-pro-review-2026",
+        "claude-code-cli-review-2026",
+        "chatgpt-pro-review-2026",
+        "claude-max-review-2026",
+        "cursor-review-2026",
+        "windsurf-ide-review-2026",
+        "bolt-new-review-2026",
+        "v0-by-vercel-review-2026",
+        "copilot-chat-review-2026",
+        "gemini-code-assist-review-2026",
+        "heygen-review-2026",
+        "elevenlabs-review-2026",
+        "sora-review-2026",
+        "openai-o3-review-2026",
+        "deepseek-r2-review-2026",
+        "meta-llama-4-review-2026",
+        "anthropic-claude-code-review-2026",
+        "perplexity-enterprise-pro-review-2026"
+      ]
+    },
+    {
+      "type": "comparisons",
+      "articles": [
+        "gpt-5-vs-claude-4-vs-gemini-2-5-pro-2026",
+        "replit-vs-bolt-vs-lovable-vs-v0-2026",
+        "heygen-vs-synthesia-vs-colossyan-2026",
+        "suno-v5-vs-udio-2026",
+        "perplexity-pro-vs-chatgpt-plus-vs-gemini-advanced-2026",
+        "elevenlabs-vs-playht-vs-murf-2026",
+        "canva-ai-vs-adobe-express-vs-microsoft-designer-2026",
+        "claude-code-vs-cursor-vs-copilot-vs-codex-cli-2026",
+        "runway-vs-pika-vs-kling-vs-sora-2026"
+      ]
+    },
+    {
+      "type": "tutorials",
+      "articles": [
+        "build-ai-youtube-automation-2026",
+        "master-perplexity-deep-research-2026",
+        "build-ai-agents-claude-code-2026",
+        "n8n-ai-automation-workflows-2026",
+        "build-custom-gpt-advanced-2026",
+        "multi-agent-systems-langgraph-2026",
+        "fine-tune-gpt-4o-mini-2026",
+        "ai-social-media-content-pipeline-2026"
+      ]
+    },
+    {
+      "type": "workflows",
+      "articles": [
+        "ai-sales-outreach-automation-2026",
+        "ai-email-campaign-workflow-2026",
+        "ai-code-review-pipeline-workflow-2026"
+      ]
+    }
+  ]
+}

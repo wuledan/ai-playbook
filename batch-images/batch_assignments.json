@@ -1,0 +1,72 @@
+{
+  "batch1": {
+    "agent_id": "agent-batch1-reviews",
+    "type": "reviews",
+    "articles": [
+      {"slug": "notebooklm-review-2026", "title": "NotebookLM Review 2026 — Deep Research, Audio Overviews, and Pricing", "category": "Productivity"},
+      {"slug": "gemini-2-5-pro-review-2026", "title": "Gemini 2.5 Pro Review 2026 — Google's Most Capable AI Model", "category": "Writing"},
+      {"slug": "claude-code-cli-review-2026", "title": "Claude Code CLI Review 2026 — Terminal-Based AI Coding Agent", "category": "Coding"},
+      {"slug": "chatgpt-pro-review-2026", "title": "ChatGPT Pro Review 2026 — Is OpenAI's Premium Tier Worth $200/mo?", "category": "Writing"},
+      {"slug": "claude-max-review-2026", "title": "Claude Max Review 2026 — Anthropic's Most Powerful AI Subscription", "category": "Writing"},
+      {"slug": "cursor-review-2026", "title": "Cursor Review 2026 — The AI-First IDE That Changes Everything", "category": "Coding"},
+      {"slug": "windsurf-ide-review-2026", "title": "Windsurf IDE Review 2026 — AI-Powered Development Environment", "category": "Coding"},
+      {"slug": "bolt-new-review-2026", "title": "Bolt.new Review 2026 — Build Full-Stack Apps in Browser", "category": "Coding"}
+    ]
+  },
+  "batch2": {
+    "agent_id": "agent-batch2-reviews",
+    "type": "reviews",
+    "articles": [
+      {"slug": "v0-by-vercel-review-2026", "title": "v0 by Vercel Review 2026 — AI-Powered UI Generation", "category": "Coding"},
+      {"slug": "copilot-chat-review-2026", "title": "GitHub Copilot Chat Review 2026 — AI Code Assistance Evolved", "category": "Coding"},
+      {"slug": "gemini-code-assist-review-2026", "title": "Gemini Code Assist Review 2026 — Google's AI Coding Companion", "category": "Coding"},
+      {"slug": "heygen-review-2026", "title": "HeyGen Review 2026 — AI Video Generation and Digital Avatars", "category": "Video"},
+      {"slug": "elevenlabs-review-2026", "title": "ElevenLabs Review 2026 — Best AI Voice Cloning and TTS?", "category": "Audio"},
+      {"slug": "sora-review-2026", "title": "Sora Review 2026 — OpenAI's Video Generation Breakthrough", "category": "Video"},
+      {"slug": "openai-o3-review-2026", "title": "OpenAI o3 Review 2026 — Reasoning Model Deep Dive", "category": "Writing"},
+      {"slug": "deepseek-r2-review-2026", "title": "DeepSeek R2 Review 2026 — China's Most Capable AI Model", "category": "Writing"}
+    ]
+  },
+  "batch3": {
+    "agent_id": "agent-batch3-mixed",
+    "type": "mixed",
+    "articles": [
+      {"slug": "meta-llama-4-review-2026", "title": "Meta Llama 4 Review 2026 — Open-Source AI at Scale", "category": "Writing", "art_type": "review"},
+      {"slug": "anthropic-claude-code-review-2026", "title": "Anthropic Claude Code Review 2026 — Full IDE Integration", "category": "Coding", "art_type": "review"},
+      {"slug": "perplexity-enterprise-pro-review-2026", "title": "Perplexity Enterprise Pro Review 2026 — AI Search for Business", "category": "Productivity", "art_type": "review"},
+      {"slug": "gpt-5-vs-claude-4-vs-gemini-2-5-pro-2026", "title": "GPT-5 vs Claude 4 vs Gemini 2.5 Pro 2026 — Which Model Wins?", "category": "Writing", "art_type": "comparison"},
+      {"slug": "replit-vs-bolt-vs-lovable-vs-v0-2026", "title": "Replit Agent vs Bolt.new vs Lovable vs v0 2026 — AI App Builders", "category": "Coding", "art_type": "comparison"},
+      {"slug": "heygen-vs-synthesia-vs-colossyan-2026", "title": "HeyGen vs Synthesia vs Colossyan 2026 — AI Video Platforms", "category": "Video", "art_type": "comparison"},
+      {"slug": "suno-v5-vs-udio-2026", "title": "Suno v5 vs Udio 2026 — AI Music Generation Face-Off", "category": "Audio", "art_type": "comparison"},
+      {"slug": "perplexity-pro-vs-chatgpt-plus-vs-gemini-advanced-2026", "title": "Perplexity Pro vs ChatGPT Plus vs Gemini Advanced 2026", "category": "Productivity", "art_type": "comparison"}
+    ]
+  },
+  "batch4": {
+    "agent_id": "agent-batch4-comparisons-tutorials",
+    "type": "mixed",
+    "articles": [
+      {"slug": "elevenlabs-vs-playht-vs-murf-2026", "title": "ElevenLabs vs PlayHT vs Murf 2026 — AI Voice Generators", "category": "Audio", "art_type": "comparison"},
+      {"slug": "canva-ai-vs-adobe-express-vs-microsoft-designer-2026", "title": "Canva AI vs Adobe Express vs Microsoft Designer 2026", "category": "Design", "art_type": "comparison"},
+      {"slug": "claude-code-vs-cursor-vs-copilot-vs-codex-cli-2026", "title": "Claude Code vs Cursor vs Copilot vs Codex CLI 2026", "category": "Coding", "art_type": "comparison"},
+      {"slug": "runway-vs-pika-vs-kling-vs-sora-2026", "title": "Runway vs Pika vs Kling vs Sora 2026 — AI Video Generators", "category": "Video", "art_type": "comparison"},
+      {"slug": "build-ai-youtube-automation-2026", "title": "Build an AI YouTube Automation Channel 2026 — Step-by-Step", "category": "Video", "art_type": "tutorial"},
+      {"slug": "master-perplexity-deep-research-2026", "title": "Master Perplexity Deep Research 2026 — Complete Guide", "category": "Productivity", "art_type": "tutorial"},
+      {"slug": "build-ai-agents-claude-code-2026", "title": "Build AI Agents with Claude Code 2026 — Practical Tutorial", "category": "Coding", "art_type": "tutorial"},
+      {"slug": "n8n-ai-automation-workflows-2026", "title": "n8n AI Automation Workflows 2026 — No-Code Agent Pipelines", "category": "Productivity", "art_type": "tutorial"}
+    ]
+  },
+  "batch5": {
+    "agent_id": "agent-batch5-tutorials-workflows",
+    "type": "mixed",
+    "articles": [
+      {"slug": "build-custom-gpt-advanced-2026", "title": "Build Custom GPTs Advanced Guide 2026 — GPT Builder Mastery", "category": "Writing", "art_type": "tutorial"},
+      {"slug": "multi-agent-systems-langgraph-2026", "title": "Multi-Agent Systems with LangGraph 2026 — Practical Tutorial", "category": "Coding", "art_type": "tutorial"},
+      {"slug": "fine-tune-gpt-4o-mini-2026", "title": "Fine-Tune GPT-4o-mini 2026 — Complete Step-by-Step Guide", "category": "Coding", "art_type": "tutorial"},
+      {"slug": "ai-social-media-content-pipeline-2026", "title": "AI Social Media Content Pipeline 2026 — Automation Tutorial", "category": "Marketing", "art_type": "tutorial"},
+      {"slug": "ai-sales-outreach-automation-2026", "title": "AI Sales Outreach Automation 2026 — Full Workflow", "category": "Marketing", "art_type": "workflow"},
+      {"slug": "ai-email-campaign-workflow-2026", "title": "AI Email Campaign Workflow 2026 — Automation Pipeline", "category": "Marketing", "art_type": "workflow"},
+      {"slug": "ai-code-review-pipeline-workflow-2026", "title": "AI Code Review Pipeline 2026 — Developer Workflow", "category": "Coding", "art_type": "workflow"},
+      {"slug": "ai-content-personalization-workflow-2026", "title": "AI Content Personalization Workflow 2026 — Enterprise Guide", "category": "Marketing", "art_type": "workflow"}
+    ]
+  }
+}
