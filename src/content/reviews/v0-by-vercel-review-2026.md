@@ -115,6 +115,24 @@ Complex state management and backend logic still require traditional coding. v0 
 
 ## FAQ
 
+## What Users Say (Real Product Hunt Reviews)
+
+v0 has a 4.8/5 rating on Product Hunt based on 56 reviews. Here are representative takes:
+
+**Naumaan Zahid** (frontend developer): "v0 turns a rough idea into a working UI in minutes. I describe what I want, get clean React and Tailwind back, and ship it instead of fighting boilerplate. The output is close enough to production that the edits are small. It's now my default first pass for new pages."
+
+**Vitaly Goncharenko** (software engineer): "Great for spinning up clean Tailwind/Next.js UI scaffolds from a prompt or screenshot. Where it struggles is multi-step flows, state management, data wiring, and design fidelity. The latest model pricing feels steep given the miss rate and retries, which makes ROI shaky for daily use."
+
+**Saul Fleischman**: "Good for the previews and easy push to GitHub. First project and I'm out of credits after 5 prompts. Their affiliate 'invite and earn' does not work." — Highlighting the credit system pain point.
+
+**Dustin Harber**: "Useful for quickly generating UI code, especially for prototyping. That said, it can be buggy at times, and local setup isn't always smooth. It's a helpful starting point, but not something I'd rely on for full production work just yet."
+
+**Matthew Dvertola**: "This is far and away the best LLM to use for building Next.js sites with shadcn/ui components. The combo (Next/shad) seems to be the default approach, and the design quality out of the box is higher than what OpenAI/Anthropic models produce."
+
+— Product Hunt user reviews, 2025-2026
+
+## FAQ
+
 **Does v0 only work with React and Next.js?**
 Yes. v0 generates React components and Next.js pages. It does not support Vue, Svelte, or other frameworks.
 

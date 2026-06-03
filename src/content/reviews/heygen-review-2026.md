@@ -136,6 +136,22 @@ No. The watermark is removed on paid plans starting at $48/month.
 **What languages are supported?**
 40+ languages including English, Spanish, French, German, Mandarin, Japanese, and Arabic.
 
+## What Users Say (Real Product Hunt Reviews)
+
+HeyGen has a 4.3/5 rating on Product Hunt from 68 reviews. The community summarizes: "Reviewers mostly praise HeyGen for making AI avatar videos easy to produce, with especially strong feedback on realistic avatars, useful dubbing and translation, and time or cost savings."
+
+**Jacopo Olivieri**: "I'm genuinely impressed by HeyGen's Avatar IV. From a single photo and a short script, Avatar IV creates a fully-animated, expressive video avatar — complete with lip sync, facial micro-expressions, natural head movements, and even hand gestures. The results feel remarkably human."
+
+**Gianna Raphael Lim** (critical review): "I paid 2 months subscriptions and honestly I highly DO NOT RECOMMEND this AI tool. The Avatar IV doesn't even work properly with the lip sync. In a day, you will notice at least more than 10 times broken links. Customer support did not really understand the products."
+
+**Benjamin Amann**: "I had been very happy with HeyGen up until now. Then, out of the blue, the number of translation minutes was reduced overnight. When I signed up, I was promised unlimited minutes. Suddenly, it's limited to 120 minutes per month. I've never experienced such poor treatment of customers anywhere else."
+
+Top pros mentioned by reviewers: AI avatars (13 mentions), easy to use (9), realistic avatars (6), cost saving (5), multilingual support (4). Top cons: subscription pricing (8), customer support (7), video processing time (6).
+
+— Product Hunt user reviews, 2025-2026
+
+## FAQ
+
 **Can I use HeyGen for commercial projects?**
 Yes. Paid plans include commercial usage rights. Free plan videos with watermarks are not suitable for professional use.
 
