@@ -1,0 +1,76 @@
+{
+  "date": "2026-06-05",
+  "target": 44,
+  "priority": "review > comparison > tutorial > workflow",
+  "notes": "Fresh articles targeting gaps in existing 489-article library. Focus on new tools, vertical AI, and deeper niche coverage.",
+  "batches": [
+    {
+      "type": "reviews",
+      "count": 20,
+      "articles": [
+        "claude-4-opus-coding-review-2026",
+        "google-veo-2-review-2026",
+        "mcp-server-marketplace-review-2026",
+        "openai-codex-cli-review-2026",
+        "claude-data-analysis-review-2026",
+        "perplexity-ai-pages-review-2026",
+        "gemini-advanced-2026-review",
+        "github-copilot-agent-mode-review-2026",
+        "ai-meeting-summary-tools-2026-review",
+        "replit-core-review-2026",
+        "bolt-new-review-2026",
+        "anthropic-mcp-ecosystem-review-2026",
+        "deepseek-chat-web-review-2026",
+        "cursor-tab-review-2026",
+        "elevenlabs-text-to-speech-review-2026",
+        "warp-terminal-review-2026",
+        "notion-ai-2026-review",
+        "chatgpt-search-review-2026",
+        "claude-artifacts-review-2026",
+        "ai-code-generator-hugging-face-review-2026"
+      ]
+    },
+    {
+      "type": "comparisons",
+      "count": 12,
+      "articles": [
+        "ai-coding-agents-2026-deep-comparison",
+        "ai-video-generators-veo-vs-sora-vs-runway-2026",
+        "mcp-vs-function-calling-2026",
+        "ai-notetakers-granola-vs-tactiq-vs-otter-2026",
+        "openai-vs-anthropic-vs-google-2026-ecosystem",
+        "ai-video-editing-descript-vs-riverside-vs-veed-2026",
+        "vercel-ai-sdk-vs-langchain-vs-openai-api-2026",
+        "local-llm-ollama-vs-lm-studio-vs-gpt4all-2026",
+        "ai-screenshot-tools-clean-shot-vs-shottr-vs-snagit-2026",
+        "ai-productivity-tools-superhuman-vs-motion-vs-akiflow-2026",
+        "browser-automation-browserbase-vs-puppeteer-vs-playwright-2026",
+        "ai-data-analysis-tools-2026-comparison"
+      ]
+    },
+    {
+      "type": "tutorials",
+      "count": 8,
+      "articles": [
+        "build-ai-research-agent-perplexity-2026",
+        "use-claude-code-mcp-tools-2026",
+        "build-python-app-cursor-cline-2026",
+        "deploy-ai-agent-pipeline-vercel-2026",
+        "create-faceless-youtube-ai-2026",
+        "automated-blog-seo-pipeline-2026",
+        "build-custom-slack-ai-bot-2026",
+        "master-gemini-2-web-search-2026"
+      ]
+    },
+    {
+      "type": "workflows",
+      "count": 4,
+      "articles": [
+        "ai-customer-feedback-analysis-workflow-2026",
+        "ai-legal-document-analysis-workflow-2026",
+        "ai-recruitment-automation-workflow-2026",
+        "ai-financial-reporting-workflow-2026"
+      ]
+    }
+  ]
+}
