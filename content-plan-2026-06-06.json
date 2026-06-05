@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-06",
+  "target": 43,
+  "priority": "review > comparison > tutorial > workflow",
+  "batches": [
+    {
+      "type": "reviews",
+      "count": 19,
+      "articles": [
+        {"slug": "claude-4-opus-coding-review-2026", "title": "Claude 4 Opus Review 2026 — Best AI Coding Assistant?"},
+        {"slug": "google-veo-2-review-2026", "title": "Google Veo 2 Review 2026 — AI Video Generation Deep Dive"},
+        {"slug": "mcp-server-marketplace-review-2026", "title": "MCP Server Marketplace Review 2026 — Protocol Ecosystem"},
+        {"slug": "openai-codex-cli-review-2026", "title": "OpenAI Codex CLI Review 2026 — Terminal-Based AI Coding"},
+        {"slug": "claude-data-analysis-review-2026", "title": "Claude Data Analysis Review 2026 — AI-Powered Analytics"},
+        {"slug": "perplexity-ai-pages-review-2026", "title": "Perplexity AI Pages Review 2026 — Interactive AI Publishing"},
+        {"slug": "gemini-advanced-2026-review", "title": "Gemini Advanced 2026 Review — Google's Premium AI Tier"},
+        {"slug": "github-copilot-agent-mode-review-2026", "title": "GitHub Copilot Agent Mode Review 2026 — Autonomous Coding"},
+        {"slug": "ai-meeting-summary-tools-2026-review", "title": "AI Meeting Summary Tools 2026 Review — Top 5 Compared"},
+        {"slug": "replit-core-review-2026", "title": "Replit Core Review 2026 — Collaborative AI Development"},
+        {"slug": "anthropic-mcp-ecosystem-review-2026", "title": "Anthropic MCP Ecosystem Review 2026 — Model Context Protocol"},
+        {"slug": "deepseek-chat-web-review-2026", "title": "DeepSeek Chat Web Review 2026 — Free AI Chat Experience"},
+        {"slug": "cursor-tab-review-2026", "title": "Cursor Tab Review 2026 — AI Code Completion Deep Dive"},
+        {"slug": "elevenlabs-text-to-speech-review-2026", "title": "ElevenLabs Text-to-Speech Review 2026 — Voice AI Quality"},
+        {"slug": "warp-terminal-review-2026", "title": "Warp Terminal Review 2026 — AI-Enhanced Terminal"},
+        {"slug": "notion-ai-2026-review", "title": "Notion AI 2026 Review — Workspace Intelligence"},
+        {"slug": "chatgpt-search-review-2026", "title": "ChatGPT Search Review 2026 — Real-Time Web Answers"},
+        {"slug": "claude-artifacts-review-2026", "title": "Claude Artifacts Review 2026 — AI Content Workspace"},
+        {"slug": "ai-code-generator-hugging-face-review-2026", "title": "Hugging Face AI Code Generator Review 2026"}
+      ]
+    },
+    {
+      "type": "comparisons",
+      "count": 12,
+      "articles": [
+        {"slug": "ai-coding-agents-2026-deep-comparison", "title": "AI Coding Agents 2026 Deep Comparison — Cursor vs Copilot vs Codex CLI vs Claude Code"},
+        {"slug": "ai-video-generators-veo-vs-sora-vs-runway-2026", "title": "Veo vs Sora vs Runway 2026 — AI Video Generators Compared"},
+        {"slug": "mcp-vs-function-calling-2026", "title": "MCP vs Function Calling 2026 — Which AI Integration Pattern Wins?"},
+        {"slug": "ai-notetakers-granola-vs-tactiq-vs-otter-2026", "title": "Granola vs Tactiq vs Otter 2026 — AI Note Takers Compared"},
+        {"slug": "openai-vs-anthropic-vs-google-2026-ecosystem", "title": "OpenAI vs Anthropic vs Google 2026 — AI Ecosystem Showdown"},
+        {"slug": "ai-video-editing-descript-vs-riverside-vs-veed-2026", "title": "Descript vs Riverside vs VEED 2026 — AI Video Editors Compared"},
+        {"slug": "vercel-ai-sdk-vs-langchain-vs-openai-api-2026", "title": "Vercel AI SDK vs LangChain vs OpenAI API 2026 — AI Dev Tools"},
+        {"slug": "local-llm-ollama-vs-lm-studio-vs-gpt4all-2026", "title": "Ollama vs LM Studio vs GPT4All 2026 — Local LLM Tools Compared"},
+        {"slug": "ai-screenshot-tools-clean-shot-vs-shottr-vs-snagit-2026", "title": "CleanShot vs Shottr vs Snagit 2026 — AI Screenshot Tools Compared"},
+        {"slug": "ai-productivity-tools-superhuman-vs-motion-vs-akiflow-2026", "title": "Superhuman vs Motion vs Akiflow 2026 — AI Productivity Tools"},
+        {"slug": "browser-automation-browserbase-vs-puppeteer-vs-playwright-2026", "title": "Browserbase vs Puppeteer vs Playwright 2026 — Browser Automation"},
+        {"slug": "ai-data-analysis-tools-2026-comparison", "title": "AI Data Analysis Tools 2026 Comparison — Tableau vs Power BI vs Looker"}
+      ]
+    },
+    {
+      "type": "tutorials",
+      "count": 8,
+      "articles": [
+        {"slug": "build-ai-research-agent-perplexity-2026", "title": "How to Build an AI Research Agent with Perplexity in 2026"},
+        {"slug": "use-claude-code-mcp-tools-2026", "title": "How to Use Claude Code with MCP Tools in 2026"},
+        {"slug": "build-python-app-cursor-cline-2026", "title": "Build a Python App with Cursor and Cline in 2026"},
+        {"slug": "deploy-ai-agent-pipeline-vercel-2026", "title": "Deploy an AI Agent Pipeline on Vercel in 2026"},
+        {"slug": "create-faceless-youtube-ai-2026", "title": "Create a Faceless YouTube Channel with AI in 2026"},
+        {"slug": "automated-blog-seo-pipeline-2026", "title": "Automated Blog SEO Pipeline with AI in 2026"},
+        {"slug": "build-custom-slack-ai-bot-2026", "title": "Build a Custom Slack AI Bot in 2026"},
+        {"slug": "master-gemini-2-web-search-2026", "title": "Master Gemini 2 Web Search in 2026"}
+      ]
+    },
+    {
+      "type": "workflows",
+      "count": 4,
+      "articles": [
+        {"slug": "ai-customer-feedback-analysis-workflow-2026", "title": "AI Customer Feedback Analysis Workflow 2026"},
+        {"slug": "ai-legal-document-analysis-workflow-2026", "title": "AI Legal Document Analysis Workflow 2026"},
+        {"slug": "ai-recruitment-automation-workflow-2026", "title": "AI Recruitment Automation Workflow 2026"},
+        {"slug": "ai-financial-reporting-workflow-2026", "title": "AI Financial Reporting Workflow 2026"}
+      ]
+    }
+  ]
+}
