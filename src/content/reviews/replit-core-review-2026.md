@@ -99,4 +99,16 @@ Replit Core wins on speed and accessibility. It loses on depth and flexibility.
 
 Replit Core earns an **8.1/10** in 2026. It is the fastest way from idea to running application. The Replit Agent is impressive for MVPs and prototypes. The zero-setup environment eliminates the friction of traditional development. For production-grade work, you will eventually hit limits. For rapid prototyping, learning, and collaboration, Replit Core is excellent. The effort-based pricing is fair but requires attention to avoid surprises.
 
+## What Users Say
+
+G2 reviewers rate Replit 4.5/5 from 354 verified reviews. Bruce S., a small-business owner, built an MVP in just 2 days: "After getting introduced to Replit in early December 2025, I created the app from my old notes and specifications. 2 days later I had a working MVP."
+
+LuRae L., a founder, calls it "incredibly inexpensive" and says: "I've been able to turn flat PDF premiums into interactive online apps in minutes leveraging my content with Claude.ai and Replit."
+
+Varun S., a Director, spent $5,000+ on Replit. His warning matches our pricing concerns: "Credits are issued monthly... During heavy app development, I burned through monthly credits and got hit with daily overage charges."
+
+Filippo C., a Strategic Advisor, gave 0/5 on G2: "The billing system is confusing and feels designed to generate extra charges rather than help users."
+
+The consensus: Replit's core product is excellent for rapid prototyping. The billing system needs improvement. Users love the speed but warn about credit management.
+
 **Bottom line:** Replit Core is the fastest way to build and ship an idea. Use it for MVPs and prototypes. Move to robust tooling for production.

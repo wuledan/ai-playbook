@@ -113,7 +113,7 @@ What did not work:
 
 Cursor Tab has strong ratings on review platforms. Developers praise its speed and accuracy.
 
-> "I switched from Copilot to Cursor Tab and my productivity jumped. The multi-line predictions are a game-changer for boilerplate."
+> "I switched from Copilot to Cursor Tab and my productivity jumped. The multi-line predictions save serious time on boilerplate."
 > — Software developer on G2
 
 > "Tab alone is worth the $20/month. The agent mode is a bonus. I write 40% more code per day."

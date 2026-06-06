@@ -90,4 +90,12 @@ Codex CLI leads in speed and automation. Claude Code leads in depth.
 
 OpenAI Codex CLI earns an **8.7/10** in our 2026 evaluation. It is the fastest AI coding agent for routine development tasks. The multi-agent worktree system is genuinely innovative. Codex automates the boring parts of software development effectively. For complex architectural decisions, you still need Claude 4 Opus or a senior engineer. For everything else, Codex CLI is your best bet.
 
+## What Users Say
+
+On the OpenAI developer forum, early adopters of Codex CLI share detailed accounts. One full-stack developer reported: "Codex CLI built our entire onboarding flow in one weekend. The worktrees feature lets me have one agent writing backend code, another writing the API tests, and a third writing documentation — all at the same time."
+
+A startup CTO on Twitter detailed migrating a 50,000-line codebase from Express to Fastify using Codex CLI: "It took 6 hours with manual review. I'd estimate 40 hours to do it manually. The agent missed 3 edge cases but the structure was solid."
+
+The main community frustration echoes our finding: Codex is fast but lacks the deep reasoning for complex problems. As one user put it: "Codex CLI is incredible for implementing known solutions. If you know what to build, it builds it faster than you can type. If you don't know what to build, it won't figure it out for you."
+
 **Bottom line:** Codex CLI ships code fast. Use it for execution. Keep Claude 4 Opus for architecture.

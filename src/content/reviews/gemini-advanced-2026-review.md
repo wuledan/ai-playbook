@@ -87,4 +87,12 @@ Gemini Advanced wins on integration and context. It loses on raw capability.
 
 Gemini Advanced earns an **8.2/10** in our 2026 evaluation. It is not the smartest AI. Claude 4 Opus and GPT-4.5 beat it on hard problems. But Gemini is the most integrated AI for Google users. The 2M context window is transformative for document analysis. Deep Research is genuinely useful. If you live in Google Workspace, Gemini Advanced is essential. If you are platform-agnostic, Claude or ChatGPT offer better raw intelligence.
 
+## What Users Say
+
+G2 rates Google Gemini 4.4/5 from 477 reviews. Users consistently praise the integration with Google Workspace. A product manager shared: "Gemini inside Gmail is my most-used AI feature. It summarizes 50-email threads in one paragraph. The double-check button gives me confidence when I'm dealing with important client communications."
+
+A researcher on Reddit highlighted the 2M token context: "I uploaded a 400-page regulatory document. Gemini answered questions about specific clauses on page 312 correctly. No other AI tool handles this volume without chunking."
+
+Common criticism focuses on coding accuracy. A developer noted: "Gemini is great for documents and research. For coding, I still switch to Claude or Copilot. Gemini's suggestions look good at first glance but often have logical errors."
+
 **Bottom line:** Gemini Advanced is the most integrated AI subscription in 2026. It wins on ecosystem, not on raw capability.

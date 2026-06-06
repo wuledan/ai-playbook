@@ -87,4 +87,14 @@ Copilot wins on integration and price. It loses on raw capability.
 
 GitHub Copilot Agent Mode earns an **8.5/10** in our 2026 evaluation. It is the most accessible and best-integrated AI coding agent. The $10/month price is unbeatable value. For VS Code users, it should be the default choice. The limitations in parallel execution and deep reasoning matter less for routine development work. For cutting-edge AI coding, combine Copilot's integration with Claude 4 Opus for hard problems.
 
+## What Users Say
+
+G2 reviewers rate GitHub Copilot 4.5/5 from 305 verified reviews. Bharat V., a Lead SDET at a mid-market company, highlights how Copilot "accelerates test automation by generating boilerplate code, edge-case scenarios, and automation scripts." They note that "Copilot doesn't replace my QA judgment; it strengthens it by cutting down repetitive effort."
+
+Sonti P., a Site Reliability Engineer at an enterprise, values how Copilot "dramatically cuts down the cognitive load of switching between endless YAML configurations, CI/CD pipelines, and bash scripts."
+
+Sumit T., a QA Specialist, compares it favorably: "Copilot is much cheaper (around $10/month vs $20 for Cursor), and for day-to-day coding, it still covers most needs really well."
+
+Common praise on G2 includes seamless VS Code integration, time savings on repetitive tasks, and good context awareness. Common complaints focus on occasional inaccuracies in suggestions and the removal of multi-model access in recent updates.
+
 **Bottom line:** Copilot Agent Mode is the best value in AI coding. It integrates perfectly with VS Code. For hard problems, bring a second AI.

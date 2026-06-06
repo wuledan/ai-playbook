@@ -95,4 +95,14 @@ Summary quality:
 
 AI meeting summary tools earn an **8.0/10** as a category in 2026. They save 2–4 hours per week per user. Fireflies is the most complete option for teams. Granola is the best pick for accuracy and privacy. Tactiq is the best value. The technology is good enough to replace manual notetaking. Pick based on your privacy needs and budget. All five will improve your meeting productivity.
 
+## What Users Say
+
+Fireflies.ai leads on G2 with 4.7/5 from 749 verified reviews. Denis M., an HR Product Manager, praises the automated summaries: "They eliminate the need for anyone to take manual notes during client calls or internal team syncs... Everyone can stay fully present in the conversation." He also calls the "Fireflies MCP + ChatGPT Agents an insane combo for productivity."
+
+Peter B., a Director of CX Acceleration, notes Fireflies' speaker attribution is a key differentiator: "Unlike other AI notetakers, Fireflies is able to decipher who is speaking and attribute their words to them. This is super helpful for delegating tasks."
+
+Rafael A., a Sales Manager, writes: "The summaries are surprisingly accurate, and it integrates smoothly with tools like Zoom and Google Meet."
+
+Common complaints across reviews include background noise affecting transcription accuracy and concerns about billing transparency with AI credits.
+
 **Bottom line:** AI meeting summaries are ready for prime time in 2026. Pick one. Save hours of manual notetaking every week.

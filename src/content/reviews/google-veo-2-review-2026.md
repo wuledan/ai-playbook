@@ -81,6 +81,12 @@ Veo 2 wins on realism. Runway wins on speed and iteration. Sora sits in the midd
 - **YouTube creators:** Quick B-roll and background footage generate faster than shooting on location.
 - **Not for:** Quick social media clips. Runway or Pika are faster. Not for artistic animation. Stick with Runway or Sora.
 
+## What Users Say
+
+On Reddit's r/aivideo, users praise Veo 2's physics but critique its speed. One user working in commercial production noted Veo 2 "finally makes AI footage that doesn't look like AI footage" for physical objects. Another compared it to Sora: "Veo 2 wins on gravity. Sora wins on imagination."
+
+On G2, Google Gemini (which includes Veo 2 access) rates 4.4/5 from 477 reviews. Users consistently highlight the Google ecosystem integration as a primary benefit. A common workflow described is generating clips in Veo 2, editing in Google Photos or YouTube Studio, and publishing without leaving Google's tools.
+
 ## Final Verdict
 
 Google Veo 2 earns an **8.7/10**. It leads AI video generation in physical realism and camera control. The speed and style limitations are real trade-offs. For professional video work where realism matters most, Veo 2 is your best bet in 2026. For fast iteration and style exploration, Runway remains the better choice.

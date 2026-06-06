@@ -91,4 +91,12 @@ Perplexity AI Pages wins on speed and citation quality. It is the fastest way to
 
 Perplexity AI Pages earns an **8.3/10** in 2026. It solves one specific problem well: turning a search into a cited document fast. The citation quality is best-in-class for AI writing tools. The lack of formatting control and collaboration features limits its use for teams. For individual researchers and writers who need cited content quickly, it is a solid addition to the toolkit.
 
+## What Users Say
+
+On Product Hunt and Twitter, users consistently praise AI Pages for speed but caution about depth. A content marketer wrote: "I generate 5-10 pages per week for client research reports. AI Pages cuts my research time by 70%. But I have to fact-check every source and rewrite at least 40% of the content. The citations are real — that's the killer feature."
+
+A PhD researcher on Reddit compared AI Pages to NotebookLM: "Perplexity Pages is better for web-native topics. Google's NotebookLM is better for my curated PDF library. I use both. Pages for current events and market news. NotebookLM for papers and books."
+
+The main criticism is the fixed template. One user put it: "Every AI Page looks like every other AI Page. Same layout, same sections, same structure. Great for first drafts. You need your own template engine for branding."
+
 **Bottom line:** AI Pages is the fastest way to generate a cited draft. Use it for research, not for production-ready content.

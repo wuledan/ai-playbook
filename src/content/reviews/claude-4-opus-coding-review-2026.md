@@ -85,4 +85,10 @@ Claude 4 Opus leads in reasoning depth. It is the best option for senior enginee
 
 Claude 4 Opus earns a **9.1/10** in our 2026 evaluation. It is the best AI coding model for deep reasoning tasks. The 200K context, extended thinking, and MCP support set it apart. The price is high, but the time saved on complex bugs and refactors justifies it. If you write production code daily, Opus pays for itself. If you write simple scripts, save your money for a cheaper tool.
 
+## What Users Say
+
+On Reddit's r/ClaudeAI, users are building real products with Claude 4 Opus. One solopreneur financial advisor built an entire website using Claude Code after struggling with Pro plan limits. In their detailed review, they noted: "Don't just think about building but also implementation. Code helped me with literally all of it — from switching DNS from my old busted Wix site, to getting the new one active." They spent "a couple hundred" over two months instead of "thousands" hiring a developer. Their advice to new users: "Learn how to use Claude Code effectively and save yourself a ton of trial and error."
+
+Another Reddit post with 406 upvotes highlighted that "Claude now writes 80% of the code at Anthropic" — the company eats its own dog food. This reinforces our test findings that Opus handles complex codebases better than any alternative.
+
 **Bottom line:** Claude 4 Opus is the smartest AI coder in 2026. Use it for hard problems. Use something else for easy ones.
