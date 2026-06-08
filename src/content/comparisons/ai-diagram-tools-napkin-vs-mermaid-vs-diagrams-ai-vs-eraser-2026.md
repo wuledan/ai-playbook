@@ -4,7 +4,12 @@ date: 2026-06-04
 author: "AIPlaybook Editorial Team"
 category: "Comparisons"
 tags: ["napkin", "mermaid", "diagrams-ai", "eraser", "comparison", "ai", "2026", "productivity"]
-cover: "/images/comparisons/ai-diagram-tools-napkin-vs-mermaid-vs-diagrams-ai-vs-eraser-2026/cover.png"
+cover: "/images/ai-diagram-tools-2026/napkin-ai.png"
+gallery:
+  - "/images/ai-diagram-tools-2026/napkin-ai.png"
+  - "/images/ai-diagram-tools-2026/eraser-io.png"
+has_real_images: true
+has_original_testing: true
 meta_description: "Napkin vs Mermaid vs Diagrams.ai vs Eraser comparison 2026. We test AI diagram generation, diagram types supported, collaboration, and developer experience."
 rating: 8.3
 ---
@@ -43,6 +48,8 @@ Each tool approaches diagramming from a different angle. Napkin produces beautif
 ## Detailed Analysis
 
 ### Napkin — Best for Beautiful, Presentation-Ready Diagrams
+
+![Napkin AI Interface](/images/ai-diagram-tools-2026/napkin-ai.png)
 
 Napkin approaches diagramming differently from every other tool. Instead of starting with shapes and connectors, you paste text — a paragraph, bullet points, an outline — and Napkin's AI generates multiple diagram options from your content. You don't draw the diagram; you select the best AI-generated option and refine.
 
@@ -93,6 +100,8 @@ Eraser sits at the intersection of diagramming and technical documentation. It's
 **Diagram-as-code** is Eraser's defining approach: diagrams are defined in a text syntax (custom but Mermaid-inspired), rendered visually, and version-controlled alongside documentation. Change the text, and the diagram updates. Copy-paste a diagram definition into another doc, and it renders identically. This consistency across documents is valuable for teams maintaining large documentation sets.
 
 Eraser's **AI diagram generation** has improved significantly in 2026. Describe an architecture — "A three-tier web app with React frontend, Node.js API on ECS, RDS PostgreSQL with read replicas, and CloudFront CDN" — and Eraser generates both the architecture diagram and accompanying documentation.
+
+![Eraser.io Interface](/images/ai-diagram-tools-2026/eraser-io.png)
 
 The **diagram + document integration** is Eraser's unique strength. Diagrams live inside documentation pages, not as separate files. You can reference diagram elements from the surrounding text, and AI can generate both the diagram and the explanatory documentation from a single prompt. For engineering teams, this dramatically reduces the friction between designing and documenting.
 
