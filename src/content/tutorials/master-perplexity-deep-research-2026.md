@@ -5,7 +5,11 @@ author: "AIPlaybook Editorial Team"
 category: "Tutorials"
 tags: ["tutorial", "2026", "perplexity", "deep-research", "ai-search", "research-tools"]
 cover: "/images/tutorials/master-perplexity-deep-research-2026/cover.png"
+screenshots:
+  - "/images/tutorials/master-perplexity-deep-research-2026/deep-research-interface.png"
+  - "/images/tutorials/master-perplexity-deep-research-2026/search-results.png"
 difficulty: beginner
+updated: 2026-06-09
 meta_description: "Master Perplexity Deep Research in 2026. Complete guide covering research, report generation, source triangulation, and integration into workflows."
 ---
 
@@ -24,9 +28,8 @@ For professionals — analysts, consultants, journalists, investors, and student
 - **Reference manager** (optional) — Zotero or Notion for saving reports
 - **A research question** — something specific you want to investigate
 
-## Step-by-Step
-
-### Step 1: Understand Deep Research vs Standard Search
+![Perplexity Deep Research main interface](/images/tutorials/master-perplexity-deep-research-2026/deep-research-interface.png)
+*The Perplexity AI main search interface showing the query input field, focus options (All, Academic, Pro), and source toggle for Deep Research mode.*
 
 | Feature | Standard Perplexity | Deep Research |
 |---------|-------------------|---------------|
@@ -66,6 +69,9 @@ and G2 reviews."
 3. **Scope** — Parameters like date range, geography, competitors
 4. **Format** — How you want the output structured
 5. **Sources** — Preferred source types (company official sites, media, reviews)
+
+![Perplexity search results page showing a deep research query in progress](/images/tutorials/master-perplexity-deep-research-2026/search-results.png)
+*Deep Research in action — Perplexity conducts iterative searches, cross-references sources, and builds a comprehensive report with cited findings and source links.*
 
 ### Step 3: Execute Your First Deep Research
 
