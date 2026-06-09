@@ -33,6 +33,10 @@ price: "Free (AI trial) / Plus $10/seat/mo (AI trial) / Business $20/seat/mo (AI
 
 Notion AI in 2026 has evolved from a simple writing assistant into a full-fledged AI workspace with autonomous agents, enterprise search, and meeting intelligence. The 2026 updates — particularly **Notion Agents** and **Enterprise Search** — make Notion AI a serious productivity platform rather than just a text generator glued onto a note-taking app.
 
+![Notion AI landing page showing the AI-powered workspace features](/images/reviews/notion-ai-review-2026/notion-ai-interface.png)
+
+*Notion's AI product page showcasing the integrated AI writing assistant and workspace intelligence features available in 2026.*
+
 After testing Notion AI across 30+ real-world scenarios over two weeks, we rate it **8.3/10**. The AI writing is solid (competitive with dedicated tools like Grammarly and Jasper), the Q&A search is genuinely useful for large workspaces, and Notion Agents represent the most interesting AI automation play in the productivity space.
 
 **Is it worth the upgrade?** For existing Notion users on Free or Plus, the Business plan at $20/seat/mo is a meaningful investment. You need to be actively using Notion as your primary workspace to justify it. But if you are — and especially if your team generates lots of meeting notes, documentation, and project data — the AI features will save 5-8 hours per person per week.
@@ -44,6 +48,10 @@ After testing Notion AI across 30+ real-world scenarios over two weeks, we rate 
 ### Notion AI Core — Writing, Chat & Autofill
 
 The baseline AI layer available (in limited trial) on all plans includes:
+
+![Notion AI features page — AI writing, enterprise search, and Notion Agents](/images/reviews/notion-ai-review-2026/notion-ai-features.png)
+
+*The Notion AI platform overview showing the key AI capabilities: AI writing assistant, enterprise search, autonomous agents, and meeting intelligence.*
 
 - **AI Writing**: Generate blog posts, emails, meeting agendas, project briefs, and documentation within Notion. The AI understands your workspace context — it can pull data from linked databases, referenced pages, and team members' tasks. We tested 25 writing prompts; content quality was usable with minor edits in 80% of cases.
 

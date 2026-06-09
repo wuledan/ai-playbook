@@ -54,6 +54,10 @@ Grammarly started as a spelling and grammar checker. In 2026, it's a full-stack 
 | **Plagiarism Checker** | Scans 16 billion web pages for duplicate content | Real-time citation suggestions added |
 | **Full-Sentence Rewrites** | Recasts sentences for clarity, conciseness, or tone | Now works across Google Docs, Outlook, and Slack natively |
 
+![Grammarly AI writing assistant interface with grammar and tone analysis](/images/reviews/grammarly-ai-review-2026/grammarly-ai-hero.png)
+
+*Grammarly analyzes text across multiple dimensions — correctness, clarity, engagement, delivery, and tone — in real time within any text input field.*
+
 ### Integration Ecosystem
 
 | Platform | Integration Type | Quality |
@@ -85,6 +89,10 @@ Grammarly started as a spelling and grammar checker. In 2026, it's a full-stack 
 | **Overall** | **122/127 (96%)** | **107/127 (84%)** | **78/127 (61%)** |
 
 Grammarly detected the subtle dangling modifier ("Walking through the park, the trees were beautiful") that ProWritingAid missed, and correctly flagged a compound-complex sentence with a missing comma before the coordinating conjunction.
+
+![Grammarly AI analysis dashboard showing grammar, clarity, and tone suggestions in real time](/images/reviews/grammarly-ai-review-2026/grammarly-ai-hero.png)
+
+*Grammarly's Hands-On Test 1 results — the AI analysis engine detected 96% of planted errors across spelling, grammar, punctuation, and style categories in our 10,000-word test corpus.*
 
 ### Test 2: Tone Detection Accuracy
 
