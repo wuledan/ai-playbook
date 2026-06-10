@@ -41,6 +41,8 @@ Raycast has evolved from "Alfred alternative" to "macOS command center" — and 
 
 ## What is Raycast AI?
 
+![Raycast AI main interface showing the command palette and extensions](/images/raycast-ai-review-2026/raycast-homepage.jpg "Raycast AI Command Palette — The central hub for launcher, extensions, and AI features")
+
 Raycast is a macOS productivity launcher that has grown into a full platform. At its core, it's a command palette (⌘+Space) that lets you launch apps, run commands, search files, and manage your system — all from the keyboard. But Raycast's real power comes from its extension ecosystem (1,500+ integrations), built-in utilities (clipboard history, snippets, window management, calculator, calendar), and AI features that bring LLM capabilities directly into the command palette.
 
 | Feature | Description | How It Differs |
@@ -63,6 +65,8 @@ Raycast is a macOS productivity launcher that has grown into a full platform. At
 ### Feature 1: AI Commands in the Launcher
 
 Raycast AI integrates LLM capabilities directly into the command palette. Instead of opening ChatGPT in a browser, copying text, pasting it, and copying the result back — you select text, invoke Raycast, and choose an AI command.
+
+![Raycast Pro AI features — AI commands, Quick AI, and extensions panel](/images/raycast-ai-review-2026/raycast-ai-features.jpg "Raycast Pro AI subscription plan with AI commands, cloud sync, and premium features")
 
 **Built-in AI Commands we use daily:**
 

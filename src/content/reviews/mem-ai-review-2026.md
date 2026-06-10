@@ -41,6 +41,8 @@ Mem is the AI-native notes app that rethinks what a knowledge management tool sh
 
 ## What is Mem AI?
 
+![Mem AI interface showing the AI-native knowledge management workspace](/images/mem-ai-review-2026/mem-homepage.jpg "Mem AI — AI-powered auto-organization and knowledge graph in an AI-native notes app")
+
 Mem is an AI-native note-taking application launched in 2021, designed with the philosophy that AI should handle organization so humans can focus on thinking. Unlike Notion (which starts with structure) or Obsidian (which starts with manual linking), Mem's core proposition is that you should simply write — and the AI will figure out where things belong.
 
 | Feature | Description | How It Differs |
@@ -76,6 +78,8 @@ The centerpiece of Mem. Every note you create is automatically analyzed, tagged,
 - False connections (notes linked but truly unrelated) occurred at ~5% — usually when two notes shared a common word but different contexts ("Apple" the company vs "apple" the fruit)
 
 **The real value:** After 2 weeks, Mem started surfacing notes we'd written on Day 2 when we created a related note on Day 14. This "passive recall" is Mem's killer feature — notes don't get buried in folders and forgotten.
+
+![Mem AI pricing tiers — Free vs Mem X vs Teams plan comparison](/images/mem-ai-review-2026/mem-features.jpg "Mem AI subscription plans showing core features, AI capabilities across tiers")
 
 ### Feature 2: Mem Chat
 

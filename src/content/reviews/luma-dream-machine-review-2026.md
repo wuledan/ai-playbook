@@ -41,6 +41,8 @@ Luma Dream Machine has carved out a distinctive position in the AI video generat
 
 ## What is Luma Dream Machine?
 
+![Luma Dream Machine AI video generation platform showing the text-to-video interface](/images/luma-dream-machine-review-2026/luma-homepage.jpg "Luma Dream Machine — AI video generation with cinematic camera motion and fast rendering")
+
 Luma Dream Machine is an AI video generation model developed by Luma AI, the company behind the Luma 3D scanning app. Released in mid-2024, Dream Machine was one of the first commercially viable text-to-video models that didn't require enterprise-grade hardware or $100+/month subscriptions. By 2026, Dream Machine has evolved through multiple major updates with improved temporal consistency, faster generation, and higher resolution output.
 
 | Feature | Description | 2026 Improvements |
@@ -81,6 +83,8 @@ Dream Machine's text-to-video generation produces 5-second clips from natural la
 - "Anime-style character walking through a neon-lit Tokyo street at night, rain reflecting city lights" → 4/5 — lighting and atmosphere were stunning; character walk cycle had minor frame-to-frame inconsistencies
 
 **Overall text-to-video score:** 3.9/5 across 50 prompts. Dream Machine excels at landscapes, architecture, and atmospheric scenes. It struggles with close-up human faces, text rendering, and fine mechanical details.
+
+![Luma Dream Machine interface for text-to-video and image-to-video generation](/images/luma-dream-machine-review-2026/luma-dream-machine.jpg "Luma Dream Machine — Dream Machine platform for generating AI video clips with camera control")
 
 ### Feature 2: Video-to-Video Extension
 
