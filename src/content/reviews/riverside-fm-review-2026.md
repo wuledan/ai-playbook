@@ -41,7 +41,11 @@ Riverside.fm has evolved from a remote recording tool into a comprehensive AI-po
 
 ## What is Riverside.fm?
 
+![Riverside.fm AI-powered podcast recording platform homepage](/images/riverside-fm-review-2026/riverside-homepage.jpg "Riverside.fm — Professional podcast recording with local WAV and AI editing tools")
+
 Riverside.fm is a remote recording platform that captures each participant's audio and video locally (on their device) rather than relying on compressed internet streams. This approach, combined with AI-powered editing, transcription, and clip generation, positions Riverside as an end-to-end podcast production studio — not just a recording tool.
+
+![Riverside.fm features page showing AI editing, Magic Clips, and recording capabilities](/images/riverside-fm-review-2026/riverside-features.jpg "Riverside.fm — AI text-based editor and Magic Clips for social media content")
 
 | Feature | Description | 2026 Improvements |
 |---------|-------------|-------------------|

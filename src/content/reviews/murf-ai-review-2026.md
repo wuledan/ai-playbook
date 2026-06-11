@@ -35,11 +35,15 @@ Murf AI has established itself as one of the most polished text-to-speech platfo
 
 After testing 40+ voice combinations across English, Spanish, German, French, and Japanese, and producing 15+ complete voiceover projects, we rate Murf AI **8.2/10**. The voice quality is among the best in the dedicated TTS space — natural, varied, and controllable. The pronunciation controls (Say It My Way, Emphasis, Variability) solve real problems that plague other TTS tools, particularly for technical and branded content.
 
+![Murf AI voice generation platform with 200+ AI voices across 30+ languages](/images/murf-ai-review-2026/murf-homepage.jpg "Murf AI — Text-to-speech platform with voice styles, accents, and pronunciation controls")
+
 **Is it worth it?** For anyone producing regular voiceover content — e-learning modules, YouTube videos, explainer videos, corporate presentations — Murf's Creator plan at $19/mo is good value. For heavy users producing 4+ hours of voiceover monthly, the Business plan at $66/mo is necessary but expensive compared to alternatives like ElevenLabs ($5/mo Starter for basic voice cloning).
 
 ---
 
 ## Features Deep Dive
+
+![Murf AI pricing plans — Creator, Business, and Enterprise tiers for voice generation](/images/murf-ai-review-2026/murf-pricing.jpg "Murf AI subscription pricing with voice generation minutes and features per plan")
 
 ### Voice Library — 200+ Voices Across 30+ Languages
 

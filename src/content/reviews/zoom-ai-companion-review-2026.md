@@ -35,11 +35,15 @@ Zoom AI Companion is the most underrated meeting AI tool in 2026 — not because
 
 After testing Zoom AI Companion across 25+ real meetings over two weeks with a team of 8, we rate it **8.0/10**. The core features — automatic meeting summaries, smart recordings with chapter markers, in-meeting AI chat, and action item extraction — work reliably for standard business meetings. The seamless native integration (no bots, no setup) is a massive advantage over competitors that require invite-based bot joining.
 
+![Zoom AI Companion — meeting summaries, smart recordings, and AI chat features](/images/zoom-ai-companion-review-2026/zoom-homepage.jpg "Zoom AI Companion interface showing meeting summary, smart chapters, and action items")
+
 **Who should use it?** If your team already uses Zoom Workplace (Pro or higher), you should absolutely turn on AI Companion — there's zero additional cost and no learning curve. If you need cross-platform meeting intelligence (Google Meet, Teams) or deeper features like CRM syncing and coaching analytics, you'll want a dedicated tool. But for Zoom-native teams, this is the easiest meeting AI decision you'll make all year.
 
 ---
 
 ## Features Deep Dive
+
+![Zoom AI Companion product page showing cross-platform AI features and integrations](/images/zoom-ai-companion-review-2026/zoom-features.jpg "Zoom AI Companion — AI-powered meeting intelligence with smart recording and chat")
 
 ### AI Meeting Summary
 
