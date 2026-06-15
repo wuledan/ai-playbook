@@ -1,12 +1,18 @@
 ---
 title: "Gamma AI Review 2026: Create Presentations, Docs, and Websites in Seconds"
 date: 2026-05-23 00:00:00
+updated: 2026-06-16
 author: "AIPlaybook Editorial Team"
 category: "Productivity"
 tags: ["gamma", "ai-presentations", "document-generation", "productivity", "review"]
-cover: "/images/reviews/gamma-ai-review-2026/cover.jpg"
+cover: "/images/reviews/gamma-ai-review-2026/gamma-homepage.png"
 meta_description: "Hands-on Gamma AI review for 2026. We test its AI presentation, document, and webpage generation with real business use cases and compare it to traditional tools."
 rating: 8.2
+quality: "Silver"
+has_real_images: true
+gallery:
+  - "/images/reviews/gamma-ai-review-2026/gamma-homepage.png"
+  - "/images/reviews/gamma-ai-review-2026/gamma-editor.png"
 dimensions:
   ease-of-use: 9
   features: 7

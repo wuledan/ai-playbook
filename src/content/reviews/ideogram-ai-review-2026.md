@@ -1,12 +1,18 @@
 ---
 title: "Ideogram AI Review 2026 — Typography-First AI Image Generation"
 date: 2026-05-31
+updated: 2026-06-16
 author: "AIPlaybook Editorial Team"
 category: "Design"
 tags: [ideogram, ai-image-generation, text-to-image, design, typography, review]
-cover: "/images/reviews/ideogram-ai/cover.png"
+cover: "/images/reviews/ideogram-ai/ideogram-homepage.png"
 meta_description: "Deep review of Ideogram AI's image generation with focus on text rendering, Magic Prompt, resolution options, pricing, and how it compares to Midjourney and DALL·E 4."
 rating: 8.2
+quality: "Silver"
+has_real_images: true
+gallery:
+  - "/images/reviews/ideogram-ai/ideogram-homepage.png"
+  - "/images/reviews/ideogram-ai/ideogram-templates.png"
 dimensions:
   ease-of-use: 9
   features: 8

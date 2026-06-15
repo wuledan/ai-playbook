@@ -1,12 +1,18 @@
 ---
 title: "Perplexity Deep Research Review 2026: The Ultimate Research Companion?"
 date: 2026-06-02
+updated: 2026-06-16
 author: "AIPlaybook Editorial Team"
 category: "Research"
 tags: ["perplexity", "deep-research", "search", "ai", "2026", "review"]
-cover: "/images/reviews/perplexity-deep-research/cover.png"
+cover: "/images/reviews/perplexity-deep-research/perplexity-homepage.png"
 meta_description: "Perplexity Deep Research generates comprehensive reports with verified citations. We test Pro Search, source quality, pricing, and compare to Gemini Deep Research and ChatGPT."
 rating: 8.6
+quality: "Silver"
+has_real_images: true
+gallery:
+  - "/images/reviews/perplexity-deep-research/perplexity-homepage.png"
+  - "/images/reviews/perplexity-deep-research/perplexity-features.png"
 dimensions:
   ease-of-use: 9
   features: 9
