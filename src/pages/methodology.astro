@@ -1,0 +1,231 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Review Methodology — How We Test AI Tools" description="AI Playbook's 5-dimension scoring system explained. Every tool is tested hands-on across ease of use, features, value, performance, and ecosystem.">
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-8">Review Methodology</h1>
+
+    <div class="prose prose-gray max-w-none">
+      <p class="lead text-lg text-gray-600">
+        Every tool reviewed on AI Playbook goes through the same structured evaluation process.
+        We score across 5 dimensions, run real tasks, and compare against competitors.
+        Here's exactly how we do it.
+      </p>
+
+      <h2>Our 5-Dimension Scoring System</h2>
+      <p>
+        Each dimension is scored from 1-10. The overall rating is a weighted average,
+        with heavier weight on the dimensions most relevant to the tool's category.
+      </p>
+
+      <div class="bg-white border border-gray-200 rounded-xl p-6 my-8">
+        <h3 class="text-lg font-bold text-gray-900 mb-4">1. Ease of Use (1-10)</h3>
+        <p class="text-sm text-gray-600 mb-3">How intuitive is the interface? How fast can a new user get started?</p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">We evaluate:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>First-run experience</li>
+              <li>Learning curve</li>
+              <li>Interface clarity</li>
+              <li>Onboarding quality</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">9-10 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Zero learning curve</li>
+              <li>Intuitive even without tutorials</li>
+              <li>All features easy to find</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">4-6 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Needs tutorials</li>
+              <li>Some workflows confusing</li>
+              <li>Features buried in menus</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-8 mb-4">2. Features (1-10)</h3>
+        <p class="text-sm text-gray-600 mb-3">Depth and breadth of functionality. Does it do what it promises?</p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">We evaluate:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Core feature completeness</li>
+              <li>Advanced capabilities</li>
+              <li>Unique differentiators</li>
+              <li>Feature gaps vs competitors</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">9-10 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>All essential features present</li>
+              <li>Unique innovations</li>
+              <li>Regular feature updates</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">4-6 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Missing basic features</li>
+              <li>Features feel incomplete</li>
+              <li>Behind competitors</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-8 mb-4">3. Value for Money (1-10)</h3>
+        <p class="text-sm text-gray-600 mb-3">What you get versus what you pay.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">We evaluate:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Price vs feature set</li>
+              <li>Free tier generosity</li>
+              <li>Competitor pricing comparison</li>
+              <li>Hidden costs</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">9-10 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Significantly cheaper than competitors</li>
+              <li>Generous free tier</li>
+              <li>Clear, fair pricing</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">4-6 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Overpriced for features</li>
+              <li>Paywalls on basic features</li>
+              <li>Confusing pricing tiers</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-8 mb-4">4. Performance (1-10)</h3>
+        <p class="text-sm text-gray-600 mb-3">Speed, accuracy, reliability, and consistency in real-world use.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">We evaluate:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Response time (5+ measurements)</li>
+              <li>Output quality/accuracy</li>
+              <li>Uptime / error rate</li>
+              <li>Consistency across sessions</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">9-10 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Sub-second response times</li>
+              <li>Near 100% accuracy</li>
+              <li>Zero downtime in tests</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">4-6 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Slow or inconsistent</li>
+              <li>Frequent errors</li>
+              <li>Unstable output quality</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="text-lg font-bold text-gray-900 mt-8 mb-4">5. Support &amp; Ecosystem (1-10)</h3>
+        <p class="text-sm text-gray-600 mb-3">Documentation, community, integrations, and API quality.</p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">We evaluate:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Documentation quality</li>
+              <li>Community size</li>
+              <li>Third-party integrations</li>
+              <li>API quality (if applicable)</li>
+              <li>Customer support responsiveness</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">9-10 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Excellent docs with examples</li>
+              <li>Large, active community</li>
+              <li>Extensive integration library</li>
+            </ul>
+          </div>
+          <div class="p-3 bg-gray-50 rounded-lg">
+            <span class="font-medium text-gray-700">4-6 scores:</span>
+            <ul class="text-gray-500 mt-1 space-y-0.5">
+              <li>Poor or outdated documentation</li>
+              <li>Small community</li>
+              <li>Limited integrations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h2>Testing Process</h2>
+      <p>Every review follows these steps:</p>
+      <ol>
+        <li>
+          <strong>Account creation (Day 1).</strong> We sign up for the tool. We evaluate the onboarding
+          flow and first-run experience. We note what's behind a paywall.
+        </li>
+        <li>
+          <strong>Core task testing (Days 1-3).</strong> We run 3-5 real tasks that a typical user
+          would perform. For an AI coding tool: generate code, debug, refactor, integrate. For an
+          AI image tool: generate images, edit, upscale, export.
+        </li>
+        <li>
+          <strong>Benchmarking (Days 2-3).</strong> We run repeated tests to measure response times,
+          accuracy rates, and consistency. We record failures and edge cases.
+        </li>
+        <li>
+          <strong>Competitor comparison (Days 3-4).</strong> We test 2-3 competing tools on the same
+          tasks. This gives us a direct comparison baseline.
+        </li>
+        <li>
+          <strong>Scoring &amp; review (Day 5).</strong> We score across 5 dimensions, write the review,
+          list pros/cons, and produce buying recommendations.
+        </li>
+      </ol>
+      <p>
+        Total testing time per tool: <strong>5-10 hours</strong> spread over 3-5 days.
+      </p>
+
+      <h2>Review Freshness</h2>
+      <p>
+        AI tools change fast. Our policy:
+      </p>
+      <ul>
+        <li>Reviews younger than 3 months are considered current.</li>
+        <li>Reviews 3-6 months old are flagged "checked" — we verify pricing and feature claims.</li>
+        <li>Reviews older than 6 months are flagged for re-evaluation.</li>
+        <li>Major tool updates (new versions, pricing changes) trigger an immediate re-review.</li>
+      </ul>
+      <p>
+        Every article shows its <strong>test date</strong> in the header. If a tool has been updated
+        since our review, we note it.
+      </p>
+
+      <h2>Our Commitment</h2>
+      <p>
+        We don't accept payment for coverage. Affiliate commissions help fund our operations but
+        <strong>never influence our ratings or recommendations</strong>. Our scoring is designed to
+        be reproducible — if you test the same tool on the same tasks, you should get similar results.
+      </p>
+      <p>
+        Found an inaccuracy? <a href="mailto:corrections@aiplaybook.guide">Email us</a> and we'll
+        investigate and correct within 48 hours.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

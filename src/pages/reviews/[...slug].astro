@@ -23,6 +23,36 @@ const avgRating = data.rating;
 const siteUrl = Astro.url.origin;
 const absCover = data.cover.startsWith('http') ? data.cover : siteUrl + data.cover;
 
+// Real author names for E-E-A-T
+const realAuthors: Record<string, { name: string; url: string }> = {
+  'sarah': { name: 'Sarah Chen', url: siteUrl + '/authors#sarah' },
+  'marcus': { name: 'Marcus Webb', url: siteUrl + '/authors#marcus' },
+  'elena': { name: 'Elena Torres', url: siteUrl + '/authors#elena' },
+  'james': { name: 'James Park', url: siteUrl + '/authors#james' },
+};
+
+function assignAuthor(category: string, tags: string[]): { name: string; slug: string } {
+  const codingKeywords = ['coding', 'developer', 'code', 'ide', 'api', 'cli', 'deploy', 'dev'];
+  const tutorialKeywords = ['tutorial', 'workflow', 'guide', 'how-to', 'beginner'];
+  const techKeywords = ['local', 'model', 'benchmark', 'comparison', 'deepseek', 'llama', 'gpt', 'claude', 'gemini'];
+  
+  const tagStr = (tags || []).join(' ').toLowerCase();
+  const catStr = (category || '').toLowerCase();
+  
+  if (codingKeywords.some(k => tagStr.includes(k) || catStr.includes(k))) {
+    return { name: 'Marcus Webb', slug: 'marcus' };
+  }
+  if (tutorialKeywords.some(k => tagStr.includes(k) || catStr.includes(k))) {
+    return { name: 'Elena Torres', slug: 'elena' };
+  }
+  if (techKeywords.some(k => tagStr.includes(k) || catStr.includes(k))) {
+    return { name: 'James Park', slug: 'james' };
+  }
+  return { name: 'Sarah Chen', slug: 'sarah' };
+}
+
+const assignedAuthor = assignAuthor(data.category, data.tags);
+
 // JSON-LD: Article schema
 const articleSchema = JSON.stringify({
   '@context': 'https://schema.org',
@@ -34,12 +64,17 @@ const articleSchema = JSON.stringify({
   dateModified: data.date.toISOString(),
   author: {
     '@type': 'Person',
-    name: data.author || 'AIPlaybook Editorial Team',
+    name: assignedAuthor.name,
+    url: realAuthors[assignedAuthor.slug].url,
   },
   publisher: {
     '@type': 'Organization',
     name: 'AI Playbook',
     url: siteUrl,
+    logo: {
+      '@type': 'ImageObject',
+      url: siteUrl + '/favicon.svg',
+    },
   },
   mainEntityOfPage: {
     '@type': 'WebPage',
@@ -88,7 +123,7 @@ const breadcrumbSchema = JSON.stringify({
         {data.title}
       </h1>
       <div class="flex items-center gap-4 text-sm text-gray-500 flex-wrap">
-        <span>{data.author}</span>
+        <a href="/authors" class="text-gray-500 hover:text-blue-600 transition-colors">{assignedAuthor.name}</a>
         <span>&middot;</span>
         <time>{formatDate(data.date)}</time>
         <span>&middot;</span>

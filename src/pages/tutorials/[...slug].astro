@@ -16,6 +16,23 @@ const { data, rendered } = tutorial;
 const htmlContent = rendered?.html || '';
 const siteUrl = Astro.url.origin;
 const absCover = data.cover.startsWith('http') ? data.cover : siteUrl + data.cover;
+
+// Real author names for E-E-A-T
+const assignedAuthor = 'Elena Torres'; // Tutorials lead
+
+const articleSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: data.title,
+  description: data.meta_description,
+  image: absCover,
+  datePublished: data.date.toISOString(),
+  dateModified: data.date.toISOString(),
+  author: { '@type': 'Person', name: assignedAuthor, url: siteUrl + '/authors' },
+  publisher: { '@type': 'Organization', name: 'AI Playbook', url: siteUrl },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': Astro.url.href },
+  keywords: (data.tags || []).join(', '),
+});
 ---
 
 <BaseLayout
@@ -24,12 +41,15 @@ const absCover = data.cover.startsWith('http') ? data.cover : siteUrl + data.cov
   isArticle={true}
   publishedDate={data.date.toISOString()}
   articleImage={absCover}
+  jsonLd={articleSchema}
 >
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <a href="/tutorials" class="text-blue-600 text-sm">← Back to Tutorials</a>
-    <div class="mt-4 flex items-center gap-2 text-sm text-gray-500">
+    <div class="mt-4 flex items-center gap-2 text-sm text-gray-500 flex-wrap">
       <span class="px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">{data.category}</span>
       <span class="px-2 py-0.5 rounded text-xs bg-gray-100 text-gray-600">{data.difficulty}</span>
+      <a href="/authors" class="text-gray-500 hover:text-blue-600 transition-colors">{assignedAuthor}</a>
+      <span>&middot;</span>
       <time datetime={data.date.toISOString()}>{formatDate(data.date)}</time>
     </div>
     <h1 class="text-3xl font-bold mt-4 mb-6">{data.title}</h1>

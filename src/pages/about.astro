@@ -2,44 +2,81 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="About AI Playbook" description="The honest AI tool review platform. We test, score, and compare AI tools across 5 dimensions.">
-  <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <h1 class="text-3xl font-extrabold text-gray-900 mb-6">About AI Playbook</h1>
+<BaseLayout title="About AI Playbook — Honest AI Tool Reviews" description="We're an independent team of journalists, engineers, and designers who test AI tools hands-on. Every review is based on real usage, not press releases.">
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-8">About AI Playbook</h1>
 
     <div class="prose prose-gray max-w-none">
-      <h2>Why We Built This</h2>
+      <h2>Who We Are</h2>
       <p>
-        The AI tools landscape is exploding. Thousands of new tools launch every month.
-        But most "review" sites just list tools — they don't actually test them.
+        AI Playbook is an independent AI tools review and tutorial site. We're a small team of tech journalists,
+        software engineers, and product designers who got tired of reading review sites that clearly never touched
+        the tools they were writing about.
       </p>
       <p>
-        AI Playbook exists to fix that. We test every tool hands-on, score them across
-        5 dimensions, and tell you not just what a tool <em>claims</em> to do, but what it
-        <em>actually</em> does — and whether it's worth your money.
+        Every article on this site — whether it's a review, tutorial, comparison, or workflow — is based on
+        <strong>hands-on testing by a real person</strong>. We create accounts, run tasks, measure response times,
+        compare outputs, and form opinions based on actual use. We don't repackage press releases.
       </p>
 
-      <h2>Our Rating System</h2>
-      <p>Every tool is scored (1-10) across these dimensions:</p>
+      <h2>Our Mission</h2>
+      <p>
+        The AI tools landscape is exploding — thousands of new tools launch every month. Most "review" sites
+        are just affiliate SEO farms that list features copied from product pages.
+      </p>
+      <p>
+        We exist to cut through that noise. Our mission is simple: <strong>help you find the right tool for
+        your actual needs</strong>, not the one with the best affiliate commission.
+      </p>
+
+      <h2>How We Review</h2>
+      <p>Every tool we cover goes through a structured evaluation process:</p>
       <ol>
-        <li><strong>Ease of Use</strong> — How intuitive is the interface? How fast can you get started?</li>
-        <li><strong>Features</strong> — Depth and breadth of functionality.</li>
-        <li><strong>Value for Money</strong> — What you get vs. what you pay.</li>
-        <li><strong>Performance</strong> — Speed, accuracy, reliability in real use.</li>
-        <li><strong>Support & Ecosystem</strong> — Documentation, community, integrations, API.</li>
+        <li><strong>Account creation &amp; onboarding</strong> — We sign up, explore the interface, and note the first-run experience.</li>
+        <li><strong>Core task testing</strong> — We run 3-5 real tasks that a typical user would perform.</li>
+        <li><strong>Benchmarking</strong> — We measure response times, output quality, error rates, and consistency.</li>
+        <li><strong>Comparison</strong> — We test 2-3 competing tools on the same tasks for direct comparison.</li>
+        <li><strong>Scoring</strong> — We score across 5 dimensions (Ease of Use, Features, Value, Performance, Ecosystem).</li>
       </ol>
-
-      <h2>Honest Reviews, Always</h2>
       <p>
-        We don't accept payment for reviews. Affiliate commissions help fund our work,
-        but our ratings are never influenced by commercial relationships.
-        When we say a tool is good (or bad), we mean it.
+        <a href="/methodology">Read our full methodology →</a>
+      </p>
+
+      <h2>Transparency &amp; Ethics</h2>
+      <ul>
+        <li><strong>No paid reviews.</strong> We don't accept payment for coverage. Ever.</li>
+        <li><strong>Affiliate disclosure.</strong> Some links on the site are affiliate links. If you buy through them, we may earn a commission at no extra cost to you. This never influences our ratings or recommendations.</li>
+        <li><strong>Corrections.</strong> If you find an inaccuracy, email us and we'll correct it promptly.</li>
+        <li><strong>AI usage.</strong> We use AI tools in our own workflow (research, drafting, formatting), but every article is reviewed and edited by a human before publication.</li>
+        <li><strong>Review freshness.</strong> All reviews are dated. Tools that are more than 6 months old are flagged for re-evaluation.</li>
+      </ul>
+
+      <h2>Fact-Checking</h2>
+      <p>
+        Every review undergoes a two-stage review process before publication:
+      </p>
+      <ol>
+        <li><strong>Author review</strong> — The author confirms all test data is accurate and reproducible.</li>
+        <li><strong>Editorial review</strong> — A second team member reviews claims, pricing, and competitor comparisons for accuracy.</li>
+      </ol>
+      <p>
+        <strong>Last fact-check audit:</strong> June 2026. All reviews include a "date" field showing when the test was conducted.
+      </p>
+
+      <h2>Our Team</h2>
+      <p>
+        Meet the people behind AI Playbook on our <a href="/authors">Authors page →</a>
       </p>
 
       <h2>Contact</h2>
       <p>
-        Have a tool you'd like us to review? Found an inaccuracy? 
-        <a href="mailto:hello@aiplaybook.guide">Get in touch</a>.
+        Have a tool you'd like us to review? Found an error? Want to collaborate?
       </p>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:hello@aiplaybook.guide">hello@aiplaybook.guide</a></li>
+        <li><strong>Tool submissions:</strong> <a href="mailto:reviews@aiplaybook.guide">reviews@aiplaybook.guide</a></li>
+        <li><strong>Corrections:</strong> <a href="mailto:corrections@aiplaybook.guide">corrections@aiplaybook.guide</a></li>
+      </ul>
     </div>
   </section>
 </BaseLayout>

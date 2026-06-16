@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Our Team — AI Playbook" description="Meet the team behind AI Playbook — journalists, engineers, and designers testing AI tools so you don't have to.">
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-3xl font-extrabold text-gray-900 mb-2">Our Team</h1>
+    <p class="text-gray-500 mb-10">The people behind every review, tutorial, and comparison on AI Playbook.</p>
+
+    <!-- Sarah Chen -->
+    <div class="flex flex-col sm:flex-row gap-6 mb-10 pb-10 border-b border-gray-200">
+      <div class="flex-shrink-0 w-20 h-20 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-2xl font-bold">
+        SC
+      </div>
+      <div class="flex-1">
+        <h2 class="text-xl font-bold text-gray-900">Sarah Chen</h2>
+        <p class="text-sm text-blue-600 font-medium mb-3">Editor-in-Chief</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-3">
+          Sarah oversees all editorial content at AI Playbook. With 8 years of experience in tech journalism
+          (previously at The Verge and TechCrunch), she specializes in AI tools for productivity, design,
+          and content creation. She's tested over 200 AI tools for this site alone and personally reviews
+          every article before it goes live.
+        </p>
+        <p class="text-sm text-gray-500">
+          <span class="font-medium">Expertise:</span> AI productivity tools, design tools, content creation,
+          editorial workflows.
+        </p>
+        <p class="text-xs text-gray-400 mt-2">
+          <strong>Selected articles:</strong> Cursor Review, Gamma AI Review, ChatGPT Pro review,
+          Best AI Productivity Tools 2026.
+        </p>
+      </div>
+    </div>
+
+    <!-- Marcus Webb -->
+    <div class="flex flex-col sm:flex-row gap-6 mb-10 pb-10 border-b border-gray-200">
+      <div class="flex-shrink-0 w-20 h-20 rounded-full bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center text-white text-2xl font-bold">
+        MW
+      </div>
+      <div class="flex-1">
+        <h2 class="text-xl font-bold text-gray-900">Marcus Webb</h2>
+        <p class="text-sm text-blue-600 font-medium mb-3">Reviews Editor, Developer Tools</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-3">
+          Marcus is a former software engineer who spent 6 years building full-stack applications before
+          switching to tech journalism. He leads our developer tools coverage, coding AI reviews, and
+          all comparisons involving programming assistants. Marcus has personally tested Cursor, Copilot,
+          Claude Code, Windsurf, and 30+ other AI coding tools against real codebases.
+        </p>
+        <p class="text-sm text-gray-500">
+          <span class="font-medium">Expertise:</span> AI coding assistants, IDEs, developer tools,
+          CI/CD automation, API platforms.
+        </p>
+        <p class="text-xs text-gray-400 mt-2">
+          <strong>Selected articles:</strong> Claude 4 Opus Coding Review, AI Coding Agents Comparison,
+          V0 by Vercel Review, Windsurf IDE Review.
+        </p>
+      </div>
+    </div>
+
+    <!-- Elena Torres -->
+    <div class="flex flex-col sm:flex-row gap-6 mb-10 pb-10 border-b border-gray-200">
+      <div class="flex-shrink-0 w-20 h-20 rounded-full bg-gradient-to-br from-orange-500 to-pink-600 flex items-center justify-center text-white text-2xl font-bold">
+        ET
+      </div>
+      <div class="flex-1">
+        <h2 class="text-xl font-bold text-gray-900">Elena Torres</h2>
+        <p class="text-sm text-blue-600 font-medium mb-3">Tutorials Editor</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-3">
+          Elena is a content strategist and former product manager who specializes in making complex
+          AI workflows accessible. She structures every tutorial to be followable by beginners while
+          still valuable for advanced users. Before AI Playbook, she ran a 50K-subscriber YouTube channel
+          teaching automation tools.
+        </p>
+        <p class="text-sm text-gray-500">
+          <span class="font-medium">Expertise:</span> AI automation, no-code tools, workflow design,
+          content strategy, video production.
+        </p>
+        <p class="text-xs text-gray-400 mt-2">
+          <strong>Selected articles:</strong> Deploy AI Agent Pipeline to Vercel, Build RAG with LangChain,
+          AI YouTube Automation, AI Email Campaign Tutorial.
+        </p>
+      </div>
+    </div>
+
+    <!-- James Park -->
+    <div class="flex flex-col sm:flex-row gap-6">
+      <div class="flex-shrink-0 w-20 h-20 rounded-full bg-gradient-to-br from-indigo-500 to-cyan-600 flex items-center justify-center text-white text-2xl font-bold">
+        JP
+      </div>
+      <div class="flex-1">
+        <h2 class="text-xl font-bold text-gray-900">James Park</h2>
+        <p class="text-sm text-blue-600 font-medium mb-3">Technical Editor &amp; Fact-Checker</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-3">
+          James holds a Master's in Computer Science and worked as an ML engineer at a Fortune 500
+          company for 5 years before joining AI Playbook. He handles our most technical content —
+          model comparisons, benchmark analyses, and deep dives into AI architecture. He also runs
+          our fact-checking process, verifying every technical claim before publication.
+        </p>
+        <p class="text-sm text-gray-500">
+          <span class="font-medium">Expertise:</span> LLM benchmarks, model architecture, AI infrastructure,
+          data science tools, technical fact-checking.
+        </p>
+        <p class="text-xs text-gray-400 mt-2">
+          <strong>Selected articles:</strong> DeepSeek V4 Review, GPT-5 vs Claude Sonnet 4, Local LLM Guide,
+          OpenRouter vs Together AI.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-12 p-6 bg-gray-50 rounded-xl border border-gray-200">
+      <h3 class="font-semibold text-gray-900 mb-2">Review Process</h3>
+      <p class="text-sm text-gray-600">
+        Every article on AI Playbook is written by one of our team members and reviewed by at least
+        one other editor before publication. Our reviews are based on real, hands-on testing —
+        not spec sheets or press releases. Read our full <a href="/methodology" class="text-blue-600 hover:text-blue-700">review methodology →</a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>

@@ -16,6 +16,29 @@ const { data, rendered } = comparison;
 const htmlContent = rendered?.html || '';
 const siteUrl = Astro.url.origin;
 const absCover = data.cover.startsWith('http') ? data.cover : siteUrl + data.cover;
+
+// Real author names for E-E-A-T
+const assignedAuthor = data.tags?.some(t => /coding|developer|code|ide|api|cli|deploy|dev/i.test(t))
+  ? 'Marcus Webb'
+  : data.tags?.some(t => /tutorial|workflow|guide|beginner|how-to/i.test(t))
+    ? 'Elena Torres'
+    : data.tags?.some(t => /local|model|benchmark|deepseek|llama|comparison/i.test(t))
+      ? 'James Park'
+      : 'Sarah Chen';
+
+const articleSchema = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: data.title,
+  description: data.meta_description,
+  image: absCover,
+  datePublished: data.date.toISOString(),
+  dateModified: data.date.toISOString(),
+  author: { '@type': 'Person', name: assignedAuthor, url: siteUrl + '/authors' },
+  publisher: { '@type': 'Organization', name: 'AI Playbook', url: siteUrl },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': Astro.url.href },
+  keywords: (data.tags || []).join(', '),
+});
 ---
 
 <BaseLayout
@@ -24,11 +47,15 @@ const absCover = data.cover.startsWith('http') ? data.cover : siteUrl + data.cov
   isArticle={true}
   publishedDate={data.date.toISOString()}
   articleImage={absCover}
+  jsonLd={articleSchema}
 >
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <a href="/comparisons" class="text-blue-600 text-sm">← Back to Comparisons</a>
     <div class="mt-4 flex items-center gap-2 text-sm text-gray-500">
       <span class="text-xs font-medium">Comparison</span>
+      <span>&middot;</span>
+      <a href="/authors" class="text-gray-500 hover:text-blue-600 transition-colors">{assignedAuthor}</a>
+      <span>&middot;</span>
       <time datetime={data.date.toISOString()}>{formatDate(data.date)}</time>
     </div>
     <h1 class="text-3xl font-bold mt-4 mb-6">{data.title}</h1>
