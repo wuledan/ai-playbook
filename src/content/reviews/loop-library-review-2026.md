@@ -14,17 +14,17 @@ dimensions:
   performance: 8
   ecosystem: 7
 pros:
-  - Turnkey loop patterns for common agent workflows — discover, adapt, run in minutes
-  - Loopy skill gives any AI agent guided access to the library
-  - Multi-format catalog: website, agent guide, JSON catalog, plain-text, llms.txt
-  - Built-in audit system catches weak checks, unsafe actions, unclear stopping conditions
-  - Published as plain language — loops are human-readable and agent-executable
-  - Free and open-source with clear documentation
+  - "Turnkey loop patterns for common agent workflows — discover, adapt, run in minutes"
+  - "Loopy skill gives any AI agent guided access to the library"
+  - "Multi-format catalog: website, agent guide, JSON catalog, plain-text, llms.txt"
+  - "Built-in audit system catches weak checks, unsafe actions, unclear stopping conditions"
+  - "Published as plain language — loops are human-readable and agent-executable"
+  - "Free and open-source with clear documentation"
 cons:
-  - Still relatively new (1,712★) — library size is small but growing
-  - Loopy skill requires explicit agent setup (not auto-installable everywhere)
-  - Some patterns need adaptation between different agent ecosystems
-  - No built-in performance benchmarking for loop effectiveness
+  - "Still relatively new (1,712★) — library size is small but growing"
+  - "Loopy skill requires explicit agent setup (not auto-installable everywhere)"
+  - "Some patterns need adaptation between different agent ecosystems"
+  - "No built-in performance benchmarking for loop effectiveness"
 ---
 
 # Loop Library Review 2026: Practical AI Agent Workflow Patterns at Your Fingertips
