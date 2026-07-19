@@ -6,6 +6,25 @@ category: "Review"
 tags: ["review", "2026", "vox-director", "video-generation", "ai-video", "agent-skill", "claude-skill", "atlas-cloud"]
 cover: "/images/reviews/vox-director-review-2026/cover.jpg"
 meta_description: "Vox Director is an open-source agent skill that turns a single topic into Vox-style paper-collage explainer videos. We test the keyframe generation, motion graphics, and end-to-end automation pipeline."
+rating: 7.5
+dimensions:
+  ease-of-use: 8
+  features: 7
+  value: 8
+  performance: 7
+  ecosystem: 6
+pros:
+  - "End-to-end video production in under 10 minutes"
+  - "Dramatically cheaper than hiring a motion designer"
+  - "Two human decision gates prevent quality disasters"
+  - "Fully open-source with AGENTS.md → SKILL.md discovery"
+cons:
+  - "Inconsistent text rendering in generated images"
+  - "Struggles with abstract and highly technical concepts"
+  - "Requires Atlas Cloud API key — no fully local pipeline"
+  - "Single-shot generation without iterative refinement"
+best-for: "Social media content creators, educators, and product marketers needing rapid explainer video prototypes"
+price: "Free (MIT license) + Atlas Cloud API costs ~$0.50-$1.50 per 15s video"
 ---
 
 # Vox Director Review — AI-Generated Explainer Videos from a Single Topic

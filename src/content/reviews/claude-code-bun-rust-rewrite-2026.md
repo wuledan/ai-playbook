@@ -6,6 +6,25 @@ category: "Review"
 tags: ["review", "2026", "claude-code", "bun", "rust", "anthropic", "performance", "javascript-runtime"]
 cover: "/images/reviews/claude-code-bun-rust-rewrite-2026/cover.jpg"
 meta_description: "Claude Code v2.1.181+ ships Bun rewritten in Rust under the hood. We investigate the architecture change, benchmark startup performance, and analyze community reactions to this high-profile rewrite."
+rating: 8.0
+dimensions:
+  ease-of-use: 8
+  features: 8
+  value: 8
+  performance: 8
+  ecosystem: 9
+pros:
+  - "10% faster startup on Linux with Rust safety gains"
+  - "Seamless migration — no user-facing breakage"
+  - "Demonstrates AI-assisted codebase rewrite at scale"
+  - "Ahead-of-public-release Bun v1.4.0 embedded"
+cons:
+  - "Minimal practical performance impact for macOS users"
+  - "Dependency on embedded Bun raises fallback concerns"
+  - "Uncertain long-term future of standalone Bun"
+  - "Community divided on AI-rewritten infrastructure"
+best-for: "Existing Claude Code users benefit automatically; infrastructure teams watching runtime migration patterns"
+price: "Included with Claude Code subscription (no additional cost)"
 ---
 
 # Claude Code Now Runs on Bun in Rust — What This Means for Performance

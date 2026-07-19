@@ -6,6 +6,25 @@ category: "Review"
 tags: ["review", "2026", "qwen-3.8", "alibaba", "open-source", "llm", "open-weights", "chinese-ai"]
 cover: "/images/reviews/qwen-3-8-review-2026/cover.jpg"
 meta_description: "Qwen 3.8 is Alibaba's 2.4T parameter open-weight model — we test its reasoning, coding, and creative capabilities, compare it to Claude Fable 5 and DeepSeek V4, and analyze community reception."
+rating: 7.8
+dimensions:
+  ease-of-use: 7
+  features: 8
+  value: 7
+  performance: 8
+  ecosystem: 7
+pros:
+  - "2.4T parameter frontier-level scale"
+  - "Open-weight release with smaller variants expected"
+  - "Free tier available via Qwen Chat"
+  - "Strong structured reasoning on benchmarks"
+cons:
+  - "Too large for local deployment"
+  - "Real-world coding lags behind DeepSeek V4 Pro"
+  - "Censorship concerns from Qwen lineage"
+  - "Uncertain competitive position vs Kimi K3"
+best-for: "Cloud-based reasoning tasks and research within the Alibaba ecosystem"
+price: "Token Plan subscription (free tier via Qwen Chat)"
 ---
 
 # Qwen 3.8 Review — Alibaba's 2.4 Trillion Parameter Open-Weight Contender
