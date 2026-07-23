@@ -3,7 +3,7 @@ title: "Echo by Tracer Review 2026 — Model Routing Platform That Claims Fable-
 date: 2026-07-24
 author: "AIPlaybook Editorial Team"
 category: "AI Models"
-tags: [echo, tracerml, model-routing, open-weight, y-combinator, ai-models, llm, 2026, review]
+tags: [echo, tracerml, model-routing, open-weight, y-combinator, ai-models, llm, "2026", review]
 cover: "/images/reviews/echo-tracerml-review-2026/cover.png"
 meta_description: "Hands-on Echo by Tracer review 2026 — YC-backed model routing platform combining open-weight models for Fable-comparable results at 1/3 the cost. Evaluation methodology, community reception, and real-world viability assessed."
 rating: 7.3

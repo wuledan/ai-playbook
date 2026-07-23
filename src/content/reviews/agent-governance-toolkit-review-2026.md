@@ -3,7 +3,7 @@ title: "Microsoft Agent Governance Toolkit Review 2026 — Ship AI Agents Withou
 date: 2026-07-24
 author: "AIPlaybook Editorial Team"
 category: "Security"
-tags: [microsoft, agent-governance, ai-security, policy-enforcement, enterprise, owasp, zero-trust, open-source, 2026, review]
+tags: [microsoft, agent-governance, ai-security, policy-enforcement, enterprise, owasp, zero-trust, open-source, "2026", review]
 cover: "/images/reviews/agent-governance-toolkit-review-2026/cover.png"
 meta_description: "Microsoft Agent Governance Toolkit (AGT) review 2026 — 4,900 GitHub stars, 2,275 commits. Tested policy enforcement, zero-trust identity, OWASP Agentic Top 10 compliance, and production agent security. The definitive governance layer for autonomous AI agents."
 rating: 8.5

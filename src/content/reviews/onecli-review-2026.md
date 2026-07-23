@@ -3,7 +3,7 @@ title: "OneCLI Review 2026 — Open-Source Credential Gateway That Keeps Secrets
 date: 2026-07-24
 author: "AIPlaybook Editorial Team"
 category: "Security"
-tags: [onecli, credentials, security, ai-agents, mcp, secret-management, vault, open-source, 2026, review]
+tags: [onecli, credentials, security, ai-agents, mcp, secret-management, vault, open-source, "2026", review]
 cover: "/images/reviews/onecli-review-2026/cover.png"
 meta_description: "OneCLI review 2026 — open-source credential gateway for AI agents. Tested transparent credential injection, AES-256-GCM vault, MCP integration, and multi-agent support. 2.6k GitHub stars and trending on HN."
 rating: 8.2
