@@ -1,0 +1,118 @@
+---
+title: "QM Review 2026 — The Multiplayer Agent Harness That Runs a Whole Company's Agents in Slack"
+date: 2026-08-01
+author: "AIPlaybook Editorial Team"
+category: "AI Agents"
+tags:
+  - "QM"
+  - "Agent-Harness"
+  - "Slack"
+  - "AI-Agents"
+  - "Team-Collaboration"
+  - "Open-Source"
+  - "Multi-Agent"
+  - "Startup-Tools"
+cover: "/images/reviews/qm-agent-harness-review-2026/cover.png"
+meta_description: "QM is an open-source multiplayer agent harness designed for startups — every employee gets an isolated agent workspace that also collaborates in Slack channels, projects, and group chats. Supports Pi, OpenCode, Codex, and Claude Code on one shared core. Hands-on review with architecture, pricing, and community take."
+rating: 8.0
+dimensions:
+  ease-of-use: 7
+  features: 9
+  value: 8
+  performance: 7
+  ecosystem: 8
+pros:
+  - "True multiplayer design: each person and each room gets its own scoped memory, files, keychain view, permissions, crons, web apps, and durable sandbox — agents work independently without stepping on each other"
+  - "Harness-agnostic core: Pi, OpenCode, Codex, and Claude Code all drive the same engine, so a deployment is never locked to one vendor's model or harness"
+  - "Slack + web parity: the same identity and configuration carries between Slack and the web app, which is where work actually happens in most startups"
+  - "Admin control built in: org-level configuration, security posture, and per-harness/per-model availability gates"
+  - "Background work: crons and watches run while nobody is watching — inbox triage, CI monitoring, and report generation on a schedule"
+  - "Human-written contribution model (ADRs over drive-by PRs) keeps the project maintainable and the design coherent"
+cons:
+  - "Early-stage project with a controversial contribution policy — the repo asks for human-written text proposals rather than AI-generated PRs, which ruffled feathers on HN"
+  - "Feels designed to run on one Mac or VM per deployment, carrying the same operational drawbacks as other self-hosted agent platforms"
+  - "No clear pricing page or hosted option — self-hosting requires someone to run Postgres plus the headless core"
+  - "The 'multiplayer' promise needs real team adoption to pay off; a single-user deployment gets little benefit over a personal agent harness"
+best-for: "Startups and small teams that already live in Slack and want one shared agent infrastructure where every employee and project has its own isolated, permissioned workspace"
+price: "Open source (self-hosted); costs are your own infrastructure — Postgres, one VM or Mac, and LLM API usage"
+---
+
+## Quick Verdict
+
+Most agent harnesses are built like personal assistants: one agent, one person, one context window. QM flips the model. It is designed for **startups** — every employee gets their own isolated agent workspace, and agents also live in Slack channels, group messages, and projects where the whole team can collaborate with them.
+
+The key architectural bet is scope isolation: each person and each room has its own memory, files, keychain view, permissions, crons, web apps, and durable sandbox. Nobody's agent pollutes anybody else's context, and admin control at the org level keeps the security posture sane.
+
+At 8.0/10, QM earns **Silver+** for a genuinely fresh take on team-scale agent infrastructure — with the caveat that it is early-stage and self-hosted, so the real test is whether your team actually adopts it.
+
+---
+
+## What Is QM?
+
+QM (from `yc-software/qm`) is a multiplayer agent harness for work, available in Slack and on the web. The pitch: *"Most agents are designed like personal assistants. You can make one work for a whole company, but it quickly gets complex. QM is designed for startups."*
+
+Employees each get an isolated workspace and work independently without affecting each other, and they can also collaborate with the agent in channels, group messages, and projects. It is built with open source in mind — you pick your own harness and model and switch between them. Pi, OpenCode, Codex, and Claude Code all drive the same core, so a deployment isn't tied to any single vendor.
+
+## Key Features
+
+**Personal and shared scopes.** People customize their agent to be theirs, and still work with it collaboratively in Slack channels and projects. This dual mode is what separates QM from a personal assistant wrapper.
+
+**Slack and web parity.** The same identity and configuration carries between Slack and the web app. For teams that live in Slack, this removes the biggest adoption barrier: no new interface to learn.
+
+**Admin control.** Org-level configuration, a security posture, and controls over which harnesses and models are available. This is the feature that makes it credible for a company rather than a toy.
+
+**Web apps.** Spin up custom internal apps and publish them to the right people. Useful for dashboards, admin panels, and internal tools generated by the agent.
+
+**Shared skills.** Skills are scope-owned and shareable by grant, with admin-gated promotion to the whole org, and skill packs can be imported from git repositories.
+
+**Background work.** Crons and watches run work while nobody's watching — triage your inbox on a schedule, monitor CI, track a project in a shared channel with updates and follow-ups.
+
+**Real repo work.** Work in an existing repository: run tests, open PRs, monitor CI, check system logs.
+
+## Architecture
+
+The core is headless: a Postgres database holds sessions, memory, and the queue; an API layer handles identity, policy, and scheduling; an agent loop runs the selected harness; and each scope gets a sandbox for files, tools, and logged-in services. Because the harness is pluggable, the same Postgres-backed core drives whatever model/harness combination your org permits.
+
+## Pricing
+
+QM is open source and self-hosted. There is no hosted tier or public pricing page yet. Your real costs: one VM or Mac to run the headless core, Postgres storage, and the LLM API bills from whatever harness and model you configure. For a small startup this is usually cheaper than per-seat SaaS agent platforms, at the cost of running your own infrastructure.
+
+## Community Reception
+
+The Hacker News thread (363 points) was dominated by a single controversy: QM's contribution policy. The repo asks contributors to submit human-written text proposals (ADRs) instead of AI-generated pull requests — and given the project itself is largely AI-written, the irony drew fire.
+
+One commenter: *"I find something a bit funny in an AI project, written by AI, requiring human-written text with specific guidance to not use AI."* Others defended the model: *"As someone who has maintained an open source project, I much prefer written bug reports and feature requests to drive-by PRs."* And: *"The idea is that the core dev team is the one with the AI harness. If someone contributes an idea they can just feed it to their AI to implement."* A comparison to SQLite's no-random-patches policy ("the project does not accept patches from random people on the internet") gave the policy some cover.
+
+The operational thread was more interesting for buyers. Asked what people actually use always-on agent systems for, one commenter answered: *"It's been really convenient to have an always-on agent that has access to internal systems and can be triggered by webhooks. Some examples: automatically fixing simple CI failures."* Another: *"I'm currently using it to help me with my oncall, first responder to our production alerts."* The closest competitor named repeatedly was Hermes, with one user noting it is *"huge and packed with features you probably don't need"* — which is precisely the niche QM is aiming at.
+
+The sharpest criticism: *"It says 'each deployment runs in the operator's own cloud account', but feels like it's written to run on one Mac/VM and carries the same drawbacks of other similar platforms."*
+
+## Who Should Use QM
+
+**Good fit:** startups of 3-30 people already living in Slack who want one shared agent brain with per-employee isolation; teams that want to keep model choice open (Codex today, Pi tomorrow); teams that need background cron agents for CI, inbox triage, and monitoring.
+
+**Skip it if:** you're a solo developer (a personal harness is simpler), you need a managed/hosted product with support, or your team isn't willing to adopt a self-hosted core.
+
+## Alternatives
+
+- **Hermes / OpenClaw-style platforms** — feature-rich always-on agents; great to get started, but one HN commenter noted they are *"packed to the gills with stuff you'll probably use one time"* and it eats into context.
+- **Dirge** — a smaller, extendable agent harness that several HN commenters said they prefer for lightweight needs.
+- **Personal coding-agent CLIs (Codex, Claude Code, OpenCode, Pi)** — QM's underlying harnesses; use directly if you don't need the multiplayer layer.
+- **Web-hosted agent assistants (e.g. Surfboard)** — hosted convenience, less control.
+
+## FAQ
+
+**Is QM open source?**
+Yes — built with open source in mind, self-hosted, with a Postgres-backed core and pluggable harnesses.
+
+**Which agents does QM support?**
+Pi, OpenCode, Codex, and Claude Code can all drive the same core; admins control which are available per org.
+
+**Does QM work in Slack only?**
+No — it has parity between Slack and a web app, with the same identity and configuration in both.
+
+**How is data isolated between employees?**
+Each person and each room gets its own scoped memory, files, keychain view, permissions, crons, web apps, and durable sandbox.
+
+**Is there a hosted version?**
+Not yet — the project is self-hosted. Expect to run Postgres plus the headless core yourself.
